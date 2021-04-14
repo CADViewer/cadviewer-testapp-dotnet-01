@@ -125,7 +125,7 @@ contains a debug file **callApiConversionHandlerLog.txt** that lists the command
 
 One issue that often appears in installations is that interface icons do not display properly:
 
-![Icons](/cadviewertechdocs/images/missing_icons.png "Icons missing")
+![Icons](https://cadviewer.com/cadviewertechdocs/images/missing_icons.png "Icons missing")
 
 Typically the variable ServerUrl in /cadviewer/app/cv/CADViewer_AshxHandlerSettings.js is not set to reflect the front-end server url or port.
 
