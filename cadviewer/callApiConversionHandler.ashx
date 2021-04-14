@@ -191,7 +191,7 @@ public class Handler : IHttpHandler {
 
         int localFlag = 0;
 
-  
+
         if (contentLocation.IndexOf("http") == 0) {  // URL
 
 
@@ -206,10 +206,10 @@ public class Handler : IHttpHandler {
             {
 
 
-                        using (WebClient wc = new WebClient())
-                        {
-                            wc.DownloadFile(contentLocation, writeFile);
-                        }
+                using (WebClient wc = new WebClient())
+                {
+                    wc.DownloadFile(contentLocation, writeFile);
+                }
 
 
             }
@@ -453,11 +453,16 @@ public class Handler : IHttpHandler {
                 Process myProcess;
 
                 myProcess = Process.Start(ProcessInfo);
-                myProcess.WaitForExit();
+
+
 
                 // *** Read the streams ***
                 string output = myProcess.StandardOutput.ReadToEnd();
                 string error = myProcess.StandardError.ReadToEnd();
+
+
+                myProcess.WaitForExit();
+
 
                 exitCode = myProcess.ExitCode;
 
