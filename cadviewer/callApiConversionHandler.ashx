@@ -12,6 +12,7 @@ using System.ComponentModel;
 using System.Text.RegularExpressions;
 
 
+
 public class Handler : IHttpHandler {
 
     public void ProcessRequest (HttpContext context) {
@@ -64,7 +65,6 @@ public class Handler : IHttpHandler {
         }
 
 
-
         var jsonSerializer = new JavaScriptSerializer();
         var myRequest = String.Empty;
 
@@ -113,7 +113,8 @@ public class Handler : IHttpHandler {
 
 
             myoutput[0] = " paramcount: "+paramCount+" XXX "+string1;
-            File.AppendAllLines(absFilePath, myoutput);
+            if (cvjs_debug == "true")
+                File.AppendAllLines(absFilePath, myoutput);
 
 
             // if (cvjs_debug){		
@@ -227,7 +228,7 @@ public class Handler : IHttpHandler {
             string contentNoUnicode = cleaned;
 
             myoutput[0] = "XXX "+contentNoUnicode;
-            File.AppendAllLines(absFilePath, myoutput);
+            if (cvjs_debug == "true") File.AppendAllLines(absFilePath, myoutput);
 
 
             if (contentNoUnicode.Length != contentLocation.Length) {
@@ -278,7 +279,7 @@ public class Handler : IHttpHandler {
             string contentNoUnicode = cleaned;
 
             myoutput[0] = "YYY "+contentNoUnicode;
-            File.AppendAllLines(absFilePath, myoutput);
+            if (cvjs_debug == "true") File.AppendAllLines(absFilePath, myoutput);
 
 
 
@@ -422,7 +423,7 @@ public class Handler : IHttpHandler {
                 arguments = str_arr[0] + " " + arguments;    //NOTE , no .bat processing
 
                 myoutput[0] = arguments;
-                File.AppendAllLines(absFilePath, myoutput);
+                if (cvjs_debug == "true") File.AppendAllLines(absFilePath, myoutput);
 
                 //context.Response.Write("arguments = " +arguments);
                 if (cvjs_debug == "true")
@@ -467,13 +468,13 @@ public class Handler : IHttpHandler {
                 exitCode = myProcess.ExitCode;
 
                 myoutput[0] ="output>>" + (String.IsNullOrEmpty(output) ? "(none)" : output);
-                File.AppendAllLines(absFilePath, myoutput);
+                if (cvjs_debug == "true") File.AppendAllLines(absFilePath, myoutput);
 
                 myoutput[0] ="error>>" + (String.IsNullOrEmpty(error) ? "(none)" : error);
-                File.AppendAllLines(absFilePath, myoutput);
+                if (cvjs_debug == "true") File.AppendAllLines(absFilePath, myoutput);
 
                 myoutput[0] = "ExitCode: " + exitCode.ToString();
-                File.AppendAllLines(absFilePath, myoutput);
+                if (cvjs_debug == "true") File.AppendAllLines(absFilePath, myoutput);
 
                 myProcess.Close();
 
@@ -487,7 +488,7 @@ public class Handler : IHttpHandler {
 
 
         myoutput[0] = "Conversion done ";
-        File.AppendAllLines(absFilePath, myoutput);
+        if (cvjs_debug == "true") File.AppendAllLines(absFilePath, myoutput);
 
 
 
@@ -499,7 +500,7 @@ public class Handler : IHttpHandler {
 
 
         myoutput[0] = "Content location: "+contentLocation+" output format: "+outputFormat+"XX";
-        File.AppendAllLines(absFilePath, myoutput);
+        if (cvjs_debug == "true") File.AppendAllLines(absFilePath, myoutput);
 
 
         // compose callback message
@@ -510,7 +511,7 @@ public class Handler : IHttpHandler {
 
 
             myoutput[0] = "SVG response: "+CVJSresponse;
-            File.AppendAllLines(absFilePath, myoutput);
+            if (cvjs_debug == "true") File.AppendAllLines(absFilePath, myoutput);
 
 
 
@@ -531,7 +532,7 @@ public class Handler : IHttpHandler {
 
 
                 myoutput[0] = "PDF response: "+CVJSresponse;
-                File.AppendAllLines(absFilePath, myoutput);
+                if (cvjs_debug == "true") File.AppendAllLines(absFilePath, myoutput);
 
 
 

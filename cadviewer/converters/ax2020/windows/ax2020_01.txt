@@ -1,4 +1,4 @@
-                 AutoXchange 2020 V20.05.43
+                 AutoXchange 2020 V20.05.44
 Copyright (c) 2017, 2018, 2019, 2020, 2021 Tailor Made Software, Ltd.
                       All Rights Reserved
 
@@ -9,6 +9,5 @@ Thank you for trying this demo of AutoXChange 2020
 Please contact sales@tailormade.com to purchase
 
 Input File Name: C:\cadviewer-testapp-dotnet-01\cadviewer\\content\drawings\dwg\hq17.dwg
-PaperSpace is Empty, using ModelSpace instead
 
-Elapsed Time: 0.492 seconds
+Elapsed Time: 0.694 seconds
