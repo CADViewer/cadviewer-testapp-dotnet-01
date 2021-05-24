@@ -1,0 +1,2473 @@
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"last","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 1 XXX last","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 2 XXX fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F500527.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -last "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+New Arguments:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F500527.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -last "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/\run_ax2020.bat
+output>>
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp 850  1>chcp_02.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg1=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>setlocal enabledelayedexpansion 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set commandexe=!arg1:%20= ! 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg2=-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg3=-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F500527.svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg4=-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg5=-f="svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg6=-last 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg7=-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg8= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg9= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg10= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg11= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg12= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg13= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg14= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg15= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg16= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg17= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>"C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe" -i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F500527.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -last -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"              1>ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe -i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F500527.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -last -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"             >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem           >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_03.txt 
+
+error>>(none)
+ExitCode: 0
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg","contentResponse":"stream","contentStreamData":"http://localhost:53737/getFileHandler.ashx?remainOnServer=0&fileTag=F500527&Type=svg"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"last","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 1 XXX last","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 2 XXX fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/38b23ea4-5928-436f-8668-4c3879d66dcc_LUCB11 Palmero_Survey_PERMIT SET.DWF
+C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/38b23ea4-5928-436f-8668-4c3879d66dcc_LUCB11%20Palmero_Survey_PERMIT%20SET.DWF"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F994745.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -last "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+New Arguments:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/38b23ea4-5928-436f-8668-4c3879d66dcc_LUCB11%20Palmero_Survey_PERMIT%20SET.DWF"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F994745.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -last "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/\run_ax2020.bat
+output>>
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp 850  1>chcp_02.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg1=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>setlocal enabledelayedexpansion 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set commandexe=!arg1:%20= ! 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg2=-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/38b23ea4-5928-436f-8668-4c3879d66dcc_LUCB11%20Palmero_Survey_PERMIT%20SET.DWF" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg3=-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F994745.svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg4=-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg5=-f="svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg6=-last 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg7=-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg8= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg9= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg10= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg11= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg12= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg13= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg14= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg15= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg16= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg17= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>"C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe" -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/38b23ea4-5928-436f-8668-4c3879d66dcc_LUCB11%20Palmero_Survey_PERMIT%20SET.DWF" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F994745.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -last -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"              1>ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/38b23ea4-5928-436f-8668-4c3879d66dcc_LUCB11%20Palmero_Survey_PERMIT%20SET.DWF" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F994745.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -last -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"             >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem           >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_03.txt 
+
+error>>(none)
+ExitCode: 0
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/38b23ea4-5928-436f-8668-4c3879d66dcc_LUCB11 Palmero_Survey_PERMIT SET.DWF output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/38b23ea4-5928-436f-8668-4c3879d66dcc_LUCB11 Palmero_Survey_PERMIT SET.DWF","contentResponse":"stream","contentStreamData":"http://localhost:53737/getFileHandler.ashx?remainOnServer=0&fileTag=F994745&Type=svg"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"last","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 1 XXX last","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 2 XXX fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/79ca44d8-38f7-45ee-80a9-41a86d0662ef_Small Space.dwf
+C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/79ca44d8-38f7-45ee-80a9-41a86d0662ef_Small%20Space.dwf"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F67374.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -last "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+New Arguments:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/79ca44d8-38f7-45ee-80a9-41a86d0662ef_Small%20Space.dwf"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F67374.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -last "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/\run_ax2020.bat
+output>>
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp 850  1>chcp_02.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg1=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>setlocal enabledelayedexpansion 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set commandexe=!arg1:%20= ! 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg2=-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/79ca44d8-38f7-45ee-80a9-41a86d0662ef_Small%20Space.dwf" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg3=-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F67374.svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg4=-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg5=-f="svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg6=-last 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg7=-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg8= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg9= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg10= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg11= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg12= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg13= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg14= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg15= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg16= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg17= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>"C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe" -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/79ca44d8-38f7-45ee-80a9-41a86d0662ef_Small%20Space.dwf" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F67374.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -last -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"              1>ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/79ca44d8-38f7-45ee-80a9-41a86d0662ef_Small%20Space.dwf" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F67374.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -last -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"             >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem           >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_03.txt 
+
+error>>(none)
+ExitCode: 0
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/79ca44d8-38f7-45ee-80a9-41a86d0662ef_Small Space.dwf output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/79ca44d8-38f7-45ee-80a9-41a86d0662ef_Small Space.dwf","contentResponse":"stream","contentStreamData":"http://localhost:53737/getFileHandler.ashx?remainOnServer=0&fileTag=F67374&Type=svg"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"last","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 1 XXX last","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 2 XXX fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf
+C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F397058.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -last "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+New Arguments:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F397058.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -last "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/\run_ax2020.bat
+output>>
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp 850  1>chcp_02.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg1=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>setlocal enabledelayedexpansion 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set commandexe=!arg1:%20= ! 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg2=-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg3=-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F397058.svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg4=-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg5=-f="svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg6=-last 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg7=-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg8= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg9= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg10= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg11= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg12= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg13= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg14= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg15= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg16= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg17= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>"C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe" -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F397058.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -last -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"              1>ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F397058.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -last -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"             >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem           >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_03.txt 
+
+error>>(none)
+ExitCode: 0
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf","contentResponse":"stream","contentStreamData":"http://localhost:53737/getFileHandler.ashx?remainOnServer=0&fileTag=F397058&Type=svg"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"layout","paramValue":"CD-1.0"},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"},{"paramName":"","paramValue":""}
+ paramcount: 1 XXX layout","paramValue":"CD-1.0"},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"},{"paramName":"","paramValue":""}
+ paramcount: 2 XXX fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"},{"paramName":"","paramValue":""}
+ paramcount: 3 XXX ","paramValue":""}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf
+C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F904540.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" "-layout="CD-1.0"" "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"" -
+New Arguments:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F904540.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" "-layout="CD-1.0"" "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"" -
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/\run_ax2020.bat
+output>>
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp 850  1>chcp_02.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg1=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>setlocal enabledelayedexpansion 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set commandexe=!arg1:%20= ! 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg2=-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg3=-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F904540.svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg4=-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg5=-f="svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg6=-layout="CD-1.0" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg7=-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg8=- 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg9= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg10= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg11= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg12= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg13= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg14= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg15= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg16= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg17= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>"C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe" -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F904540.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -layout="CD-1.0" -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" -             1>ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F904540.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -layout="CD-1.0" -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" -            >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem           >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_03.txt 
+
+error>>(none)
+ExitCode: 0
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf","contentResponse":"stream","contentStreamData":"http://localhost:53737/getFileHandler.ashx?remainOnServer=0&fileTag=F904540&Type=svg"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"layout","paramValue":"CS-1.0"},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"},{"paramName":"","paramValue":""},{"paramName":"","paramValue":""}
+ paramcount: 1 XXX layout","paramValue":"CS-1.0"},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"},{"paramName":"","paramValue":""},{"paramName":"","paramValue":""}
+ paramcount: 2 XXX fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"},{"paramName":"","paramValue":""},{"paramName":"","paramValue":""}
+ paramcount: 3 XXX ","paramValue":""},{"paramName":"","paramValue":""}
+ paramcount: 4 XXX ","paramValue":""}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf
+C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F267977.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" "-layout="CS-1.0"" "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"" - -
+New Arguments:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F267977.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" "-layout="CS-1.0"" "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"" - -
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/\run_ax2020.bat
+output>>
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp 850  1>chcp_02.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg1=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>setlocal enabledelayedexpansion 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set commandexe=!arg1:%20= ! 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg2=-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg3=-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F267977.svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg4=-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg5=-f="svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg6=-layout="CS-1.0" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg7=-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg8=- 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg9=- 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg10= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg11= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg12= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg13= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg14= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg15= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg16= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg17= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>"C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe" -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F267977.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -layout="CS-1.0" -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" - -            1>ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F267977.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -layout="CS-1.0" -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" - -           >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem -          >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_03.txt 
+
+error>>(none)
+ExitCode: 0
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf","contentResponse":"stream","contentStreamData":"http://localhost:53737/getFileHandler.ashx?remainOnServer=0&fileTag=F267977&Type=svg"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"layout","paramValue":"CS-1.1"},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"},{"paramName":"","paramValue":""},{"paramName":"","paramValue":""},{"paramName":"","paramValue":""}
+ paramcount: 1 XXX layout","paramValue":"CS-1.1"},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"},{"paramName":"","paramValue":""},{"paramName":"","paramValue":""},{"paramName":"","paramValue":""}
+ paramcount: 2 XXX fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"},{"paramName":"","paramValue":""},{"paramName":"","paramValue":""},{"paramName":"","paramValue":""}
+ paramcount: 3 XXX ","paramValue":""},{"paramName":"","paramValue":""},{"paramName":"","paramValue":""}
+ paramcount: 4 XXX ","paramValue":""},{"paramName":"","paramValue":""}
+ paramcount: 5 XXX ","paramValue":""}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf
+C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F487118.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" "-layout="CS-1.1"" "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"" - - -
+New Arguments:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F487118.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" "-layout="CS-1.1"" "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"" - - -
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/\run_ax2020.bat
+output>>
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp 850  1>chcp_02.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg1=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>setlocal enabledelayedexpansion 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set commandexe=!arg1:%20= ! 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg2=-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg3=-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F487118.svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg4=-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg5=-f="svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg6=-layout="CS-1.1" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg7=-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg8=- 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg9=- 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg10=- 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg11= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg12= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg13= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg14= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg15= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg16= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg17= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>"C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe" -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F487118.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -layout="CS-1.1" -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" - - -           1>ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F487118.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -layout="CS-1.1" -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" - - -          >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem - -         >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_03.txt 
+
+error>>(none)
+ExitCode: 0
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf","contentResponse":"stream","contentStreamData":"http://localhost:53737/getFileHandler.ashx?remainOnServer=0&fileTag=F487118&Type=svg"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"model","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 1 XXX model","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 2 XXX fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F552950.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -model "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+New Arguments:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F552950.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -model "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/\run_ax2020.bat
+output>>
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp 850  1>chcp_02.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg1=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>setlocal enabledelayedexpansion 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set commandexe=!arg1:%20= ! 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg2=-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg3=-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F552950.svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg4=-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg5=-f="svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg6=-model 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg7=-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg8= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg9= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg10= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg11= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg12= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg13= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg14= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg15= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg16= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg17= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>"C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe" -i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F552950.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -model -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"              1>ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe -i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F552950.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -model -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"             >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem           >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_03.txt 
+
+error>>(none)
+ExitCode: 0
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg","contentResponse":"stream","contentStreamData":"http://localhost:53737/getFileHandler.ashx?remainOnServer=0&fileTag=F552950&Type=svg"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"model","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 1 XXX model","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 2 XXX fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf
+C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F185593.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -model "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+New Arguments:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F185593.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -model "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/\run_ax2020.bat
+output>>
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp 850  1>chcp_02.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg1=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>setlocal enabledelayedexpansion 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set commandexe=!arg1:%20= ! 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg2=-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg3=-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F185593.svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg4=-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg5=-f="svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg6=-model 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg7=-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg8= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg9= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg10= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg11= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg12= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg13= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg14= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg15= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg16= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg17= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>"C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe" -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F185593.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -model -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"              1>ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F185593.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -model -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"             >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem           >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_03.txt 
+
+error>>(none)
+ExitCode: 0
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf","contentResponse":"stream","contentStreamData":"http://localhost:53737/getFileHandler.ashx?remainOnServer=0&fileTag=F185593&Type=svg"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"layout","paramValue":"CS-1.1"},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"},{"paramName":"","paramValue":""}
+ paramcount: 1 XXX layout","paramValue":"CS-1.1"},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"},{"paramName":"","paramValue":""}
+ paramcount: 2 XXX fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"},{"paramName":"","paramValue":""}
+ paramcount: 3 XXX ","paramValue":""}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf
+C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F589727.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" "-layout="CS-1.1"" "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"" -
+New Arguments:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F589727.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" "-layout="CS-1.1"" "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"" -
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/\run_ax2020.bat
+output>>
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp 850  1>chcp_02.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg1=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>setlocal enabledelayedexpansion 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set commandexe=!arg1:%20= ! 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg2=-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg3=-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F589727.svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg4=-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg5=-f="svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg6=-layout="CS-1.1" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg7=-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg8=- 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg9= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg10= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg11= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg12= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg13= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg14= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg15= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg16= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg17= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>"C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe" -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F589727.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -layout="CS-1.1" -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" -             1>ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F589727.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -layout="CS-1.1" -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" -            >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem           >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_03.txt 
+
+error>>(none)
+ExitCode: 0
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf","contentResponse":"stream","contentStreamData":"http://localhost:53737/getFileHandler.ashx?remainOnServer=0&fileTag=F589727&Type=svg"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"firstlayout","paramValue":""},{"paramName":"extents","paramValue":""},{"paramName":"","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 1 XXX firstlayout","paramValue":""},{"paramName":"extents","paramValue":""},{"paramName":"","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 2 XXX extents","paramValue":""},{"paramName":"","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 3 XXX ","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 4 XXX fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf
+C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F19057.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -firstlayout -extents - "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+New Arguments:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F19057.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -firstlayout -extents - "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/\run_ax2020.bat
+output>>
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp 850  1>chcp_02.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg1=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>setlocal enabledelayedexpansion 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set commandexe=!arg1:%20= ! 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg2=-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg3=-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F19057.svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg4=-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg5=-f="svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg6=-firstlayout 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg7=-extents 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg8=- 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg9=-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg10= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg11= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg12= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg13= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg14= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg15= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg16= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg17= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>"C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe" -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F19057.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -firstlayout -extents - -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"            1>ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F19057.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -firstlayout -extents - -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"           >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""          >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_03.txt 
+
+error>>(none)
+ExitCode: 0
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf","contentResponse":"stream","contentStreamData":"http://localhost:53737/getFileHandler.ashx?remainOnServer=0&fileTag=F19057&Type=svg"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"firstlayout","paramValue":""},{"paramName":"extents","paramValue":""},{"paramName":"","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 1 XXX firstlayout","paramValue":""},{"paramName":"extents","paramValue":""},{"paramName":"","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 2 XXX extents","paramValue":""},{"paramName":"","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 3 XXX ","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 4 XXX fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/79ca44d8-38f7-45ee-80a9-41a86d0662ef_Small Space.dwf
+C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/79ca44d8-38f7-45ee-80a9-41a86d0662ef_Small%20Space.dwf"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F807537.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -firstlayout -extents - "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+New Arguments:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/79ca44d8-38f7-45ee-80a9-41a86d0662ef_Small%20Space.dwf"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F807537.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -firstlayout -extents - "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/\run_ax2020.bat
+output>>
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp 850  1>chcp_02.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg1=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>setlocal enabledelayedexpansion 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set commandexe=!arg1:%20= ! 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg2=-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/79ca44d8-38f7-45ee-80a9-41a86d0662ef_Small%20Space.dwf" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg3=-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F807537.svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg4=-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg5=-f="svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg6=-firstlayout 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg7=-extents 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg8=- 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg9=-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg10= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg11= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg12= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg13= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg14= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg15= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg16= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg17= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>"C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe" -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/79ca44d8-38f7-45ee-80a9-41a86d0662ef_Small%20Space.dwf" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F807537.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -firstlayout -extents - -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"            1>ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/79ca44d8-38f7-45ee-80a9-41a86d0662ef_Small%20Space.dwf" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F807537.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -firstlayout -extents - -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"           >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""          >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_03.txt 
+
+error>>(none)
+ExitCode: 0
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/79ca44d8-38f7-45ee-80a9-41a86d0662ef_Small Space.dwf output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/79ca44d8-38f7-45ee-80a9-41a86d0662ef_Small Space.dwf","contentResponse":"stream","contentStreamData":"http://localhost:53737/getFileHandler.ashx?remainOnServer=0&fileTag=F807537&Type=svg"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"firstlayout","paramValue":""},{"paramName":"extents","paramValue":""},{"paramName":"","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 1 XXX firstlayout","paramValue":""},{"paramName":"extents","paramValue":""},{"paramName":"","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 2 XXX extents","paramValue":""},{"paramName":"","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 3 XXX ","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 4 XXX fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/79ca44d8-38f7-45ee-80a9-41a86d0662ef_Small Space.dwf
+C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/79ca44d8-38f7-45ee-80a9-41a86d0662ef_Small%20Space.dwf"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F537424.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -firstlayout -extents - "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+New Arguments:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/79ca44d8-38f7-45ee-80a9-41a86d0662ef_Small%20Space.dwf"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F537424.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -firstlayout -extents - "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/\run_ax2020.bat
+output>>
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp 850  1>chcp_02.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg1=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>setlocal enabledelayedexpansion 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set commandexe=!arg1:%20= ! 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg2=-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/79ca44d8-38f7-45ee-80a9-41a86d0662ef_Small%20Space.dwf" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg3=-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F537424.svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg4=-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg5=-f="svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg6=-firstlayout 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg7=-extents 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg8=- 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg9=-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg10= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg11= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg12= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg13= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg14= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg15= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg16= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg17= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>"C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe" -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/79ca44d8-38f7-45ee-80a9-41a86d0662ef_Small%20Space.dwf" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F537424.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -firstlayout -extents - -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"            1>ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/79ca44d8-38f7-45ee-80a9-41a86d0662ef_Small%20Space.dwf" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F537424.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -firstlayout -extents - -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"           >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""          >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_03.txt 
+
+error>>(none)
+ExitCode: 0
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/79ca44d8-38f7-45ee-80a9-41a86d0662ef_Small Space.dwf output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/79ca44d8-38f7-45ee-80a9-41a86d0662ef_Small Space.dwf","contentResponse":"stream","contentStreamData":"http://localhost:53737/getFileHandler.ashx?remainOnServer=0&fileTag=F537424&Type=svg"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"firstlayout","paramValue":""},{"paramName":"extents","paramValue":""},{"paramName":"","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 1 XXX firstlayout","paramValue":""},{"paramName":"extents","paramValue":""},{"paramName":"","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 2 XXX extents","paramValue":""},{"paramName":"","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 3 XXX ","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 4 XXX fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf
+C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F969476.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -firstlayout -extents - "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+New Arguments:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F969476.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -firstlayout -extents - "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/\run_ax2020.bat
+output>>
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp 850  1>chcp_02.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg1=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>setlocal enabledelayedexpansion 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set commandexe=!arg1:%20= ! 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg2=-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg3=-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F969476.svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg4=-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg5=-f="svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg6=-firstlayout 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg7=-extents 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg8=- 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg9=-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg10= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg11= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg12= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg13= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg14= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg15= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg16= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg17= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>"C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe" -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F969476.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -firstlayout -extents - -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"            1>ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F969476.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -firstlayout -extents - -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"           >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""          >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_03.txt 
+
+error>>(none)
+ExitCode: 0
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf","contentResponse":"stream","contentStreamData":"http://localhost:53737/getFileHandler.ashx?remainOnServer=0&fileTag=F969476&Type=svg"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"firstlayout","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 1 XXX firstlayout","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 2 XXX fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F900378.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -firstlayout "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+New Arguments:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F900378.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -firstlayout "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/\run_ax2020.bat
+output>>
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp 850  1>chcp_02.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg1=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>setlocal enabledelayedexpansion 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set commandexe=!arg1:%20= ! 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg2=-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg3=-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F900378.svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg4=-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg5=-f="svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg6=-firstlayout 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg7=-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg8= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg9= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg10= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg11= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg12= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg13= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg14= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg15= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg16= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg17= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>"C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe" -i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F900378.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -firstlayout -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"              1>ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe -i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F900378.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -firstlayout -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"             >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem           >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_03.txt 
+
+error>>(none)
+ExitCode: 0
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg","contentResponse":"stream","contentStreamData":"http://localhost:53737/getFileHandler.ashx?remainOnServer=0&fileTag=F900378&Type=svg"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"firstlayout","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 1 XXX firstlayout","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 2 XXX fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/38b23ea4-5928-436f-8668-4c3879d66dcc_LUCB11 Palmero_Survey_PERMIT SET.DWF
+C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/38b23ea4-5928-436f-8668-4c3879d66dcc_LUCB11%20Palmero_Survey_PERMIT%20SET.DWF"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F102301.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -firstlayout "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+New Arguments:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/38b23ea4-5928-436f-8668-4c3879d66dcc_LUCB11%20Palmero_Survey_PERMIT%20SET.DWF"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F102301.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -firstlayout "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/\run_ax2020.bat
+output>>
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp 850  1>chcp_02.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg1=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>setlocal enabledelayedexpansion 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set commandexe=!arg1:%20= ! 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg2=-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/38b23ea4-5928-436f-8668-4c3879d66dcc_LUCB11%20Palmero_Survey_PERMIT%20SET.DWF" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg3=-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F102301.svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg4=-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg5=-f="svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg6=-firstlayout 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg7=-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg8= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg9= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg10= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg11= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg12= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg13= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg14= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg15= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg16= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg17= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>"C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe" -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/38b23ea4-5928-436f-8668-4c3879d66dcc_LUCB11%20Palmero_Survey_PERMIT%20SET.DWF" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F102301.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -firstlayout -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"              1>ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/38b23ea4-5928-436f-8668-4c3879d66dcc_LUCB11%20Palmero_Survey_PERMIT%20SET.DWF" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F102301.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -firstlayout -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"             >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem           >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_03.txt 
+
+error>>(none)
+ExitCode: 0
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/38b23ea4-5928-436f-8668-4c3879d66dcc_LUCB11 Palmero_Survey_PERMIT SET.DWF output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/38b23ea4-5928-436f-8668-4c3879d66dcc_LUCB11 Palmero_Survey_PERMIT SET.DWF","contentResponse":"stream","contentStreamData":"http://localhost:53737/getFileHandler.ashx?remainOnServer=0&fileTag=F102301&Type=svg"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"firstlayout","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 1 XXX firstlayout","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 2 XXX fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/demo.dwf
+C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/demo.dwf"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F957210.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -firstlayout "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+New Arguments:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/demo.dwf"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F957210.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -firstlayout "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/\run_ax2020.bat
+output>>
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp 850  1>chcp_02.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg1=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>setlocal enabledelayedexpansion 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set commandexe=!arg1:%20= ! 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg2=-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/demo.dwf" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg3=-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F957210.svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg4=-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg5=-f="svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg6=-firstlayout 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg7=-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg8= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg9= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg10= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg11= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg12= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg13= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg14= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg15= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg16= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg17= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>"C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe" -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/demo.dwf" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F957210.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -firstlayout -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"              1>ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/demo.dwf" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F957210.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -firstlayout -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"             >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem           >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_03.txt 
+
+error>>(none)
+ExitCode: 0
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/demo.dwf output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/demo.dwf","contentResponse":"stream","contentStreamData":"http://localhost:53737/getFileHandler.ashx?remainOnServer=0&fileTag=F957210&Type=svg"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"layout","paramValue":"8th+Floor+HVAC+Plan"},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"},{"paramName":"","paramValue":""}
+ paramcount: 1 XXX layout","paramValue":"8th+Floor+HVAC+Plan"},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"},{"paramName":"","paramValue":""}
+ paramcount: 2 XXX fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"},{"paramName":"","paramValue":""}
+ paramcount: 3 XXX ","paramValue":""}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/demo.dwf
+C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/demo.dwf"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F903886.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" "-layout="8th%20Floor%20HVAC%20Plan"" "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"" -
+New Arguments:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/demo.dwf"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F903886.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" "-layout="8th%20Floor%20HVAC%20Plan"" "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"" -
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/\run_ax2020.bat
+output>>
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp 850  1>chcp_02.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg1=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>setlocal enabledelayedexpansion 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set commandexe=!arg1:%20= ! 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg2=-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/demo.dwf" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg3=-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F903886.svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg4=-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg5=-f="svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg6=-layout="8th%20Floor%20HVAC%20Plan" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg7=-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg8=- 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg9= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg10= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg11= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg12= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg13= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg14= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg15= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg16= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg17= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>"C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe" -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/demo.dwf" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F903886.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -layout="8th%20Floor%20HVAC%20Plan" -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" -             1>ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/demo.dwf" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F903886.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -layout="8th%20Floor%20HVAC%20Plan" -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" -            >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem           >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_03.txt 
+
+error>>(none)
+ExitCode: 0
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/demo.dwf output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/demo.dwf","contentResponse":"stream","contentStreamData":"http://localhost:53737/getFileHandler.ashx?remainOnServer=0&fileTag=F903886&Type=svg"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"layout","paramValue":"8th+Floor+Plan"},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"},{"paramName":"","paramValue":""},{"paramName":"","paramValue":""}
+ paramcount: 1 XXX layout","paramValue":"8th+Floor+Plan"},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"},{"paramName":"","paramValue":""},{"paramName":"","paramValue":""}
+ paramcount: 2 XXX fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"},{"paramName":"","paramValue":""},{"paramName":"","paramValue":""}
+ paramcount: 3 XXX ","paramValue":""},{"paramName":"","paramValue":""}
+ paramcount: 4 XXX ","paramValue":""}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/demo.dwf
+C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/demo.dwf"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F62100.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" "-layout="8th%20Floor%20Plan"" "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"" - -
+New Arguments:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/demo.dwf"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F62100.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" "-layout="8th%20Floor%20Plan"" "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"" - -
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/\run_ax2020.bat
+output>>
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp 850  1>chcp_02.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg1=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>setlocal enabledelayedexpansion 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set commandexe=!arg1:%20= ! 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg2=-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/demo.dwf" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg3=-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F62100.svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg4=-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg5=-f="svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg6=-layout="8th%20Floor%20Plan" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg7=-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg8=- 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg9=- 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg10= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg11= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg12= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg13= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg14= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg15= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg16= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg17= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>"C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe" -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/demo.dwf" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F62100.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -layout="8th%20Floor%20Plan" -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" - -            1>ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/demo.dwf" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F62100.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -layout="8th%20Floor%20Plan" -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" - -           >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem -          >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_03.txt 
+
+error>>(none)
+ExitCode: 0
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/demo.dwf output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/demo.dwf","contentResponse":"stream","contentStreamData":"http://localhost:53737/getFileHandler.ashx?remainOnServer=0&fileTag=F62100&Type=svg"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"firstlayout","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 1 XXX firstlayout","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 2 XXX fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F515019.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -firstlayout "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+New Arguments:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F515019.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -firstlayout "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/\run_ax2020.bat
+output>>
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp 850  1>chcp_02.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg1=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>setlocal enabledelayedexpansion 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set commandexe=!arg1:%20= ! 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg2=-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg3=-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F515019.svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg4=-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg5=-f="svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg6=-firstlayout 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg7=-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg8= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg9= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg10= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg11= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg12= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg13= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg14= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg15= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg16= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg17= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>"C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe" -i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F515019.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -firstlayout -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"              1>ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W64_20_05_44.exe -i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F515019.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -firstlayout -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"             >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem           >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_03.txt 
+
+error>>(none)
+ExitCode: 0
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg","contentResponse":"stream","contentStreamData":"http://localhost:53737/getFileHandler.ashx?remainOnServer=0&fileTag=F515019&Type=svg"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"firstlayout","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 1 XXX firstlayout","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 2 XXX fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F875396.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -firstlayout "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+New Arguments:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F875396.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -firstlayout "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/\run_ax2020.bat
+output>>
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp 850  1>chcp_02.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg1=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>setlocal enabledelayedexpansion 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set commandexe=!arg1:%20= ! 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg2=-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg3=-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F875396.svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg4=-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg5=-f="svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg6=-firstlayout 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg7=-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg8= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg9= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg10= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg11= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg12= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg13= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg14= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg15= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg16= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg17= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>"C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe" -i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F875396.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -firstlayout -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"              1>ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe -i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F875396.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -firstlayout -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"             >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem           >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_03.txt 
+
+error>>(none)
+ExitCode: 0
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg","contentResponse":"stream","contentStreamData":"http://localhost:53737/getFileHandler.ashx?remainOnServer=0&fileTag=F875396&Type=svg"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"firstlayout","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 1 XXX firstlayout","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 2 XXX fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf
+C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F627812.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -firstlayout "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+New Arguments:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F627812.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -firstlayout "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/\run_ax2020.bat
+output>>
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp 850  1>chcp_02.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg1=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>setlocal enabledelayedexpansion 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set commandexe=!arg1:%20= ! 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg2=-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg3=-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F627812.svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg4=-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg5=-f="svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg6=-firstlayout 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg7=-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg8= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg9= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg10= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg11= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg12= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg13= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg14= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg15= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg16= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg17= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>"C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe" -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F627812.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -firstlayout -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"              1>ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F627812.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -firstlayout -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"             >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem           >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_03.txt 
+
+error>>(none)
+ExitCode: 0
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf","contentResponse":"stream","contentStreamData":"http://localhost:53737/getFileHandler.ashx?remainOnServer=0&fileTag=F627812&Type=svg"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"layout","paramValue":"A-2.6_SRB"},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"},{"paramName":"","paramValue":""}
+ paramcount: 1 XXX layout","paramValue":"A-2.6_SRB"},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"},{"paramName":"","paramValue":""}
+ paramcount: 2 XXX fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"},{"paramName":"","paramValue":""}
+ paramcount: 3 XXX ","paramValue":""}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf
+C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F218367.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" "-layout="A-2.6_SRB"" "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"" -
+New Arguments:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F218367.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" "-layout="A-2.6_SRB"" "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"" -
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/\run_ax2020.bat
+output>>
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp 850  1>chcp_02.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg1=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>setlocal enabledelayedexpansion 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set commandexe=!arg1:%20= ! 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg2=-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg3=-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F218367.svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg4=-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg5=-f="svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg6=-layout="A-2.6_SRB" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg7=-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg8=- 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg9= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg10= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg11= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg12= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg13= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg14= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg15= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg16= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg17= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>"C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe" -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F218367.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -layout="A-2.6_SRB" -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" -             1>ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F218367.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -layout="A-2.6_SRB" -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" -            >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem           >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_03.txt 
+
+error>>(none)
+ExitCode: 0
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/2835_Madison.dwf","contentResponse":"stream","contentStreamData":"http://localhost:53737/getFileHandler.ashx?remainOnServer=0&fileTag=F218367&Type=svg"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"firstlayout","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 1 XXX firstlayout","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 2 XXX fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/38b23ea4-5928-436f-8668-4c3879d66dcc_LUCB11 Palmero_Survey_PERMIT SET.DWF
+C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/38b23ea4-5928-436f-8668-4c3879d66dcc_LUCB11%20Palmero_Survey_PERMIT%20SET.DWF"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F349783.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -firstlayout "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+New Arguments:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/38b23ea4-5928-436f-8668-4c3879d66dcc_LUCB11%20Palmero_Survey_PERMIT%20SET.DWF"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F349783.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -firstlayout "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/\run_ax2020.bat
+output>>
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp 850  1>chcp_02.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg1=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>setlocal enabledelayedexpansion 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set commandexe=!arg1:%20= ! 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg2=-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/38b23ea4-5928-436f-8668-4c3879d66dcc_LUCB11%20Palmero_Survey_PERMIT%20SET.DWF" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg3=-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F349783.svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg4=-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg5=-f="svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg6=-firstlayout 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg7=-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg8= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg9= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg10= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg11= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg12= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg13= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg14= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg15= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg16= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg17= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>"C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe" -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/38b23ea4-5928-436f-8668-4c3879d66dcc_LUCB11%20Palmero_Survey_PERMIT%20SET.DWF" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F349783.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -firstlayout -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"              1>ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/38b23ea4-5928-436f-8668-4c3879d66dcc_LUCB11%20Palmero_Survey_PERMIT%20SET.DWF" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F349783.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -firstlayout -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"             >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem           >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_03.txt 
+
+error>>(none)
+ExitCode: 0
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/38b23ea4-5928-436f-8668-4c3879d66dcc_LUCB11 Palmero_Survey_PERMIT SET.DWF output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/38b23ea4-5928-436f-8668-4c3879d66dcc_LUCB11 Palmero_Survey_PERMIT SET.DWF","contentResponse":"stream","contentStreamData":"http://localhost:53737/getFileHandler.ashx?remainOnServer=0&fileTag=F349783&Type=svg"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"firstlayout","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 1 XXX firstlayout","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 2 XXX fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/Rua_Tomas_Paes.dwg
+C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/Rua_Tomas_Paes.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F506394.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -firstlayout "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+New Arguments:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/Rua_Tomas_Paes.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F506394.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -firstlayout "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/\run_ax2020.bat
+output>>
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp 850  1>chcp_02.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg1=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>setlocal enabledelayedexpansion 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set commandexe=!arg1:%20= ! 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg2=-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/Rua_Tomas_Paes.dwg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg3=-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F506394.svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg4=-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg5=-f="svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg6=-firstlayout 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg7=-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg8= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg9= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg10= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg11= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg12= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg13= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg14= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg15= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg16= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg17= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>"C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe" -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/Rua_Tomas_Paes.dwg" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F506394.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -firstlayout -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"              1>ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/Rua_Tomas_Paes.dwg" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F506394.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -firstlayout -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"             >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem           >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_03.txt 
+
+error>>(none)
+ExitCode: 0
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/Rua_Tomas_Paes.dwg output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/Rua_Tomas_Paes.dwg","contentResponse":"stream","contentStreamData":"http://localhost:53737/getFileHandler.ashx?remainOnServer=0&fileTag=F506394&Type=svg"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"last","paramValue":""},{"paramName":"rl","paramValue":"RM_"},{"paramName":"tl","paramValue":"RM_TXT"},{"paramName":"fpath","paramValue":"c:/xampp/htdocs/cadviewer_6_1_0/converters/ax2020/windows/fonts"}
+ paramcount: 1 XXX last","paramValue":""},{"paramName":"rl","paramValue":"RM_"},{"paramName":"tl","paramValue":"RM_TXT"},{"paramName":"fpath","paramValue":"c:/xampp/htdocs/cadviewer_6_1_0/converters/ax2020/windows/fonts"}
+ paramcount: 2 XXX rl","paramValue":"RM_"},{"paramName":"tl","paramValue":"RM_TXT"},{"paramName":"fpath","paramValue":"c:/xampp/htdocs/cadviewer_6_1_0/converters/ax2020/windows/fonts"}
+ paramcount: 3 XXX tl","paramValue":"RM_TXT"},{"paramName":"fpath","paramValue":"c:/xampp/htdocs/cadviewer_6_1_0/converters/ax2020/windows/fonts"}
+ paramcount: 4 XXX fpath","paramValue":"c:/xampp/htdocs/cadviewer_6_1_0/converters/ax2020/windows/fonts"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/LI_1077929.dwg
+C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/LI_1077929.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F181856.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -last "-rl="RM_"" "-tl="RM_TXT"" "-fpath="c:/xampp/htdocs/cadviewer_6_1_0/converters/ax2020/windows/fonts""
+New Arguments:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/LI_1077929.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F181856.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -last "-rl="RM_"" "-tl="RM_TXT"" "-fpath="c:/xampp/htdocs/cadviewer_6_1_0/converters/ax2020/windows/fonts""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/\run_ax2020.bat
+output>>
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp 850  1>chcp_02.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg1=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>setlocal enabledelayedexpansion 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set commandexe=!arg1:%20= ! 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg2=-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/LI_1077929.dwg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg3=-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F181856.svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg4=-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg5=-f="svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg6=-last 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg7=-rl="RM_" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg8=-tl="RM_TXT" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg9=-fpath="c:/xampp/htdocs/cadviewer_6_1_0/converters/ax2020/windows/fonts" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg10= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg11= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg12= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg13= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg14= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg15= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg16= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg17= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>"C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe" -i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/LI_1077929.dwg" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F181856.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -last -rl="RM_" -tl="RM_TXT" -fpath="c:/xampp/htdocs/cadviewer_6_1_0/converters/ax2020/windows/fonts"            1>ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe -i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/LI_1077929.dwg" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F181856.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -last -rl="RM_" -tl="RM_TXT" -fpath="c:/xampp/htdocs/cadviewer_6_1_0/converters/ax2020/windows/fonts"           >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem "-fpath="c:/xampp/htdocs/cadviewer_6_1_0/converters/ax2020/windows/fonts""          >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_03.txt 
+
+error>>(none)
+ExitCode: 0
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/LI_1077929.dwg output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/LI_1077929.dwg","contentResponse":"stream","contentStreamData":"http://localhost:53737/getFileHandler.ashx?remainOnServer=0&fileTag=F181856&Type=svg"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"last","paramValue":""},{"paramName":"rl","paramValue":"RM_"},{"paramName":"tl","paramValue":"RM_TXT"},{"paramName":"la","paramValue":""},{"paramName":"fpath","paramValue":"c:/xampp/htdocs/cadviewer/converters/ax2020/windows/fonts"}
+ paramcount: 1 XXX last","paramValue":""},{"paramName":"rl","paramValue":"RM_"},{"paramName":"tl","paramValue":"RM_TXT"},{"paramName":"la","paramValue":""},{"paramName":"fpath","paramValue":"c:/xampp/htdocs/cadviewer/converters/ax2020/windows/fonts"}
+ paramcount: 2 XXX rl","paramValue":"RM_"},{"paramName":"tl","paramValue":"RM_TXT"},{"paramName":"la","paramValue":""},{"paramName":"fpath","paramValue":"c:/xampp/htdocs/cadviewer/converters/ax2020/windows/fonts"}
+ paramcount: 3 XXX tl","paramValue":"RM_TXT"},{"paramName":"la","paramValue":""},{"paramName":"fpath","paramValue":"c:/xampp/htdocs/cadviewer/converters/ax2020/windows/fonts"}
+ paramcount: 4 XXX la","paramValue":""},{"paramName":"fpath","paramValue":"c:/xampp/htdocs/cadviewer/converters/ax2020/windows/fonts"}
+ paramcount: 5 XXX fpath","paramValue":"c:/xampp/htdocs/cadviewer/converters/ax2020/windows/fonts"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17_.dwg
+C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17_.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F824956.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -last "-rl="RM_"" "-tl="RM_TXT"" -la "-fpath="c:/xampp/htdocs/cadviewer/converters/ax2020/windows/fonts""
+New Arguments:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17_.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F824956.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -last "-rl="RM_"" "-tl="RM_TXT"" -la "-fpath="c:/xampp/htdocs/cadviewer/converters/ax2020/windows/fonts""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/\run_ax2020.bat
+output>>
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp 850  1>chcp_02.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg1=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>setlocal enabledelayedexpansion 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set commandexe=!arg1:%20= ! 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg2=-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17_.dwg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg3=-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F824956.svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg4=-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg5=-f="svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg6=-last 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg7=-rl="RM_" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg8=-tl="RM_TXT" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg9=-la 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg10=-fpath="c:/xampp/htdocs/cadviewer/converters/ax2020/windows/fonts" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg11= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg12= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg13= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg14= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg15= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg16= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg17= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>"C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe" -i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17_.dwg" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F824956.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -last -rl="RM_" -tl="RM_TXT" -la -fpath="c:/xampp/htdocs/cadviewer/converters/ax2020/windows/fonts"           1>ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe -i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17_.dwg" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F824956.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -last -rl="RM_" -tl="RM_TXT" -la -fpath="c:/xampp/htdocs/cadviewer/converters/ax2020/windows/fonts"          >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem -la "-fpath="c:/xampp/htdocs/cadviewer/converters/ax2020/windows/fonts""         >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_03.txt 
+
+error>>(none)
+ExitCode: 0
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17_.dwg output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17_.dwg","contentResponse":"stream","contentStreamData":"http://localhost:53737/getFileHandler.ashx?remainOnServer=0&fileTag=F824956&Type=svg"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"firstlayout","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 1 XXX firstlayout","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 2 XXX fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F898716.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -firstlayout "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+New Arguments:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F898716.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -firstlayout "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/\run_ax2020.bat
+output>>
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp 850  1>chcp_02.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg1=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>setlocal enabledelayedexpansion 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set commandexe=!arg1:%20= ! 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg2=-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg3=-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F898716.svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg4=-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg5=-f="svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg6=-firstlayout 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg7=-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg8= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg9= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg10= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg11= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg12= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg13= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg14= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg15= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg16= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg17= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>"C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe" -i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F898716.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -firstlayout -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"              1>ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe -i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F898716.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -firstlayout -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"             >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem           >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_03.txt 
+
+error>>(none)
+ExitCode: 0
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg","contentResponse":"stream","contentStreamData":"http://localhost:53737/getFileHandler.ashx?remainOnServer=0&fileTag=F898716&Type=svg"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"firstlayout","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 1 XXX firstlayout","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 2 XXX fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/NF059788-12348.dwg
+C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/NF059788-12348.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F672850.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -firstlayout "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+New Arguments:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/NF059788-12348.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F672850.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -firstlayout "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/\run_ax2020.bat
+output>>
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp 850  1>chcp_02.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg1=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>setlocal enabledelayedexpansion 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set commandexe=!arg1:%20= ! 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg2=-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/NF059788-12348.dwg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg3=-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F672850.svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg4=-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg5=-f="svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg6=-firstlayout 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg7=-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg8= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg9= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg10= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg11= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg12= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg13= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg14= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg15= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg16= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg17= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>"C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe" -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/NF059788-12348.dwg" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F672850.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -firstlayout -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"              1>ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/NF059788-12348.dwg" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F672850.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -firstlayout -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"             >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem           >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_03.txt 
+
+error>>(none)
+ExitCode: 0
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/NF059788-12348.dwg output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/NF059788-12348.dwg","contentResponse":"stream","contentStreamData":"http://localhost:53737/getFileHandler.ashx?remainOnServer=0&fileTag=F672850&Type=svg"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"firstlayout","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 1 XXX firstlayout","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 2 XXX fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F248963.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -firstlayout "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+New Arguments:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F248963.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -firstlayout "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/\run_ax2020.bat
+output>>
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp 850  1>chcp_02.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg1=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>setlocal enabledelayedexpansion 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set commandexe=!arg1:%20= ! 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg2=-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg3=-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F248963.svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg4=-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg5=-f="svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg6=-firstlayout 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg7=-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg8= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg9= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg10= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg11= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg12= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg13= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg14= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg15= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg16= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg17= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>"C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe" -i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F248963.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -firstlayout -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"              1>ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe -i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F248963.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -firstlayout -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"             >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem           >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_03.txt 
+
+error>>(none)
+ExitCode: 0
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg","contentResponse":"stream","contentStreamData":"http://localhost:53737/getFileHandler.ashx?remainOnServer=0&fileTag=F248963&Type=svg"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"firstlayout","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 1 XXX firstlayout","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 2 XXX fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/NF059788-12348.dwg
+C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/NF059788-12348.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F507857.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -firstlayout "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+New Arguments:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/NF059788-12348.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F507857.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svg"" -firstlayout "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/\run_ax2020.bat
+output>>
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp 850  1>chcp_02.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg1=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>setlocal enabledelayedexpansion 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set commandexe=!arg1:%20= ! 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg2=-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/NF059788-12348.dwg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg3=-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F507857.svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg4=-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg5=-f="svg" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg6=-firstlayout 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg7=-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/" 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg8= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg9= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg10= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg11= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg12= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg13= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg14= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg15= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg16= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>shift
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>set arg17= 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>"C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe" -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/NF059788-12348.dwg" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F507857.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -firstlayout -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"              1>ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_49b.exe -i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/NF059788-12348.dwg" -o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F507857.svg" -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/ -f="svg" -firstlayout -fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"             >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>rem           >ax2020_01.txt 
+
+C:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2020\windows>chcp  1>chcp_03.txt 
+
+error>>(none)
+ExitCode: 0
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/NF059788-12348.dwg output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/NF059788-12348.dwg","contentResponse":"stream","contentStreamData":"http://localhost:53737/getFileHandler.ashx?remainOnServer=0&fileTag=F507857&Type=svg"}
