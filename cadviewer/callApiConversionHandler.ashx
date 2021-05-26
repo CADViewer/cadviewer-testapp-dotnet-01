@@ -419,8 +419,21 @@ public class Handler : IHttpHandler {
                         arguments = arguments+" "+str_arr[i];
                 }
 
+
+                bool nobat = false;
                 // move all this processing
-                arguments = str_arr[0] + " " + arguments;    //NOTE , no .bat processing
+
+                if (nobat)
+                {
+                    // we keep arguments without the exe name
+                }
+                else
+                {
+                    arguments = str_arr[0] + " " + arguments;
+
+                }
+
+
 
                 myoutput[0] = arguments;
                 if (cvjs_debug == "true") File.AppendAllLines(absFilePath, myoutput);
@@ -441,8 +454,25 @@ public class Handler : IHttpHandler {
                 exitCode = 0;
                 ProcessStartInfo ProcessInfo;
 
-                ProcessInfo = new ProcessStartInfo(converterLocation+"\\run_ax2020.bat", arguments);
-                //              ProcessInfo = new ProcessStartInfo(str_arr[0], arguments);
+
+                if (nobat)    // do not call through a bat file
+                {
+                    ProcessInfo = new ProcessStartInfo(str_arr[0], arguments);
+                }
+                else      // call through a bat file
+                {
+                    ProcessInfo = new ProcessStartInfo(converterLocation+"\\run_ax2020.bat", arguments);
+                }
+
+
+/*
+                ProcessInfo.CreateNoWindow = true;
+                ProcessInfo.UseShellExecute = false;
+                ProcessInfo.WorkingDirectory =converterLocation;
+                // *** Redirect the output ***
+                ProcessInfo.RedirectStandardError = true;
+                ProcessInfo.RedirectStandardOutput = true;
+*/
 
                 ProcessInfo.CreateNoWindow = true;
                 ProcessInfo.UseShellExecute = false;
@@ -451,22 +481,22 @@ public class Handler : IHttpHandler {
                 ProcessInfo.RedirectStandardError = true;
                 ProcessInfo.RedirectStandardOutput = true;
 
-                Process myProcess;
 
+                Process myProcess;
                 myProcess = Process.Start(ProcessInfo);
 
-
-
                 // *** Read the streams ***
+
                 string output = myProcess.StandardOutput.ReadToEnd();
                 string error = myProcess.StandardError.ReadToEnd();
 
 
                 myProcess.WaitForExit();
 
-
                 exitCode = myProcess.ExitCode;
 
+
+/*
                 myoutput[0] ="output>>" + (String.IsNullOrEmpty(output) ? "(none)" : output);
                 if (cvjs_debug == "true") File.AppendAllLines(absFilePath, myoutput);
 
@@ -475,7 +505,7 @@ public class Handler : IHttpHandler {
 
                 myoutput[0] = "ExitCode: " + exitCode.ToString();
                 if (cvjs_debug == "true") File.AppendAllLines(absFilePath, myoutput);
-
+*/
                 myProcess.Close();
 
 
