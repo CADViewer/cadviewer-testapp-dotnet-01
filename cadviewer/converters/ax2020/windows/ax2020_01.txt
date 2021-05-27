@@ -1,4 +1,4 @@
-                 AutoXchange 2020 V20.05.49b
+                 AutoXchange 2020 V20.05.49c
 Copyright (c) 2017, 2018, 2019, 2020, 2021 Tailor Made Software, Ltd.
                       All Rights Reserved
 
@@ -8,8 +8,88 @@ Copyright (c) 2017, 2018, 2019, 2020, 2021 Tailor Made Software, Ltd.
 Thank you for trying this demo of AutoXChange 2020
 Please contact sales@tailormade.com to purchase
 
-Input file: C:\cadviewer-testapp-dotnet-01\cadviewer\\content\drawings\dwg\hq17.dwg
-Output File Name: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\F862603.svg
+Input file: C:\cadviewer-testapp-dotnet-01\cadviewer\content\drawings\dwg\vu1565.dwf
+Output File Name: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\F354361.svg
 No PaperSpace Layouts in Drawing, using ModelSpace instead
 
-Elapsed Time: 0.509 seconds
+Create Line Width    lw: 0  spaceType:0  Normal
+
+Create Line Width    lw: 18.75  spaceType:0  Normal
+
+Create Line Width    lw: 25  spaceType:0  Normal
+
+Create Line Width    lw: 25  spaceType:0  Poly
+
+Create Line Width    lw: 0  spaceType:0  Poly
+
+Create Line Width    lw: 18.75  spaceType:0  Poly
+Width #1: 0
+Width: 0-->0.6
+Width #2: 18.75
+Width #3: 25
+Width #4: 25
+**inWidth : 25
+  LineWidthScale: 0.2
+  spaceType: 0
+  LayoutScale[st]: 6.06995
+==>0.5
+
+Width: 25-->0.5
+Width #5: 0
+**inWidth : 0
+  LineWidthScale: 0.2
+  spaceType: 0
+  LayoutScale[st]: 6.06995
+==>0.12
+
+Width: 0-->0.12
+Width #6: 18.75
+**inWidth : 18.75
+  LineWidthScale: 0.2
+  spaceType: 0
+  LayoutScale[st]: 6.06995
+==>0.375
+
+Width: 18.75-->0.375
+lineWidths #1: 0.12
+lineWidths #2: 0.2
+lineWidths #3: 0.375
+lineWidths #4: 0.5
+lineWidths #5: 0.6
+LineType: 0.12 ===> 'sLW_0_12'
+LineType: 0.2 ===> 'sLW_0_2'
+LineType: 0.375 ===> 'sLW_0_375'
+LineType: 0.5 ===> 'sLW_0_5'
+LineType: 0.6 ===> 'sLW_0_6'
+**inWidth : 18.75
+  LineWidthScale: 0.2
+  spaceType: 0
+  LayoutScale[st]: 6.06995
+==>0.375
+
+**inWidth : 18.75
+  LineWidthScale: 0.2
+  spaceType: 0
+  LayoutScale[st]: 6.06995
+==>0.375
+
+**inWidth : 18.75
+  LineWidthScale: 0.2
+  spaceType: 0
+  LayoutScale[st]: 6.06995
+==>0.375
+
+**inWidth : 18.75
+  LineWidthScale: 0.2
+  spaceType: 0
+  LayoutScale[st]: 6.06995
+==>0.375
+
+**inWidth : 18.75
+  LineWidthScale: 0.2
+  spaceType: 0
+  LayoutScale[st]: 6.06995
+==>0.375
+
+
+Elapsed Time: 0.764 seconds
