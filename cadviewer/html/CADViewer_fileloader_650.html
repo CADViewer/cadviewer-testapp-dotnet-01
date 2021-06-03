@@ -23,7 +23,7 @@
     <script src="../app/js/jquery-ui-1.11.4.min.js" type="text/javascript"></script>
     <link href="../app/css/jquery-ui-1.11.4.min.css" media="screen" rel="stylesheet" type="text/css" />
 
-    <script src="../app/cv/cv-pro/cadviewer_6.5.02.min.js" type="text/javascript" ></script> 	 
+    <script src="../app/cv/cv-pro/cadviewer_6.5.08c.min.js" type="text/javascript" ></script> 	 
     <script src="../app/cv/cv-custom_commands/CADViewer_custom_commands.js" type="text/javascript"></script>
 
     <script src="../app/cv/cvlicense.js" type="text/javascript"></script>
@@ -65,8 +65,6 @@
         // NOTE: THE LOCATION OF THE ServerLocation/ServerUrl VARIABLES ARE DEFINED IN /cadviewer/app/cv/XXXHandlerSettings.js
         //	var ServerLocation =
         //	var ServerUrl =
-
-
 
 
         $(document).ready(function () {
@@ -281,7 +279,6 @@
 
         /// NOTE: THESE METHODS BELOW ARE JS SCRIPT CALLBACK METHODS FROM CADVIEWER JS, THEY NEED TO BE IMPLEMENTED BUT CAN BE EMPTY
 
-
         function cvjs_OnLoadEnd() {
             // generic callback method, called when the drawing is loaded
             // here you fill in your stuff, call DB, set up arrays, etc..
@@ -326,6 +323,11 @@
             // I am freezing users added to the lock user list
             cvjs_lockAllRedlines_LockedUsersList();
 
+        }
+
+
+        function cvjs_EmailSentStatus(html) {
+            window.alert("Callback from email process: "+html);
         }
 
 
