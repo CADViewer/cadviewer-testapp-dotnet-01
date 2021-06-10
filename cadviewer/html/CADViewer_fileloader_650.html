@@ -23,7 +23,7 @@
     <script src="../app/js/jquery-ui-1.11.4.min.js" type="text/javascript"></script>
     <link href="../app/css/jquery-ui-1.11.4.min.css" media="screen" rel="stylesheet" type="text/css" />
 
-    <script src="../app/cv/cv-pro/cadviewer_6.5.08c.min.js" type="text/javascript" ></script> 	 
+    <script src="../app/cv/cv-pro/cadviewer_6.5.09a.min.js" type="text/javascript" ></script> 	 
     <script src="../app/cv/cv-custom_commands/CADViewer_custom_commands.js" type="text/javascript"></script>
 
     <script src="../app/cv/cvlicense.js" type="text/javascript"></script>
@@ -188,8 +188,16 @@
             // 3: Users can change the number of top menu icon pages and the content of pages, based on a configuration file in folder /cadviewer/app/js/menu_config/
 
 
-            cvjs_setTopMenuXML("floorPlan", "cadviewer_full_commands_01.xml", "/app/cv/cv-pro/menu_config/");
-            //		cvjs_setTopMenuXML("floorPlan", "cadviewerjs_menu_all_items.xml", "/app/cv/cv-pro/menu_config/");
+//            cvjs_setTopMenuXML("floorPlan", "cadviewer_full_commands_01.xml", "/app/cv/cv-pro/menu_config/");
+
+
+/*      vertical icon bar sample with integrated zoom icons   - when using this, comment out cvjs_setTopMenuXML("floorPlan", "cadviewer_full_commands_01.xml");   */	
+		cvjs_setTopMenuXML("floorPlan", "cadviewer_verticalmeasurementbar_01.xml"); //cvjs_setTopMenuXML("floorPlan", "cadviewer_full_commands_01.xml", "/app/cv/cv-pro/menu_config/");
+		cvjs_displayZoomIconBar(false, "floorPlan");
+ 		cvjs_measurementLinesScaleFactor(1.0);
+
+
+
 
 
             // Initialize CADViewer JS  - needs the div name on the svg element on page that contains CADViewerJS and the location of the
