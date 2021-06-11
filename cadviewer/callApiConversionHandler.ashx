@@ -477,23 +477,30 @@ public class Handler : IHttpHandler {
                 ProcessInfo.CreateNoWindow = true;
                 ProcessInfo.UseShellExecute = false;
                 ProcessInfo.WorkingDirectory =converterLocation;
-                // *** Redirect the output ***
-                ProcessInfo.RedirectStandardError = true;
-                ProcessInfo.RedirectStandardOutput = true;
+                
+                // *** Redirect the output ***     - this creates deadlock on some platforms, so being suppressed
+//                ProcessInfo.RedirectStandardError = true;
+//                ProcessInfo.RedirectStandardOutput = true;
+
+                //  **** alternatively, do not redirect any output for async issues ****
+                ProcessInfo.RedirectStandardError = false;
+                ProcessInfo.RedirectStandardOutput = false;
 
 
                 Process myProcess;
                 myProcess = Process.Start(ProcessInfo);
 
-                // *** Read the streams ***
-
-                string output = myProcess.StandardOutput.ReadToEnd();
-                string error = myProcess.StandardError.ReadToEnd();
+                // *** Read the streams *** - this creates deadlock on some platforms, so being suppressed
+//                string output = myProcess.StandardOutput.ReadToEnd();
+//                string error = myProcess.StandardError.ReadToEnd();
 
 
                 myProcess.WaitForExit();
-
                 exitCode = myProcess.ExitCode;
+
+
+
+
 
 
 /*

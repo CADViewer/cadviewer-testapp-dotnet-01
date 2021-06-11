@@ -1,4 +1,4 @@
-                 AutoXchange 2020 V20.05.50a
+                 AutoXchange 2020 V20.05.50c
 Copyright (c) 2017, 2018, 2019, 2020, 2021 Tailor Made Software, Ltd.
                       All Rights Reserved
 
@@ -8,9 +8,9 @@ Copyright (c) 2017, 2018, 2019, 2020, 2021 Tailor Made Software, Ltd.
 Thank you for trying this demo of AutoXChange 2020
 Please contact sales@tailormade.com to purchase
 
-Input file: C:\cadviewer-testapp-dotnet-01\cadviewer\\content\drawings\dwg\hq17.dwg
-Output File Name: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\F870347.svg
+Input file: C:\cadviewer-testapp-dotnet-01\cadviewer\content\drawings\dwg\linetypes.dwg
+Output File Name: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\F244080.svg
 No PaperSpace Layouts in Drawing, using ModelSpace instead
 ViewName: *FIRSTLAYOUT*
 
-Elapsed Time: 0.264 seconds
+Elapsed Time: 0.053 seconds
