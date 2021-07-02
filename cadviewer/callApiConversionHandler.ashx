@@ -53,6 +53,9 @@ public class Handler : IHttpHandler {
         string xpathLocation = ConfigurationManager.AppSettings["xpathLocation"];
         string callbackMethod = ConfigurationManager.AppSettings["callbackMethod"];
         string cvjs_debug = ConfigurationManager.AppSettings["cvjs_debug"];
+        // 20.05.52a
+        string svgz_compress = ConfigurationManager.AppSettings["svgz_compress"];
+
 
         string[] myoutput = new String[1];
         string absFilePath = "";
@@ -311,8 +314,21 @@ public class Handler : IHttpHandler {
         for (int i=0; i<paramCount; i++){
             if (param_name[i].IndexOf("f")==0 && param_name[i].Length == 1 ){
                 outputFormat = param_value[i];
+
+                // 20.05.52a
+                if ((svgz_compress == "true") && (outputFormat == "svg"))
+                {
+                        outputFormat = "svgz";
+                        param_value[i] = "svgz";
+                }
+
+
+
             }
         }
+
+
+
 
 
 
@@ -465,22 +481,22 @@ public class Handler : IHttpHandler {
                 }
 
 
-/*
-                ProcessInfo.CreateNoWindow = true;
-                ProcessInfo.UseShellExecute = false;
-                ProcessInfo.WorkingDirectory =converterLocation;
-                // *** Redirect the output ***
-                ProcessInfo.RedirectStandardError = true;
-                ProcessInfo.RedirectStandardOutput = true;
-*/
+                /*
+                                ProcessInfo.CreateNoWindow = true;
+                                ProcessInfo.UseShellExecute = false;
+                                ProcessInfo.WorkingDirectory =converterLocation;
+                                // *** Redirect the output ***
+                                ProcessInfo.RedirectStandardError = true;
+                                ProcessInfo.RedirectStandardOutput = true;
+                */
 
                 ProcessInfo.CreateNoWindow = true;
                 ProcessInfo.UseShellExecute = false;
                 ProcessInfo.WorkingDirectory =converterLocation;
-                
+
                 // *** Redirect the output ***     - this creates deadlock on some platforms, so being suppressed
-//                ProcessInfo.RedirectStandardError = true;
-//                ProcessInfo.RedirectStandardOutput = true;
+                //                ProcessInfo.RedirectStandardError = true;
+                //                ProcessInfo.RedirectStandardOutput = true;
 
                 //  **** alternatively, do not redirect any output for async issues ****
                 ProcessInfo.RedirectStandardError = false;
@@ -491,8 +507,8 @@ public class Handler : IHttpHandler {
                 myProcess = Process.Start(ProcessInfo);
 
                 // *** Read the streams *** - this creates deadlock on some platforms, so being suppressed
-//                string output = myProcess.StandardOutput.ReadToEnd();
-//                string error = myProcess.StandardError.ReadToEnd();
+                //                string output = myProcess.StandardOutput.ReadToEnd();
+                //                string error = myProcess.StandardError.ReadToEnd();
 
 
                 myProcess.WaitForExit();
@@ -503,16 +519,16 @@ public class Handler : IHttpHandler {
 
 
 
-/*
-                myoutput[0] ="output>>" + (String.IsNullOrEmpty(output) ? "(none)" : output);
-                if (cvjs_debug == "true") File.AppendAllLines(absFilePath, myoutput);
+                /*
+                                myoutput[0] ="output>>" + (String.IsNullOrEmpty(output) ? "(none)" : output);
+                                if (cvjs_debug == "true") File.AppendAllLines(absFilePath, myoutput);
 
-                myoutput[0] ="error>>" + (String.IsNullOrEmpty(error) ? "(none)" : error);
-                if (cvjs_debug == "true") File.AppendAllLines(absFilePath, myoutput);
+                                myoutput[0] ="error>>" + (String.IsNullOrEmpty(error) ? "(none)" : error);
+                                if (cvjs_debug == "true") File.AppendAllLines(absFilePath, myoutput);
 
-                myoutput[0] = "ExitCode: " + exitCode.ToString();
-                if (cvjs_debug == "true") File.AppendAllLines(absFilePath, myoutput);
-*/
+                                myoutput[0] = "ExitCode: " + exitCode.ToString();
+                                if (cvjs_debug == "true") File.AppendAllLines(absFilePath, myoutput);
+                */
                 myProcess.Close();
 
 
@@ -542,7 +558,7 @@ public class Handler : IHttpHandler {
 
         // compose callback message
 
-        if (outputFormat.ToLower().IndexOf("svg")>-1){
+        if (outputFormat.ToLower().IndexOf("svg")>-1){    // svg + svgz
 
             string CVJSresponse = "{\"completedAction\":\"svg_creation\",\"errorCode\":\"E"+exitCode+"\",\"converter\":\"AutoXchange AX2017\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\""+contentLocation+"\",\"contentResponse\":\"stream\",\"contentStreamData\":\""+callbackMethod+"?remainOnServer=0&fileTag="+tempFileName+"&Type=svg\"}";
 
