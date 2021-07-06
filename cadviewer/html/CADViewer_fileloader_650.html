@@ -319,6 +319,17 @@
                                         cvjs_setPrintOrientation("landscape");   // computer screen is typically landscape
                                         cvjs_saveScreenAsImage_makeTumbnails(fileLocation, fileName, 1000, thumb1, 500, thumb2);
             **/
+
+
+            if (false) {
+                cvjs_processHandleObjects();
+                cvjs_handleObjectsParceBlocks(false);
+            // NOTE-NOTE:  cvjs_dragBackgroundToFront_SVG cannot be used with HLALL
+            }
+
+
+            cvjs_overwritePDFOutputParameter(true, "basic", "");
+
         }
 
 
