@@ -32,12 +32,26 @@ public class Handler : IHttpHandler {
     private void DoPost(HttpContext context)
     {
 
-       context.Response.AddHeader("Access-Control-Allow-Origin", "*");
-       context.Response.ContentType = "text/plain";
+        context.Response.AddHeader("Access-Control-Allow-Origin", "*");
+        //       context.Response.ContentType = "text/plain";
 
         string fileTag = context.Request["fileTag"].Trim('/');
         string fileType = context.Request["Type"];
         string remainOnServer = context.Request["remainOnServer"];
+
+        if (fileType == "svg")
+        {
+            context.Response.ContentType = "image/svg+xml";
+        }
+        else
+            if (fileType == "svgz")
+        {
+            context.Response.AddHeader("Content-Encoding", "gzip");
+            context.Response.ContentType = "image/svg+xml";
+        }
+        else
+            context.Response.ContentType = "text/plain";
+
 
         string fileLocation = ConfigurationManager.AppSettings["fileLocation"];
 
@@ -96,8 +110,8 @@ public class Handler : IHttpHandler {
     private void DoGet(HttpContext context)
     {
 
-      context.Response.AddHeader("Access-Control-Allow-Origin", "*");
-      context.Response.ContentType = "text/plain";
+        context.Response.AddHeader("Access-Control-Allow-Origin", "*");
+        //context.Response.ContentType = "text/plain";
 
         string fileTag = context.Request["fileTag"].Trim('/');
         string fileType = context.Request["Type"];
@@ -107,7 +121,21 @@ public class Handler : IHttpHandler {
 
         string localPath = fileLocation + fileTag +"." + fileType;
 
+        if (fileType == "svg")
+        {
+            context.Response.ContentType = "image/svg+xml";
+        }
+        else
+        if (fileType == "svgz")
+        {
+            context.Response.AddHeader("Content-Encoding", "gzip");
+            context.Response.ContentType = "image/svg+xml";
+        }
+        else
+            context.Response.ContentType = "text/plain";
+
         //context.Response.Write("Hello "+localPath+"  "+remainOnServer+"  ");
+
         try
         {
 
@@ -132,9 +160,16 @@ public class Handler : IHttpHandler {
                 }
                 numBytesToRead = bytes.Length;
 
-                UTF8Encoding temp = new UTF8Encoding(true);
 
-                context.Response.Write(temp.GetString(bytes));
+                if (fileType == "svgz")
+                {
+                    context.Response.OutputStream.Write(bytes, 0, bytes.Length);
+                }
+                else
+                {
+                    UTF8Encoding temp = new UTF8Encoding(true);
+                    context.Response.Write(temp.GetString(bytes));
+                }
 
             }
         }

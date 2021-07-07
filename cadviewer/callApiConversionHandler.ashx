@@ -327,11 +327,6 @@ public class Handler : IHttpHandler {
             }
         }
 
-
-
-
-
-
         //	if (cvjs_debug){		
         //		stringContent = outputFormat;
         //		contentInBytes	= stringContent.getBytes();
@@ -558,15 +553,12 @@ public class Handler : IHttpHandler {
 
         // compose callback message
 
-        if (outputFormat.ToLower().IndexOf("svg")>-1){    // svg + svgz
+        if (outputFormat.ToLower().IndexOf("svg")>-1){  // BOTH svg + svgz   -> return outputFormat !!! note!
 
-            string CVJSresponse = "{\"completedAction\":\"svg_creation\",\"errorCode\":\"E"+exitCode+"\",\"converter\":\"AutoXchange AX2017\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\""+contentLocation+"\",\"contentResponse\":\"stream\",\"contentStreamData\":\""+callbackMethod+"?remainOnServer=0&fileTag="+tempFileName+"&Type=svg\"}";
-
+            string CVJSresponse = "{\"completedAction\":\"svg_creation\",\"errorCode\":\"E"+exitCode+"\",\"converter\":\"AutoXchange AX2017\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\""+contentLocation+"\",\"contentResponse\":\"stream\",\"contentStreamData\":\""+callbackMethod+"?remainOnServer=0&fileTag="+tempFileName+"&Type="+outputFormat+"\"}";
 
             myoutput[0] = "SVG response: "+CVJSresponse;
             if (cvjs_debug == "true") File.AppendAllLines(absFilePath, myoutput);
-
-
 
             // send callback message and terminate
             context.Response.Write(CVJSresponse);

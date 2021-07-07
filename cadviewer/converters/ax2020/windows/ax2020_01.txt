@@ -8,10 +8,13 @@ Copyright (c) 2017, 2018, 2019, 2020, 2021 Tailor Made Software, Ltd.
 Thank you for trying this demo of AutoXChange 2020
 Please contact sales@tailormade.com to purchase
 
-Input file: C:\cadviewer-testapp-dotnet-01\cadviewer\content\drawings\dwg\City_base_map.dwg
-Output File Name: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\F838812.svg
-Processing First Layout: 8.5 x 11 plot
-ViewName: 8.5 x 11 plot
-Read 469139 bytes, Wrote 102855 bytes, Compression factor 78.08%
+Input file: C:\cadviewer-testapp-dotnet-01\cadviewer\content\drawings\dwg\LUCB11 Palmero_Survey_PERMIT SET.DWF
+Output File Name: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\F850280.svg
+Skipping Empty Layout: Layout1
+Skipping Empty Layout: Model
+Skipping Empty Layout: Layout2
+Processing First Layout: Layout3
+ViewName: Layout3
+Read 761606 bytes, Wrote 572745 bytes, Compression factor 24.80%
 
-Elapsed Time: 0.71 seconds
+Elapsed Time: 21.717 seconds
