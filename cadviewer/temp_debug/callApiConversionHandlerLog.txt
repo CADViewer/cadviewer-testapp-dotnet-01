@@ -269,3 +269,13 @@ The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows
 Conversion done 
 Content location: C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/LUCB11 Palmero_Survey_PERMIT SET.DWF output format: svgzXX
 SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/LUCB11 Palmero_Survey_PERMIT SET.DWF","contentResponse":"stream","contentStreamData":"http://localhost:53737/getFileHandler.ashx?remainOnServer=0&fileTag=F850280&Type=svgz"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"firstlayout","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 1 XXX firstlayout","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 2 XXX fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_52a.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F294572.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svgz"" -firstlayout "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+New Arguments:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2020_W32_20_05_52a.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F294572.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svgz"" -firstlayout "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/\run_ax2020.bat
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg output format: svgzXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg","contentResponse":"stream","contentStreamData":"http://localhost:53737/getFileHandler.ashx?remainOnServer=0&fileTag=F294572&Type=svgz"}
