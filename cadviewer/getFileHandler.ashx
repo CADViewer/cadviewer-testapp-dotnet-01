@@ -82,9 +82,16 @@ public class Handler : IHttpHandler {
                 }
                 numBytesToRead = bytes.Length;
 
-                UTF8Encoding temp = new UTF8Encoding(true);
 
-                context.Response.Write(temp.GetString(bytes));
+                if (fileType == "svgz")
+                {
+                    context.Response.OutputStream.Write(bytes, 0, bytes.Length);
+                }
+                else
+                {
+                    UTF8Encoding temp = new UTF8Encoding(true);
+                    context.Response.Write(temp.GetString(bytes));
+                }
 
                 context.Response.End();
 
