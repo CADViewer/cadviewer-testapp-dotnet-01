@@ -22,7 +22,9 @@
     <script src="../app/js/jquery-ui-1.11.4.min.js" type="text/javascript"></script>
     <link href="../app/css/jquery-ui-1.11.4.min.css" media="screen" rel="stylesheet" type="text/css" />
 
-    <script src="../app/cv/cv-pro/cadviewer_6.5.09a.min.js" type="text/javascript" ></script> 	 
+
+    <script src="../app/cv/cv-pro/cadviewer_6.5.12.min.js" type="text/javascript"></script>
+
     <script src="../app/cv/cv-custom_commands/CADViewer_custom_commands.js" type="text/javascript"></script>
 
     <script src="../app/cv/cvlicense.js" type="text/javascript"></script>
@@ -57,7 +59,7 @@
         // PATH and FILE to be loaded, can be in formats DWG, DXF, DWF, SVG , JS, DGN, PCF, JPG, GIF, PNG
         // Location of installation folders
         var ServerBackEndUrl = "";
-        var ServerUrl = "http://localhost:53737/";
+        var ServerUrl = "http://localhost:44371/";
         var ServerLocation = "c:/cadviewer-testapp-dotnet-01/cadviewer/";
 
         // PATH and FILE to be loaded, can be in formats DWG, DXF, DWF, SVG , JS, DGN, PCF, JPG, GIF, PNG
@@ -227,7 +229,7 @@
             //      cvjs_conversion_addAXconversionParameter("RL", "EC1 Space Polygons");
             //      cvjs_conversion_addAXconversionParameter("TL", "EC1 Space Numbers");
 
-            cvjs_conversion_addAXconversionParameter("fpath", ServerLocation+ "/converters/ax2020/windows/fonts");
+            cvjs_conversion_addAXconversionParameter("fpath", ServerLocation + "/converters/ax2020/windows/fonts");
 
 
             // NOTE ABOVE: THESE SETTINGS ARE FOR SERVER CONTROLS FOR CONVERTING DWG, DXF, DWF files

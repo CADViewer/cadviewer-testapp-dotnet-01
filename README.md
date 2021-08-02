@@ -10,7 +10,7 @@ CADViewer sample implementation on dotNet w .ASHX Handlers
 For a CADViewer .NET installation on Windows, the base file-structure should be as below: 
 
 <pre style="line-height: 110%">
-c:\VisualStudio
+c:\cadviewer-testapp-dotnet-01
        └─── cadviewer
                ├── app
                │    ├── cv
@@ -58,7 +58,7 @@ c:\VisualStudio
 In folder:
 
 <pre style="line-height: 110%">
-c:\VisualStudio
+c:\cadviewer-testapp-dotnet-01
        └─── cadviewer
                └── Web.config
 
@@ -105,13 +105,13 @@ Open the CADViewer_AshxHandlerSettings.js file, and ensure that the top variable
 {{< gist CADViewer 96af82b6fa64c55a4a40b2e66ab3b1c8 "cadviewer_aspdotnet_54.js" >}}
 
 
-Open a web-browser pointing to your sample html file:    **http:/localhost:53737/html/mysample.html**
+Open a web-browser pointing to your sample html file:    **http:/localhost:44371/html/mysample.html**
 
 Use the server traces and browser development console for debugging, alternatively contact our [Support](/cadviewertechdocs/support/)  
 
 For debugging, the folder:
 <pre style="line-height: 110%">
-c:\VisualStudio
+c:\cadviewer-testapp-dotnet-01
        └─── cadviewer
                └── temp_debug
 </pre>
