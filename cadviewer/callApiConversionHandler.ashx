@@ -354,6 +354,13 @@ public class Handler : IHttpHandler {
 
 
 
+            myoutput[0] = " contentLocation: "+contentLocation+" XXX writeFile="+writeFile;
+            if (cvjs_debug == "true")
+                File.AppendAllLines(absFilePath, myoutput);
+
+
+
+
             // we change for batch call
             str_arr[1] =  "\"-i=\""+writeFile+"\"\"";
             str_arr[2] =  "\"-o=\""+ fileLocation + tempFileName + "."+outputFormat+"\"\"";
