@@ -1,4 +1,3 @@
-Unrecognized Default Unicode Language
                  AutoXchange 2020 V20.05.53d
 Copyright (c) 2017, 2018, 2019, 2020, 2021 Tailor Made Software, Ltd.
                       All Rights Reserved
@@ -9,6 +8,15 @@ Copyright (c) 2017, 2018, 2019, 2020, 2021 Tailor Made Software, Ltd.
 Thank you for trying this demo of AutoXChange 2020
 Please contact sales@tailormade.com to purchase
 
-Input file: C:\cadviewer-testapp-dotnet-01\cadviewer\\content\drawings\dwg\A-304956-WK_SHT_002.jpg
+Input file: C:\cadviewer-testapp-dotnet-01\cadviewer\\content\drawings\dwg\hq17.dwg
+Output File Name: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\F814862.svg
+No PaperSpace Layouts in Drawing, using ModelSpace instead
+ViewName: *FIRSTLAYOUT*
+Typeface: simplex
+Typeface: simplex
+Typeface: simplex
+Typeface: simplex
+Typeface: simplex
+Read 71511 bytes, Wrote 15189 bytes, Compression factor 78.76%
 
-Elapsed Time: 6.797 seconds
+Elapsed Time: 1.079 seconds
