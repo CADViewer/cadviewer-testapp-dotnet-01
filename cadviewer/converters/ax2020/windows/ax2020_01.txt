@@ -1,4 +1,4 @@
-                 AutoXchange 2020 V20.05.53d
+                 AutoXchange 2022 V22.07.54
 Copyright (c) 2017, 2018, 2019, 2020, 2021 Tailor Made Software, Ltd.
                       All Rights Reserved
 
@@ -9,7 +9,7 @@ Thank you for trying this demo of AutoXChange 2020
 Please contact sales@tailormade.com to purchase
 
 Input file: C:\cadviewer-testapp-dotnet-01\cadviewer\\content\drawings\dwg\hq17.dwg
-Output File Name: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\F814862.svg
+Output File Name: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\F152893.svg
 No PaperSpace Layouts in Drawing, using ModelSpace instead
 ViewName: *FIRSTLAYOUT*
 Typeface: simplex
@@ -17,6 +17,6 @@ Typeface: simplex
 Typeface: simplex
 Typeface: simplex
 Typeface: simplex
-Read 71511 bytes, Wrote 15189 bytes, Compression factor 78.76%
+Read 71510 bytes, Wrote 15189 bytes, Compression factor 78.76%
 
-Elapsed Time: 1.079 seconds
+Elapsed Time: 0.519 seconds
