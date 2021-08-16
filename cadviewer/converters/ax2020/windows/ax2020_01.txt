@@ -8,15 +8,12 @@ Copyright (c) 2017, 2018, 2019, 2020, 2021 Tailor Made Software, Ltd.
 Thank you for trying this demo of AutoXChange 2020
 Please contact sales@tailormade.com to purchase
 
-Input file: C:\cadviewer-testapp-dotnet-01\cadviewer\\content\drawings\dwg\hq17.dwg
-Output File Name: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\F152893.svg
+Input file: C:\cadviewer-testapp-dotnet-01\cadviewer\content\drawings\test\I-DE-3010.66-1415-140-SXX-036_A.DGN
+No Pen Table Defined, defaulting to 0.1 increment for all lines
+Input File Name: I-DE-3010.66-1415-140-SXX-036_A.DGN
+Output File Name: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\F678529.svg
 No PaperSpace Layouts in Drawing, using ModelSpace instead
 ViewName: *FIRSTLAYOUT*
-Typeface: simplex
-Typeface: simplex
-Typeface: simplex
-Typeface: simplex
-Typeface: simplex
-Read 71510 bytes, Wrote 15189 bytes, Compression factor 78.76%
+Read 2020961 bytes, Wrote 407111 bytes, Compression factor 79.86%
 
-Elapsed Time: 0.519 seconds
+Elapsed Time: 8.212 seconds
