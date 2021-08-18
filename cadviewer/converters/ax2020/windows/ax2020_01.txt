@@ -9,8 +9,8 @@ Thank you for trying this demo of AutoXChange 2020
 Please contact sales@tailormade.com to purchase
 
 Input file: C:\cadviewer-testapp-dotnet-01\cadviewer\\content\drawings\dwg\measure_template.dwg
-Output File Name: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\F264473.svg
+Output File Name: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\F684519.svg
 ViewName: Last Saved View
 Read 15732 bytes, Wrote 4042 bytes, Compression factor 74.31%
 
-Elapsed Time: 0.367 seconds
+Elapsed Time: 0.188 seconds

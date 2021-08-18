@@ -36,7 +36,7 @@ public class Handler : IHttpHandler {
         string fileContent = context.Request["file_content"];
 
 
-        string customContent = context.Request["'custom_content'"];
+        string customContent = context.Request["custom_content"];
 
 
         // we need to create the filePath folder
@@ -83,6 +83,9 @@ public class Handler : IHttpHandler {
 
         context.Response.ContentType = "text/plain";
         context.Response.Write("Succes");
+
+        //    context.Response.Write(customContent);
+
 
     }
 

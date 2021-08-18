@@ -38,7 +38,7 @@ var cvjs_stickyNotesRedlines_Base = {
 
 function cvjs_setUpStickyNotesRedlines(paper){
 
-var cItemRed1= paper.path("M450.86255319148944,295.3563829787234h572.9202127659574v925.2127659574468h-572.9202127659574v-925.2127659574468 Z  ").attr({stroke: "#FF0000", "stroke-width": "4", "fill": "#FF0000", "fill-opacity": "0.1"})
+var cItemRed1= paper.path("M450.86255319148944,295.3563829787234h572.9202127659574v925.2127659574468h-572.9202127659574v-925.2127659574468 Z   ").attr({stroke: "#FF0000", "stroke-width": "4", "fill": "#FF0000", "fill-opacity": "0.1"})
 .data("node","RED_1");
 vqRedlines.push(cItemRed1);
 

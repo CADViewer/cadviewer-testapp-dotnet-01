@@ -35,7 +35,7 @@ public class Handler : IHttpHandler {
         string fileContent = context.Request["file_content"];
 
 
-        string customContent = context.Request["'custom_content'"];
+        string customContent = context.Request["custom_content"];
 
         // we need to create the filePath folder
         //string tmpPrintFolder = HttpContext.Current.Server.MapPath("~\\temp_print");
@@ -84,6 +84,9 @@ public class Handler : IHttpHandler {
 
         context.Response.ContentType = "text/plain";
         context.Response.Write("Post Succes");
+
+        //    context.Response.Write(customContent);
+
 
     }
 
