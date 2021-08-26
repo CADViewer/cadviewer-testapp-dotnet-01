@@ -994,3 +994,15 @@ The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows
 Conversion done 
 Content location: C:/cadviewer-testapp-dotnet-01/cadviewer/content/test/B-2-16-0505-K-CC0064508_R2.DWG output format: svgzXX
 SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer/content/test/B-2-16-0505-K-CC0064508_R2.DWG","contentResponse":"stream","contentStreamData":"http://localhost:44371/getFileHandler.ashx?remainOnServer=0&fileTag=F712858&Type=svgz"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"firstlayout","paramValue":""},{"paramName":"hlall","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 1 XXX firstlayout","paramValue":""},{"paramName":"hlall","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 2 XXX hlall","paramValue":""},{"paramName":"fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+ paramcount: 3 XXX fpath","paramValue":"c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/"}
+YYY C:\cadviewer-testapp-dotnet-01\cadviewer\content\drawings\dwg\City_base_map.dwg
+ contentLocation: C:\cadviewer-testapp-dotnet-01\cadviewer\content\drawings\dwg\City_base_map.dwg XXX writeFile=C:\cadviewer-testapp-dotnet-01\cadviewer\content\drawings\dwg\City_base_map.dwg
+C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2022_W64_22_07_54.exe "-i="C:\cadviewer-testapp-dotnet-01\cadviewer\content\drawings\dwg\City_base_map.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F780179.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svgz"" -firstlayout -hlall "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+New Arguments:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/AX2022_W64_22_07_54.exe "-i="C:\cadviewer-testapp-dotnet-01\cadviewer\content\drawings\dwg\City_base_map.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F780179.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/" "-f="svgz"" -firstlayout -hlall "-fpath="c:/cadviewer-testapp-dotnet-01/cadviewer//converters/ax2020/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2020/windows/\run_ax2020.bat
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/City_base_map.dwg output format: svgzXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/City_base_map.dwg","contentResponse":"stream","contentStreamData":"http://localhost:44371/getFileHandler.ashx?remainOnServer=0&fileTag=F780179&Type=svgz"}
