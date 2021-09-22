@@ -8,19 +8,21 @@ Copyright (c) 2017, 2018, 2019, 2020, 2021 Tailor Made Software, Ltd.
 Thank you for trying this demo of AutoXChange 2020
 Please contact sales@tailormade.com to purchase
 
-Input file: C:\cadviewer-testapp-dotnet-01\cadviewer\content\drawings\dwg\measure_template.dwg
-SetMeasurement: 1
-SetLinearMeasurement: 2
-SetBlockUnitsFormat: 4
-GetBlockUnitsValue: 0.0393701
-Output File Name: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\F385085.svg
-No PaperSpace Layouts in Drawing, using ModelSpace instead
-ViewName: *FIRSTLAYOUT*
-ratX: 4.05454
-ratY: 4.05454
-svgtoworld: 4.05454
-stwLineTypeScale: 4.05454
-GetBlockUnitsFormat: Millimeters
-Read 15893 bytes, Wrote 4059 bytes, Compression factor 74.46%
+Input file: C:\cadviewer-testapp-dotnet-01\cadviewer\\content\drawings\dwg\hq17_.dwg
+SetMeasurement: 0
+SetLinearMeasurement: 4
+SetBlockUnitsFormat: 0
+GetBlockUnitsValue: 1
+Output File Name: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\F518265.svg
+ViewName: ModelSpace
+ratX: 1.6618
+ratY: 1.6618
+svgtoworld: 1.6618
+stwLineTypeScale: 1.6618
+** 0  LineWidthScale: 1
+  stwLineTypeScale: 1.6618
+==>0.6
+GetBlockUnitsFormat: Undefined
+Read 94442 bytes, Wrote 18506 bytes, Compression factor 80.40%
 
-Elapsed Time: 0.303 seconds
+Elapsed Time: 0.705 seconds

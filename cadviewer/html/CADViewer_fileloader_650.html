@@ -87,6 +87,75 @@
             //cvjs_setHandlers_FrontEnd('dotNet', 'JavaScript', 'floorPlan');   // user controlled back-end
 
 
+
+            /*  IF YOU NEED TO CUSTOM CONTROL ANY OF THE SERVER SIDE HANDLERS, YOU CAN WRITE OVER PATH AND SETTINGS AS PER BELOW   
+                A: replace name and extension with your own code
+                1: note that for PHP + DotNet, a handler will have an extension based on the file on server,  .php or .ashx 
+                2: for DotNetCore, NodeJS, Servlets , the handler name only
+        	
+            */
+            if (false) {    // set to true if custom control of server side scripts
+                cvjs_setRestApiControllerLocation(cvjs_ServerBackEndUrl);
+                cvjs_setRestApiController("callApiConversionHandler.ashx");  	 // AX2020  - controller document for AX2020 server side conversion
+                cvjs_setServerAccessToServlet(true);  // We are telling to use Servlets POST instead of php json connection
+                cvjs_restApiConverter("AutoXchange AX2020");
+                cvjs_restApiConverter("V1.00");
+
+                // SAMPLE SETTINGS FOR ASPX/ ASHX   - ALTERNATIVE TO DEFAULT PHP SETTING
+                cvjs_setServerHandlersPath(cvjs_ServerBackEndUrl);    // location of print handlers, in the standard case this in the /php/ folder with redline and file controllers
+
+                cvjs_setPrintObjectPathAbsolute(cvjs_ServerBackEndUrl + "/temp_print/", cvjs_ServerLocation + "/temp_print/");      // absolute location of Print object, url and server
+                cvjs_setServerSaveFileHandlerPrint("SaveFileHandler.ashx");	// name of server side save-file controller document
+                cvjs_setServerAppendFileHandlerPrint("AppendFileHandler.ashx"); // name of server side append-file controller document
+                cvjs_setServerDeleteFileHandlerPrint("DeleteFileHandler.ashx"); // name of server side delete-file controller docoment
+
+                cvjs_setServerListDirectoryHandler("ListDirectoryContent.ashx");
+                cvjs_setServerLoadHandler("LoadHandler.ashx");
+
+
+                // Controls for merge redlines into DWG or PDF for mail attachments
+                cvjs_setCustomMergedEmailHandler("MergeEmailHandler.ashx");
+                cvjs_setServerCopyFileHandler("CopyHandler.ashx");
+                cvjs_setServerMergeDWGHandler("MergeDwgHandler.ashx");
+                cvjs_setServerScreenToPDFHandler("MakeSinglepagePDF.ashx");
+
+
+                // Servlet settings for multipage SVG and multipage PDF conversion
+                cvjs_setServerListDirectoryHandler("ListDirectoryContent.ashx");
+                cvjs_setReturnPDFparamsController("ReturnPDFParamsHandler.ashx");
+                cvjs_setServerPDFConverterController("ConvertPDFServlet");
+                cvjs_setGetFileController("getFileHandler.ashx");
+
+                // Custom control of PrintToPDF
+                //cvjs_setCustomPDFprintControllerFlag(true);
+                //cvjs_setCustomPDFprintController("ConvertPDFServlet");
+
+
+                // NOTE ABOVE: THESE SETTINGS ARE FOR REPLACING PHP SERVER CONTROLS WITH SERVLETS (OR CUSTOM HANDLERS)
+
+
+                // NOTE BELOW: THESE SETTINGS ARE FOR SERVER CONTROLS FOR UPLOAD OF REDLINES
+                // I am setting the location of the php scripts controlling redlines and file manager relative to (this calling), the default is "../php/"
+                // as defined in cvjs_setServerHandlersPath("../php/")
+
+
+                // REDLINE UPLOAD/SAVE - ALTERNATIVE TO PHP SETTINGS
+                cvjs_setServerSaveHandlerRedlines("SaveRedlinesHandler.ashx");	// name of server side save-file controller document
+                cvjs_setServerLoadHandlerRedlines("LoadRedlinesHandler.ashx"); // name of server side append-file controller document
+                cvjs_setServerRedlinesListDirectoryHandler("ListDirectoryContentRedlines.ashx");
+
+                // SETTING OF CONTROLLER FOR SAVE OF SCREEN BITMAP AND THUMBNAILS
+                cvjs_setServerCreateThumb_StickyNote_Controller("MakeThumbnailsHandler.ashx");
+
+                // Upload Files
+                cvjs_setUploadControllerPath(cvjs_ServerBackEndUrl);
+                cvjs_setUploadController('UploadfileHandler.ashx');
+            }
+		/* END OF OVERWRITE HANDLERS WITH CUSTOM HANDLERS */
+
+
+
+
             cvjs_PrintToPDFWindowRelativeSize(0.4);
             cvjs_setPrintModal_PrintToScale(false);
             //		cvjs_setPrintModal_PrintPDF(false, true);
