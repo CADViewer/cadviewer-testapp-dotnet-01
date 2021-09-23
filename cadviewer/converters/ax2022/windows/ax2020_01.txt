@@ -13,7 +13,7 @@ SetMeasurement: 0
 SetLinearMeasurement: 4
 SetBlockUnitsFormat: 0
 GetBlockUnitsValue: 1
-Output File Name: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\F518265.svg
+Output File Name: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\F790196.svg
 ViewName: ModelSpace
 ratX: 1.6618
 ratY: 1.6618
@@ -23,6 +23,6 @@ stwLineTypeScale: 1.6618
   stwLineTypeScale: 1.6618
 ==>0.6
 GetBlockUnitsFormat: Undefined
-Read 94442 bytes, Wrote 18506 bytes, Compression factor 80.40%
+Read 94442 bytes, Wrote 18507 bytes, Compression factor 80.40%
 
-Elapsed Time: 0.705 seconds
+Elapsed Time: 0.486 seconds
