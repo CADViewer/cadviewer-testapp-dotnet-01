@@ -40,6 +40,30 @@ public class Handler : IHttpHandler {
         string ServerLocation = ConfigurationManager.AppSettings["ServerLocation"];
         string ServerUrl = ConfigurationManager.AppSettings["ServerUrl"];
 
+
+        try
+        {
+
+            string loadtype = context.Request["loadtype"].Trim('/');
+
+            if (loadtype.IndexOf("serverfilelist") == 0)
+            {
+                 if (filePath.IndexOf(ServerUrl) == 0)
+                    {
+                        //do nothing!! - handle below
+                    }
+                 else
+                    filePath = ServerLocation + filePath;
+            }
+
+
+        }
+        catch (Exception Ex)
+        {
+            Console.WriteLine(Ex.Message);
+        }
+
+
         if (filePath.IndexOf(ServerUrl) == 0)
         {
             filePath = ServerLocation + filePath.Substring(ServerUrl.Length);

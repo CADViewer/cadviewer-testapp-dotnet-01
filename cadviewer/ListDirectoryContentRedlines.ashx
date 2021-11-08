@@ -3,6 +3,9 @@
 using System;
 using System.Web;
 using System.IO;
+using System.Text;
+using System.Configuration;
+
 
 
 public class Handler : IHttpHandler {
@@ -33,7 +36,38 @@ public class Handler : IHttpHandler {
 
         string  filePath = context.Request["directory"].Trim('/');
 
+        string ServerLocation = ConfigurationManager.AppSettings["ServerLocation"];
+        string ServerUrl = ConfigurationManager.AppSettings["ServerUrl"];
+        string AppLocation = ConfigurationManager.AppSettings["AppLocation"];
+
         context.Response.Write(filePath);
+
+        try
+        {
+            string loadtype = context.Request["listtype"].Trim('/');
+            if (loadtype.IndexOf("serverfolder") == 0)
+            {
+
+                 if (filePath.IndexOf(ServerUrl) == 0)
+                    {
+                        //do nothing!! - handle below
+                    }
+                 else
+                    filePath = ServerLocation + filePath;
+            }
+
+        }
+        catch(Exception ee){
+            Console.WriteLine(ee.Message);
+
+        }
+
+        if (filePath.IndexOf(ServerUrl) == 0)
+        {
+            filePath = ServerLocation + filePath.Substring(ServerUrl.Length);
+        }
+
+
 
         string[] fileArray = Directory.GetFiles(filePath);
 

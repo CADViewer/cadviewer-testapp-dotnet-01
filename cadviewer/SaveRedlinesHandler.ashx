@@ -4,6 +4,8 @@ using System;
 using System.Web;
 using System.IO;
 using System.Text;
+using System.Configuration;
+
 
 public class Handler : IHttpHandler {
 
@@ -35,8 +37,45 @@ public class Handler : IHttpHandler {
         string filePath =  DecodeUrlString(context.Request["file"]).Trim('/');
         string fileContent = context.Request["file_content"];
 
-
         string customContent = context.Request["custom_content"];
+
+
+        string ServerLocation = ConfigurationManager.AppSettings["ServerLocation"];
+        string ServerUrl = ConfigurationManager.AppSettings["ServerUrl"];
+        string AppLocation = ConfigurationManager.AppSettings["AppLocation"];
+
+
+        try
+        {
+
+            string listtype = context.Request["listtype"].Trim('/');
+
+            if (listtype.IndexOf("serverfolder") == 0)
+            {
+                if (filePath.IndexOf(ServerUrl) == 0)
+                {
+                    // do nothing 
+                }
+                else
+                    filePath = ServerLocation + filePath;
+            }
+
+
+        }
+        catch (Exception Ex)
+        {
+            Console.WriteLine(Ex.Message);
+        }
+
+
+
+
+        if (filePath.IndexOf(ServerUrl) == 0)
+        {
+
+            filePath = ServerLocation + filePath.Substring(ServerUrl.Length);
+
+        }
 
 
         // we need to create the filePath folder

@@ -1,6 +1,6 @@
- header: data:image/png;base64 XXX C:/cadviewer-testapp-dotnet-01/cadviewer/hq17_Oct_7_H13_10
- arguments: -i=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/hq17_Oct_7_H13_10.png -o=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/hq17_Oct_7_H13_10.pdf -f=pdf -model -landscape -A4
- arguments: -i=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/hq17_Oct_7_H13_10.png -o=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/hq17_Oct_7_H13_10.pdf -f=pdf -model -landscape -A4 XXX 
+ header: data:image/png;base64 XXX C:/cadviewer-testapp-dotnet-01/cadviewer/hq17_Nov_8_H08_10
+ arguments: -i=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/hq17_Nov_8_H08_10.png -o=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/hq17_Nov_8_H08_10.pdf -f=pdf -model -landscape -A4
+ arguments: -i=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/hq17_Nov_8_H08_10.png -o=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/hq17_Nov_8_H08_10.pdf -f=pdf -model -landscape -A4 XXX 
 output>>Unrecognized Default Unicode Language
                  AutoXchange 2022 64-bit  V22.07.55f
 Copyright (c) 2017, 2018, 2019, 2020, 2021 Tailor Made Software, Ltd.
@@ -12,9 +12,9 @@ Copyright (c) 2017, 2018, 2019, 2020, 2021 Tailor Made Software, Ltd.
 Thank you for trying this demo of AutoXChange 2020
 Please contact sales@tailormade.com to purchase
 
-Input file: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\hq17_Oct_7_H13_10.png
+Input file: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\hq17_Nov_8_H08_10.png
 
-Elapsed Time: 1.841 seconds
+Elapsed Time: 1.894 seconds
 
 error>>(none)
 ExitCode: 0
