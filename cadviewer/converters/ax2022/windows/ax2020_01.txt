@@ -8,34 +8,22 @@ Copyright (c) 2017, 2018, 2019, 2020, 2021 Tailor Made Software, Ltd.
 Thank you for trying this demo of AutoXChange 2020
 Please contact sales@tailormade.com to purchase
 
-Input file: C:\cadviewer-testapp-dotnet-01\cadviewer\content\drawings\dwg\1st floor plan.dwg
+Input file: C:\cadviewer-testapp-dotnet-01\cadviewer\\content\drawings\dwg\hq17.dwg
 SetMeasurement: 0
-SetLinearMeasurement: 2
+SetLinearMeasurement: 4
 SetBlockUnitsFormat: 0
 GetBlockUnitsValue: 1
-Output File Name: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\F343595.svg
-ViewName: Last Saved View
-Polyline
-viewportClipPaths addPoint
-viewportClipPaths addPoint
-viewportClipPaths addPoint
-viewportClipPaths addPoint
-viewportClipPaths addPoint
-viewportClipPaths addPoint
-viewportClipPaths addPoint
-viewportClipPaths addPoint
-viewportClipPaths pushBack
-ratX: 1.70545
-ratY: 1.5986
-svgtoworld: 1.70545
-stwLineTypeScale: 1.70545
-** 0.6826  LineWidthScale: 1
-  stwLineTypeScale: 1.70545
-==>0.6
-** 0.2  LineWidthScale: 1
-  stwLineTypeScale: 1.70545
+Output File Name: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\F872774.svg
+No PaperSpace Layouts in Drawing, using ModelSpace instead
+ViewName: *FIRSTLAYOUT*
+ratX: 1.6618
+ratY: 1.6618
+svgtoworld: 1.6618
+stwLineTypeScale: 1.6618
+** 0  LineWidthScale: 1
+  stwLineTypeScale: 1.6618
 ==>0.6
 GetBlockUnitsFormat: Undefined
-Read 984358 bytes, Wrote 117351 bytes, Compression factor 88.08%
+Read 278208 bytes, Wrote 37281 bytes, Compression factor 86.60%
 
-Elapsed Time: 1.099 seconds
+Elapsed Time: 0.579 seconds
