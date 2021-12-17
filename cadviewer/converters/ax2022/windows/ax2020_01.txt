@@ -1,29 +1,23 @@
-                 AutoXchange 2022 64-bit  V22.07.55f
+                 AutoXchange 2022 64-bit  V22.11.60
 Copyright (c) 2017, 2018, 2019, 2020, 2021 Tailor Made Software, Ltd.
                       All Rights Reserved
 
   Portions Copyright (c) 1997-2016, Tailor Made Software, Ltd.
 ============================================================
 
-Thank you for trying this demo of AutoXChange 2020
+Thank you for trying this demo of AutoXChange 2022
 Please contact sales@tailormade.com to purchase
 
-Input file: C:\cadviewer-testapp-dotnet-01\cadviewer\\content\drawings\dwg\hq17.dwg
-SetMeasurement: 0
-SetLinearMeasurement: 4
-SetBlockUnitsFormat: 0
-GetBlockUnitsValue: 1
-Output File Name: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\F872774.svg
-No PaperSpace Layouts in Drawing, using ModelSpace instead
-ViewName: *FIRSTLAYOUT*
-ratX: 1.6618
-ratY: 1.6618
-svgtoworld: 1.6618
-stwLineTypeScale: 1.6618
-** 0  LineWidthScale: 1
-  stwLineTypeScale: 1.6618
-==>0.6
-GetBlockUnitsFormat: Undefined
-Read 278208 bytes, Wrote 37281 bytes, Compression factor 86.60%
+Input file: C:\cadviewer-testapp-dotnet-01\cadviewer\\content\drawings\dwg\AL038.dwg
+Output File Name: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\F349465.svg
+ViewName: ModelSpace
+*** Unsupported Entity Type: ELLIPSE ***
+*** Unsupported Entity Type: ELLIPSE ***
+*** Unsupported Entity Type: ELLIPSE ***
+*** Unsupported Entity Type: ELLIPSE ***
+*** Unsupported Entity Type: ELLIPSE ***
+*** Unsupported Entity Type: ELLIPSE ***
+: Invalid extents
+OpenFile: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\F349465.svg
 
-Elapsed Time: 0.579 seconds
+Elapsed Time: 5.54 seconds
