@@ -1,4 +1,4 @@
-                 AutoXchange 2022 64-bit  V22.11.60
+                 AutoXchange 2022 64-bit  V22.11.61
 Copyright (c) 2017, 2018, 2019, 2020, 2021 Tailor Made Software, Ltd.
                       All Rights Reserved
 
@@ -8,16 +8,9 @@ Copyright (c) 2017, 2018, 2019, 2020, 2021 Tailor Made Software, Ltd.
 Thank you for trying this demo of AutoXChange 2022
 Please contact sales@tailormade.com to purchase
 
-Input file: C:\cadviewer-testapp-dotnet-01\cadviewer\\content\drawings\dwg\AL038.dwg
-Output File Name: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\F349465.svg
+Input file: C:\cadviewer-testapp-dotnet-01\cadviewer\\content\drawings\dwg\hq17_.dwg
+Output File Name: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\F3476.svg
 ViewName: ModelSpace
-*** Unsupported Entity Type: ELLIPSE ***
-*** Unsupported Entity Type: ELLIPSE ***
-*** Unsupported Entity Type: ELLIPSE ***
-*** Unsupported Entity Type: ELLIPSE ***
-*** Unsupported Entity Type: ELLIPSE ***
-*** Unsupported Entity Type: ELLIPSE ***
-: Invalid extents
-OpenFile: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\F349465.svg
+OpenFile: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\F3476.svg
 
-Elapsed Time: 5.54 seconds
+Elapsed Time: 0.489 seconds
