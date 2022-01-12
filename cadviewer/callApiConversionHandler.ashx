@@ -438,7 +438,7 @@ public class Handler : IHttpHandler {
                 }
 
 
-                bool nobat = false;
+                bool nobat = true;       // 2022-01-12 we make nobat true!!!!
                 // move all this processing
 
                 if (nobat)
