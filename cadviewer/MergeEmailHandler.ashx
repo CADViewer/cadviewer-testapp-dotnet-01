@@ -97,8 +97,34 @@ public class Handler : IHttpHandler {
             string mail_title = myRequest.Substring( (myRequest.IndexOf("mail_title")+11), (myRequest.IndexOf( "&", myRequest.IndexOf("mail_title")+11)) - (myRequest.IndexOf("mail_title")+11) );
             string from_mail = myRequest.Substring( (myRequest.IndexOf("from_mail")+10), (myRequest.IndexOf( "&", myRequest.IndexOf("from_mail")+10)) - (myRequest.IndexOf("from_mail")+10) );
             string pdf_file_name = myRequest.Substring( (myRequest.IndexOf("pdf_file_name")+14), (myRequest.IndexOf( "&", myRequest.IndexOf("pdf_file_name")+14)) - (myRequest.IndexOf("pdf_file_name")+14));
+            string listtype = myRequest.Substring( (myRequest.IndexOf("listtype")+9), (myRequest.IndexOf( "&", myRequest.IndexOf("listtype")+9)) - (myRequest.IndexOf("listtype")+9));
             //            string mail_message = myRequest.Substring( (myRequest.IndexOf("mail_message")+13), (myRequest.IndexOf( "&", myRequest.IndexOf("mail_message")+13)) -(myRequest.IndexOf("mail_message")+13) );
             string mail_message = myRequest.Substring(myRequest.IndexOf("mail_message")+13);
+
+
+
+
+                           // context.Response.Write("listtype:" + listtype);
+
+
+           try{
+
+            if (listtype.IndexOf("serverfolder") == 0)
+            {
+                if (pdf_file.IndexOf(ServerUrl) == 0)
+                {
+                    // do nothing 
+                }
+                else
+                    pdf_file = ServerLocation + pdf_file;
+            }
+            }
+            catch(Exception ee){
+                Console.WriteLine(ee.Message);
+
+            }
+
+
 
 
             /*
