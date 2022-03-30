@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.168
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "cadviewer", "cadviewer\", "{167359A5-7D42-48A1-9D8A-A57AF8CECF78}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "cadviewer(1)", "cadviewer\", "{167359A5-7D42-48A1-9D8A-A57AF8CECF78}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_44371"
 		Debug.AspNetCompiler.PhysicalPath = "cadviewer\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_44371\"
