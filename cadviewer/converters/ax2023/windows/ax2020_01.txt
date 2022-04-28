@@ -1,0 +1,510 @@
+                 AutoXchange 2022 64-bit  V22.12.63
+Copyright (c) 2017, 2018, 2019, 2020, 2021, 2022 Tailor Made Software, Ltd.
+                         All Rights Reserved
+
+     Portions Copyright (c) 1997-2016, Tailor Made Software, Ltd.
+===========================================================================
+Parameter #1: -i=C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/custom/AL038.dwg
+Parameter #2: -o=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F583454.svgz
+Parameter #3: -lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2022/windows/
+Parameter #4: -f=svgz
+Parameter #5: -model
+Parameter #6: -rl=A-AREA
+Parameter #7: -tl=A-AREA-IDEN
+Parameter #8: -tag=FMS:RMID
+Parameter #9: -ib=szt-arm-2d
+Parameter #10: -part_off=0
+Parameter #11: -trace
+Parameter #12: -fpath=/converters/ax2020/windows/fonts
+Output Name: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\F583454.svgz
+GetFontPath: \converters\ax2020\windows\fonts\
+GetRLayers: A-AREA
+GetAttributeName: FMS:RMID
+GetTLayers: A-AREA-IDEN
+GetDefaultItalicFont: ARIALI
+Saving MAC or IP: fe80::81c5:82:fe48:bbcb
+CreateMacHash
+MAC Id or IP: fe8081c582fe48bbcb
+New Hash: 70fd3998cd3be3db2845848c98318efdf9ccee08216ae4ea9ab9518a89ec6799
+Saving MAC or IP: 169.254.187.203
+CreateMacHash
+MAC Id or IP: 169254187203
+New Hash: 109cc25e3fffc6dd11017cd83bc29662deba6003cb8580add432930dc7035098
+Saving MAC or IP: ff01::1
+Saving MAC or IP: ff02::1
+Saving MAC or IP: ff02::fb
+CreateMacHash
+MAC Id or IP: ff02fb
+New Hash: 80e2aa5a50c91e92756c26c48f9b4cc9d78fae322db9307731414e2ad7ae6d36
+Saving MAC or IP: ff02::1:3
+CreateMacHash
+MAC Id or IP: ff0213
+New Hash: 30d39e3bab2ddf413f2562b7f9db94c36102d1b80f72a9c5cf427a2376dbe11c
+Saving MAC or IP: ff02::1:ff48:bbcb
+CreateMacHash
+MAC Id or IP: ff021ff48bbcb
+New Hash: 6789b522dbf48c14ff0825598daa64532cbaf127135f6c7fa2128f6edbc5a4b2
+Saving MAC or IP: 224.0.0.1
+CreateMacHash
+MAC Id or IP: 224001
+New Hash: e13f3afa040a765eb1071eebc7f7b592ef6c5539646a13a0e33fb64b3c3d2c73
+Saving MAC or IP: fe80::d56f:837b:9b38:75a1
+CreateMacHash
+MAC Id or IP: fe80d56f837b9b3875a1
+New Hash: 9be8f296ac2fd3c16a5ebc2426384a50a18203dd88d938826bf2e7a33af2ffd4
+Saving MAC or IP: 172.29.96.1
+CreateMacHash
+MAC Id or IP: 17229961
+New Hash: e28de3253248d7401ca8f7c0a3d28b5d59832087b447a22a665c3341106f9587
+Saving MAC or IP: ff01::1
+Saving MAC or IP: ff02::1
+Saving MAC or IP: ff02::c
+Saving MAC or IP: ff02::fb
+Saving MAC or IP: ff02::1:ff38:75a1
+CreateMacHash
+MAC Id or IP: ff021ff3875a1
+New Hash: 0a283a6e7cc578fdb4c421c6afcde4bba019149577e1b5086a4a35916e620210
+Saving MAC or IP: 224.0.0.1
+Saving MAC or IP: 224.0.0.251
+CreateMacHash
+MAC Id or IP: 22400251
+New Hash: 1ac74ffbf562c39735ad849078e9fbac8e6555b353af19ed235149155944829d
+Saving MAC or IP: 239.255.255.250
+CreateMacHash
+MAC Id or IP: 239255255250
+New Hash: 36b45fcebe0188822612b5230df0a76031f75cbca10467ef1e19debb7894dae7
+Saving MAC or IP: fe80::b8c7:21a4:5e2a:8fad
+CreateMacHash
+MAC Id or IP: fe80b8c721a45e2a8fad
+New Hash: 03de05c8eadb765e6eda25313440c923b85b2bb62bd320daad6a98c524232c22
+Saving MAC or IP: 192.168.56.1
+CreateMacHash
+MAC Id or IP: 192168561
+New Hash: 755fd1649278b86b97f3a999b4ac01e297429c38267072d6f6cff32d50286051
+Saving MAC or IP: ff01::1
+Saving MAC or IP: ff02::1
+Saving MAC or IP: ff02::c
+Saving MAC or IP: ff02::fb
+Saving MAC or IP: ff02::1:3
+Saving MAC or IP: ff02::1:ff2a:8fad
+CreateMacHash
+MAC Id or IP: ff021ff2a8fad
+New Hash: e2b242f9c15c8e0ad59b75aff519bd78b8c666c7ca43df689d825fbcc0fc2a03
+Saving MAC or IP: 224.0.0.1
+Saving MAC or IP: 224.0.0.251
+Saving MAC or IP: 224.0.0.252
+CreateMacHash
+MAC Id or IP: 22400252
+New Hash: cd2b8de53f2b15ee21dbe3c4deca06a2fd0374fa2fc2330866b0f88395be870e
+Saving MAC or IP: 239.255.255.250
+Saving MAC or IP: fe80::85cb:46f:154f:be0d
+CreateMacHash
+MAC Id or IP: fe8085cb46f154fbe0d
+New Hash: c6cd4dfe4e1b038cf01a196eb95cd0bfd3b227fbc7ee9d8532ca5ddd66d91dbe
+Saving MAC or IP: 169.254.190.13
+CreateMacHash
+MAC Id or IP: 16925419013
+New Hash: 9f96793e95a72568a3a691b9bbc4147fa80700ea8e951f4b6044055ce8c3b7d0
+Saving MAC or IP: ff01::1
+Saving MAC or IP: ff02::1
+Saving MAC or IP: ff02::1:ff4f:be0d
+CreateMacHash
+MAC Id or IP: ff021ff4fbe0d
+New Hash: 285cf22f84ef9616b2e2e90cf16e9d7b9dea76b4fc2d3f6c2213dc9ceda887fb
+Saving MAC or IP: 224.0.0.1
+Saving MAC or IP: fe80::2caa:6302:d5c9:2778
+CreateMacHash
+MAC Id or IP: fe802caa6302d5c92778
+New Hash: fa82dea1630444ad30d4ee0f0c37a4e3ff0f755d79dfad4f1b54fddf77a87504
+Saving MAC or IP: 169.254.39.120
+CreateMacHash
+MAC Id or IP: 16925439120
+New Hash: 7b73ce630e3e08823f5a5302468d09ab74e2f6dbb219576d0d6a2c6e0f0fb76a
+Saving MAC or IP: ff01::1
+Saving MAC or IP: ff02::1
+Saving MAC or IP: ff02::1:ffc9:2778
+CreateMacHash
+MAC Id or IP: ff021ffc92778
+New Hash: 2be8e95ff62465e878b7085d6b2b27b6873f018e3fdab5a54d09ed85e3235bed
+Saving MAC or IP: 224.0.0.1
+Saving MAC or IP: fe80::a0ec:5355:e7db:7d1b
+CreateMacHash
+MAC Id or IP: fe80a0ec5355e7db7d1b
+New Hash: 245c09c062258206b14da932efa0c23b7bd07d13f9830ebd6d28584d1ce39d99
+Saving MAC or IP: 192.168.1.135
+CreateMacHash
+MAC Id or IP: 1921681135
+New Hash: cb80cdbc60d30f90340853f68293d69fc627c3551c4381deae8bb02d8adefde1
+Saving MAC or IP: ff01::1
+Saving MAC or IP: ff02::1
+Saving MAC or IP: ff02::c
+Saving MAC or IP: ff02::fb
+Saving MAC or IP: ff02::1:3
+Saving MAC or IP: ff02::1:ffdb:7d1b
+CreateMacHash
+MAC Id or IP: ff021ffdb7d1b
+New Hash: 351f249ec1977b68607a2aaae2227b6b848a5a31b45d4fe0bba42cb41d3d9078
+Saving MAC or IP: 224.0.0.1
+Saving MAC or IP: 224.0.0.251
+Saving MAC or IP: 224.0.0.252
+Saving MAC or IP: 239.255.255.250
+Saving MAC or IP: fe80::e0ef:64fd:60eb:c8b4
+CreateMacHash
+MAC Id or IP: fe80e0ef64fd60ebc8b4
+New Hash: 15f6621bb2e24455ba83d46c7a46cb020d26642346081b6625e2195176d29296
+Saving MAC or IP: 169.254.200.180
+CreateMacHash
+MAC Id or IP: 169254200180
+New Hash: 49ddb9ffe92f67c058b359066c612f1cae8ad701656b2fcc53cead6bb2ff1c33
+Saving MAC or IP: ff01::1
+Saving MAC or IP: ff02::1
+Saving MAC or IP: ff02::1:ffeb:c8b4
+CreateMacHash
+MAC Id or IP: ff021ffebc8b4
+New Hash: 9e6a396531760e40b727e55ab1fe875294c7eb8dd8d33b9a5225318b7dc01181
+Saving MAC or IP: 224.0.0.1
+Saving MAC or IP: ::1
+Saving MAC or IP: 127.0.0.1
+CreateMacHash
+MAC Id or IP: 127001
+New Hash: 216b443ae3634898553e1ba9f0436169a412b66eef9d5691ccbd277c31471c1f
+Saving MAC or IP: ff02::c
+Saving MAC or IP: 239.255.255.250
+Saving MAC or IP: 3c-95-09-f1-47-3e
+CreateMacHash
+MAC Id or IP: 3c9509f1473e
+New Hash: c984a7361cdfd49f78d2deb4e5dae685a95f1fe8a75d34640e66cdebaf355a98
+Saving MAC or IP: 70-88-6b-83-b6-27
+CreateMacHash
+MAC Id or IP: 70886b83b627
+New Hash: 2123cda089bdcba6154482b2e505ff6daf7e040978afe2e6620a6ff3a41f17bf
+Saving MAC or IP: 00-15-5d-2b-99-43
+CreateMacHash
+MAC Id or IP: 00155d2b9943
+New Hash: 0b968e3741b2ed15938844931631d2a4c15a4bc7f4116cd6cc136f8614580775
+Saving MAC or IP: 0a-00-27-00-00-06
+CreateMacHash
+MAC Id or IP: 0a0027000006
+New Hash: ea5c5c904d58359a2194dbc864b7f36f881165ed697da97cc245a45151f87f9f
+Saving MAC or IP: 3c-95-09-f1-47-3d
+CreateMacHash
+MAC Id or IP: 3c9509f1473d
+New Hash: 98cc13597242e884edf09d79ffc728e1b1b83ae92753e233143bb4b3327aa784
+Saving MAC or IP: 3e-95-09-f1-47-3d
+CreateMacHash
+MAC Id or IP: 3e9509f1473d
+New Hash: 927a614a5c99ae81cc93722ff4cf604fbeffbf83c2b9b020bfeee0445c7e9bf4
+Saving MAC or IP: 4e-95-09-f1-47-3d
+CreateMacHash
+MAC Id or IP: 4e9509f1473d
+New Hash: d8d6c228da2f9e5aa0ea229be2ff01eceb595deeb4282cbbce0f9bf054651593
+Read AutoXChange 2019 Key
+License Key Found
+     Hash: 70fd3998cd3be3db2845848c98318efdf9ccee08216ae4ea9ab9518a89ec6799
+     User: ccc3cb2881a94e93d5a564e377802ddced082c64f382103bc5c6128e85784228
+     Hash: 109cc25e3fffc6dd11017cd83bc29662deba6003cb8580add432930dc7035098
+     User: ccc3cb2881a94e93d5a564e377802ddced082c64f382103bc5c6128e85784228
+     Hash: 80e2aa5a50c91e92756c26c48f9b4cc9d78fae322db9307731414e2ad7ae6d36
+     User: ccc3cb2881a94e93d5a564e377802ddced082c64f382103bc5c6128e85784228
+     Hash: 30d39e3bab2ddf413f2562b7f9db94c36102d1b80f72a9c5cf427a2376dbe11c
+     User: ccc3cb2881a94e93d5a564e377802ddced082c64f382103bc5c6128e85784228
+     Hash: 6789b522dbf48c14ff0825598daa64532cbaf127135f6c7fa2128f6edbc5a4b2
+     User: ccc3cb2881a94e93d5a564e377802ddced082c64f382103bc5c6128e85784228
+     Hash: e13f3afa040a765eb1071eebc7f7b592ef6c5539646a13a0e33fb64b3c3d2c73
+     User: ccc3cb2881a94e93d5a564e377802ddced082c64f382103bc5c6128e85784228
+     Hash: 9be8f296ac2fd3c16a5ebc2426384a50a18203dd88d938826bf2e7a33af2ffd4
+     User: ccc3cb2881a94e93d5a564e377802ddced082c64f382103bc5c6128e85784228
+     Hash: e28de3253248d7401ca8f7c0a3d28b5d59832087b447a22a665c3341106f9587
+     User: ccc3cb2881a94e93d5a564e377802ddced082c64f382103bc5c6128e85784228
+     Hash: 0a283a6e7cc578fdb4c421c6afcde4bba019149577e1b5086a4a35916e620210
+     User: ccc3cb2881a94e93d5a564e377802ddced082c64f382103bc5c6128e85784228
+     Hash: 1ac74ffbf562c39735ad849078e9fbac8e6555b353af19ed235149155944829d
+     User: ccc3cb2881a94e93d5a564e377802ddced082c64f382103bc5c6128e85784228
+     Hash: 36b45fcebe0188822612b5230df0a76031f75cbca10467ef1e19debb7894dae7
+     User: ccc3cb2881a94e93d5a564e377802ddced082c64f382103bc5c6128e85784228
+     Hash: 03de05c8eadb765e6eda25313440c923b85b2bb62bd320daad6a98c524232c22
+     User: ccc3cb2881a94e93d5a564e377802ddced082c64f382103bc5c6128e85784228
+     Hash: 755fd1649278b86b97f3a999b4ac01e297429c38267072d6f6cff32d50286051
+     User: ccc3cb2881a94e93d5a564e377802ddced082c64f382103bc5c6128e85784228
+     Hash: e2b242f9c15c8e0ad59b75aff519bd78b8c666c7ca43df689d825fbcc0fc2a03
+     User: ccc3cb2881a94e93d5a564e377802ddced082c64f382103bc5c6128e85784228
+     Hash: cd2b8de53f2b15ee21dbe3c4deca06a2fd0374fa2fc2330866b0f88395be870e
+     User: ccc3cb2881a94e93d5a564e377802ddced082c64f382103bc5c6128e85784228
+     Hash: c6cd4dfe4e1b038cf01a196eb95cd0bfd3b227fbc7ee9d8532ca5ddd66d91dbe
+     User: ccc3cb2881a94e93d5a564e377802ddced082c64f382103bc5c6128e85784228
+     Hash: 9f96793e95a72568a3a691b9bbc4147fa80700ea8e951f4b6044055ce8c3b7d0
+     User: ccc3cb2881a94e93d5a564e377802ddced082c64f382103bc5c6128e85784228
+     Hash: 285cf22f84ef9616b2e2e90cf16e9d7b9dea76b4fc2d3f6c2213dc9ceda887fb
+     User: ccc3cb2881a94e93d5a564e377802ddced082c64f382103bc5c6128e85784228
+     Hash: fa82dea1630444ad30d4ee0f0c37a4e3ff0f755d79dfad4f1b54fddf77a87504
+     User: ccc3cb2881a94e93d5a564e377802ddced082c64f382103bc5c6128e85784228
+     Hash: 7b73ce630e3e08823f5a5302468d09ab74e2f6dbb219576d0d6a2c6e0f0fb76a
+     User: ccc3cb2881a94e93d5a564e377802ddced082c64f382103bc5c6128e85784228
+     Hash: 2be8e95ff62465e878b7085d6b2b27b6873f018e3fdab5a54d09ed85e3235bed
+     User: ccc3cb2881a94e93d5a564e377802ddced082c64f382103bc5c6128e85784228
+     Hash: 245c09c062258206b14da932efa0c23b7bd07d13f9830ebd6d28584d1ce39d99
+     User: ccc3cb2881a94e93d5a564e377802ddced082c64f382103bc5c6128e85784228
+     Hash: cb80cdbc60d30f90340853f68293d69fc627c3551c4381deae8bb02d8adefde1
+     User: ccc3cb2881a94e93d5a564e377802ddced082c64f382103bc5c6128e85784228
+     Hash: 351f249ec1977b68607a2aaae2227b6b848a5a31b45d4fe0bba42cb41d3d9078
+     User: ccc3cb2881a94e93d5a564e377802ddced082c64f382103bc5c6128e85784228
+     Hash: 15f6621bb2e24455ba83d46c7a46cb020d26642346081b6625e2195176d29296
+     User: ccc3cb2881a94e93d5a564e377802ddced082c64f382103bc5c6128e85784228
+     Hash: 49ddb9ffe92f67c058b359066c612f1cae8ad701656b2fcc53cead6bb2ff1c33
+     User: ccc3cb2881a94e93d5a564e377802ddced082c64f382103bc5c6128e85784228
+     Hash: 9e6a396531760e40b727e55ab1fe875294c7eb8dd8d33b9a5225318b7dc01181
+     User: ccc3cb2881a94e93d5a564e377802ddced082c64f382103bc5c6128e85784228
+     Hash: 216b443ae3634898553e1ba9f0436169a412b66eef9d5691ccbd277c31471c1f
+     User: ccc3cb2881a94e93d5a564e377802ddced082c64f382103bc5c6128e85784228
+     Hash: c984a7361cdfd49f78d2deb4e5dae685a95f1fe8a75d34640e66cdebaf355a98
+     User: ccc3cb2881a94e93d5a564e377802ddced082c64f382103bc5c6128e85784228
+     Hash: 2123cda089bdcba6154482b2e505ff6daf7e040978afe2e6620a6ff3a41f17bf
+     User: ccc3cb2881a94e93d5a564e377802ddced082c64f382103bc5c6128e85784228
+     Hash: 0b968e3741b2ed15938844931631d2a4c15a4bc7f4116cd6cc136f8614580775
+     User: ccc3cb2881a94e93d5a564e377802ddced082c64f382103bc5c6128e85784228
+     Hash: ea5c5c904d58359a2194dbc864b7f36f881165ed697da97cc245a45151f87f9f
+     User: ccc3cb2881a94e93d5a564e377802ddced082c64f382103bc5c6128e85784228
+     Hash: 98cc13597242e884edf09d79ffc728e1b1b83ae92753e233143bb4b3327aa784
+     User: ccc3cb2881a94e93d5a564e377802ddced082c64f382103bc5c6128e85784228
+     Hash: 927a614a5c99ae81cc93722ff4cf604fbeffbf83c2b9b020bfeee0445c7e9bf4
+     User: ccc3cb2881a94e93d5a564e377802ddced082c64f382103bc5c6128e85784228
+     Hash: d8d6c228da2f9e5aa0ea229be2ff01eceb595deeb4282cbbce0f9bf054651593
+     User: ccc3cb2881a94e93d5a564e377802ddced082c64f382103bc5c6128e85784228
+Valid License Key Not Found
+
+Thank you for trying this demo of AutoXChange 2022
+Please contact sales@tailormade.com to purchase
+
+Input file: C:\cadviewer-testapp-dotnet-01\cadviewer\\content\drawings\custom\AL038.dwg
+Input File Name: C:\cadviewer-testapp-dotnet-01\cadviewer\\content\drawings\custom\AL038.dwg
+Add to fontPath: \converters\ax2020\windows\fonts\
+REPO Mode: 0
+Add to XPath: c:\cadviewer-testapp-dotnet-01\cadviewer\\content\drawings\custom\
+Add to XPath: c:\cadviewer-testapp-dotnet-01\cadviewer\converters\ax2022\
+Add to XPath: c:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2022/windows\
+Input file: C:\cadviewer-testapp-dotnet-01\cadviewer\\content\drawings\custom\AL038.dwg
+Read input DWG/DXF file
+AutoCAD file succesfully opened
+Input File Name: C:\cadviewer-testapp-dotnet-01\cadviewer\\content\drawings\custom\AL038.dwg
+Get Layer Table
+Room Layer: A-AREA
+Text Layer: A-AREA-IDEN
+Get View Table
+Get Layout Table
+Start Conversion
+CodePage: CP_ANSI_1252
+**** Preprocess File
+Convert to Vector
+Define Generic Defaults
+Define Color Table
+In ResetFile SVG
+Set Output Format Pointer
+Fix Output Name: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\F583454.svgz
+Output File Name: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\F583454.svg
+Create Context Object
+Set Database
+Convert: 1
+ViewName: ModelSpace
+Process Customer Watermark
+Define View: ModelSpace
+DefineView: ModelSpace
+*****Convert To Vector By View
+ConvertToVectorByView
+Set View
+In SetView
+Check LayoutName
+Process ModelSpace
+******************* In ProcessModelSpace *********************
+   ViewName: 
+   setCurrentLayout
+    setupActiveLayoutViews
+    after setupActiveLayoutViews
+    getActiveViewportId
+    getEXTMIN/getEXTMAX
+-------------------------------------
+Checking File: txt
+Checking File: txt
+File Not Found: txt
+Font Path Count: 1
+Check Font Path Item #: 1
+   Path: \converters\ax2020\windows\fonts\
+Checking: \converters\ax2020\windows\fonts\txt
+Found TTF Font: 
+-------------------------------------
+Checking File: txt
+Checking File: txt
+File Not Found: txt
+Font Path Count: 1
+Check Font Path Item #: 1
+   Path: \converters\ax2020\windows\fonts\
+Checking: \converters\ax2020\windows\fonts\txt
+Found TTF Font: 
+-------------------------------------
+Checking File: simplex.shx
+Checking File: simplex.shx
+File Not Found: simplex.shx
+Font Path Count: 1
+Check Font Path Item #: 1
+   Path: \converters\ax2020\windows\fonts\
+Checking: \converters\ax2020\windows\fonts\simplex.shx
+File Not Found: simplex.shx
+Not LastSavedView and View Not Set
+    Zoom To Header
+    Zoom to GeomExtents
+Calculate Geometric Extents
+    Open id
+zoomExtents
+MS Width: 3234.36
+MS Height: 1299.2
+ViewWidth: 2500
+ViewHeight: 1005
+Scale Drawing
+SetPaperSize: 0
+SetPaperMode: 0
+FixPaperSize
+SetPaperSize
+onSize
+Generate Drawing: 0
+: Invalid extents
+    Attribute: FMSDataDir   bInviz: 1    bViz: 0   Last BlkRef Visible: true  LayerName: 0   BlockLayer: 0
+    Attribute: FMSCONFIG   bInviz: 1    bViz: 0   Last BlkRef Visible: true  LayerName: 0   BlockLayer: 0
+    Attribute: Server   bInviz: 1    bViz: 0   Last BlkRef Visible: true  LayerName: 0   BlockLayer: 0
+    Attribute: WebAPP   bInviz: 1    bViz: 0   Last BlkRef Visible: true  LayerName: 0   BlockLayer: 0
+    Attribute: DrawingID   bInviz: 1    bViz: 0   Last BlkRef Visible: true  LayerName: 0   BlockLayer: 0
+    Attribute: RMAREA   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-TTL   BlockLayer: A-TTL
+-------------------------------------
+Checking File: txt.ttf
+Checking File: txt.ttf
+File Not Found: txt.ttf
+Font Path Count: 1
+Check Font Path Item #: 1
+   Path: \converters\ax2020\windows\fonts\
+Checking: \converters\ax2020\windows\fonts\txt.ttf
+File Not Found: txt.ttf
+    Attribute: RMPL   bInviz: 1    bViz: 0   Last BlkRef Visible: true  LayerName: A-TTL   BlockLayer: A-TTL
+    Attribute: RMTEXT   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-TTL   BlockLayer: A-TTL
+-------------------------------------
+Checking File: txt.ttf
+Checking File: txt.ttf
+File Not Found: txt.ttf
+Font Path Count: 1
+Check Font Path Item #: 1
+   Path: \converters\ax2020\windows\fonts\
+Checking: \converters\ax2020\windows\fonts\txt.ttf
+File Not Found: txt.ttf
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+    Attribute: FMS:RMID   bInviz: 0    bViz: 0   Last BlkRef Visible: true  LayerName: A-AREA-IDEN   BlockLayer: A-AREA-IDEN
+Release Layout Helper
+CheckExistingPoints
+Exit ConvertToVectorByView
+Save View Settings
+Add Demo Stamp
+Output Drawing
+View: ModelSpace
+OutputDrawing
+Standardize Layer Names
+Process RoomLayer/TextLayer
+Set Base Drawing Name
+Open Output File: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\F583454
+OpenFile: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\F583454.svg
+Line Width Scale: 1
+  Close File
+Done With SVG Trailer
+In ResetFile SVG
+Garbage Collection
+ Exit Convert: 0
+Release Database Pointer
+
+Elapsed Time: 2.576 seconds
+
+Done.
+
+Release Database Pointer
+Close GS Library
+Close TG Library
