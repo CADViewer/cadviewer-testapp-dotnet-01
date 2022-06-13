@@ -58,15 +58,10 @@
         //var ServerLocation = "c:/cadviewer-testapp-dotnet-01/cadviewer/";
         var ServerLocation = "";
 
-
-
-
         var FileName = ServerUrl + "/content/drawings/dwg/City_base_map.dwg";
         var FileName = ServerUrl + "/content/drawings/dwg/vu1565.dwf";
         var FileName = ServerUrl + "/content/drawings/dwg/hq17.dwg";
 
-
-      
 
         //var FileName = ServerUrl + "/content/drawings/dwg/A-304956-WK_SHT_002.jpg";
 
@@ -85,11 +80,11 @@
             cvjs_debugMode(true);
 
 
+            cvjs_setQtipZindex(22000);
+
             // Pass over the location of the installation, will update the internal paths
             //cvjs_setAllServerURLsLocation(ServerBackEndUrl, ServerUrl, ServerLocation);
             cvjs_setAllServerPaths_and_Handlers(ServerBackEndUrl, ServerUrl, ServerLocation, "dotNet", "JavaScript", "floorPlan");
-
-
 
 
             cvjs_setHandlerSettings('dotNet');
