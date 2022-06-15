@@ -82,6 +82,10 @@
 
             cvjs_setQtipZindex(22000);
 
+            //cvjs_setQtipLocation("top center", "center left");
+            // cvjs_setQtipLocation("bottom center", "top left");
+
+
             // Pass over the location of the installation, will update the internal paths
             //cvjs_setAllServerURLsLocation(ServerBackEndUrl, ServerUrl, ServerLocation);
             cvjs_setAllServerPaths_and_Handlers(ServerBackEndUrl, ServerUrl, ServerLocation, "dotNet", "JavaScript", "floorPlan");
@@ -343,9 +347,15 @@
 
             cvjs_conversion_clearAXconversionParameters();
             //		cvjs_conversion_addAXconversionParameter("last", "");
-            cvjs_conversion_addAXconversionParameter("firstlayout", "");
-            cvjs_conversion_addAXconversionParameter("hlall", "");
-            cvjs_conversion_addAXconversionParameter("fpath", ServerLocation + "/converters/ax2020/windows/fonts/");
+
+            cvjs_conversion_addAXconversionParameter("model", "");
+            cvjs_conversion_addAXconversionParameter("tl", "RM$TXT");
+            cvjs_conversion_addAXconversionParameter("rl", "RM$");
+
+
+//            cvjs_conversion_addAXconversionParameter("firstlayout", "");
+//            cvjs_conversion_addAXconversionParameter("hlall", "");
+            cvjs_conversion_addAXconversionParameter("fpath", ServerLocation + "/converters/ax2023/windows/fonts/");
 
             // NOTE ABOVE: THESE SETTINGS ARE FOR SERVER CONTROLS FOR CONVERTING DWG, DXF, DWF files
 
