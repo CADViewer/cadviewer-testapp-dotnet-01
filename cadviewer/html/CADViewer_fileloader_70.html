@@ -82,7 +82,7 @@
 
             cvjs_setQtipZindex(22000);
 
-            //cvjs_setQtipLocation("top center", "center left");
+             cvjs_setQtipLocation("top center", "center left");
             // cvjs_setQtipLocation("bottom center", "top left");
 
 
@@ -280,10 +280,62 @@
             // 		cvjs_measurementLinesScaleFactor(1.0);
 
 
-
-
             cvjs_DisplayCoordinatesMenu("floorPlan", true);
 
+
+
+
+            // SETTINGS OF THE COLORS OF SPACES
+            cvjsRoomPolygonBaseAttributes = {
+                fill: '#ffd7f4', // '#FFF' , //  '#D3D300', // #D3D3D3  // #FFF   #ffd7f4
+                "fill-opacity": "0.1",   // 0.1
+                stroke: '#CCC',
+                'stroke-width': 0.2,
+                'stroke-linejoin': 'round',
+            };
+
+
+            //    cvjsRoomPolygonHighlightAttributes = cvjsRoomPolygonBaseAttributes;
+            //    cvjsRoomPolygonSelectAttributes = cvjsRoomPolygonBaseAttributes;
+
+            // /*
+            cvjsRoomPolygonHighlightAttributes = {
+                fill: '#a4d7f4',
+                "fill-opacity": "0.5",
+                stroke: '#a4d7f4',
+                'stroke-width': 0.3
+            };
+
+            cvjsRoomPolygonSelectAttributes = {
+                fill: '#5BBEF6',
+                "fill-opacity": "0.5",
+                stroke: '#5BBEF6',
+                'stroke-width': 0.3
+            };
+            //            */
+
+
+            //** FIXED POP-UP MODAL
+
+            // THIS IS THE DESIGN OF THE pop-up MODAL WHEN CLICKING ON SPACES
+            var my_cvjsPopUpBody = "<div class=\"cvjs_modal_1\" onclick=\"my_own_clickmenu1();\">Hello<br>Menu 1<br><i class=\"glyphicon glyphicon-transfer\"></i></div>";
+            my_cvjsPopUpBody += "<div class=\"cvjs_modal_1\" onclick=\"my_own_clickmenu2();\">Custom<br>Menu 2<br><i class=\"glyphicon glyphicon-info-sign\"></i></div>";
+            my_cvjsPopUpBody += "<div class=\"cvjs_modal_1\" onclick=\"cvjs_zoomHere();\">Zoom<br>Here<br><i class=\"glyphicon glyphicon-zoom-in\"></i></div>";
+
+
+            //var my_cvjsPopUpBody = "";
+
+            //      Setting Space Object Modals Display to be based on a callback method - VisualQuery mode -
+            //		see documentation:  
+            //		myCustomPopUpBody is the method with the template for the call back modal  - required to be implemented
+            //      populateMyCustomPopUpBody is the method which on click will populate the call-back modal dynamically
+
+            //cvjs_setNoModalMode(true);
+            cvjs_setCallbackForModalDisplay(true, myCustomPopUpBody, populateMyCustomPopUpBody);
+
+            // Initialize CADViewer - needs the div name on the svg element on page that contains CADViewerJS and the location of the
+            // And we intialize with the Space Object Custom values
+            cvjs_InitCADViewer_highLight_popUp_app("floorPlan", ServerUrl + "app/", cvjsRoomPolygonBaseAttributes, cvjsRoomPolygonHighlightAttributes, cvjsRoomPolygonSelectAttributes, my_cvjsPopUpBody);
 
 
 
@@ -291,9 +343,11 @@
             // Initialize CADViewer JS  - needs the div name on the svg element on page that contains CADViewerJS and the location of the
             // main application "app" folder. It can be either absolute or relative
 
-
-            cvjs_InitCADViewer_app("floorPlan", ServerUrl + "app/");
+            //cvjs_InitCADViewer_app("floorPlan", ServerUrl + "app/");
             //cvjs_InitCADViewerJS_app("floorPlan", "../app/");
+
+
+
 
             // set the location to license key, typically the js folder in main app application folder ../app/js/
             cvjs_setLicenseKeyPath(ServerUrl + "/app/cv/");
@@ -519,6 +573,46 @@
             // API call to load stickynotes and redlines
             //cvjs_loadStickyNotesRedlines("floorPlan");
         }
+
+
+
+        var qtipposflag = false;
+
+        function myCustomPopUpBody(rmid) {
+
+            var e = window.event;
+            var posX = e.clientX;
+            var posY = e.clientY;
+
+            var myBoundingBox = cvjs_ObjectBoundingBox_ScreenCoord(rmid);
+            console.log("See callback: myCustomPopUpBody(): " + rmid + " BBox: " + myBoundingBox.x + " " + myBoundingBox.y + " " + myBoundingBox.x2 + " " + myBoundingBox.y2 + " mouse x,y " + posX + "  " + posY);
+
+
+            if (myBoundingBox.y <250 ) {
+                cvjs_setQtipLocation("top center", "middle left");
+            }
+            else {
+                cvjs_setQtipLocation("bottom center", "top left");
+            }
+
+
+
+            // template pop-up modal body
+            cvjsPopUpBody = "<div>Space Id: <span id=\"mymodal_name_" + rmid + "\" >" + rmid + "</span><br>";
+            cvjsPopUpBody += "Survey: <span id=\"mymodal_survey_" + rmid + "\" >" + rmid + "</span><br>";
+            cvjsPopUpBody += "Notice: <span id=\"mymodal_notice_" + rmid + "\" >" + rmid + "</span><br>";
+            //		cvjsPopUpBody += "Status: <div class=\"cvjs_callback_modal_1\" onclick=\"my_own_clickmenu1("+rmid+");\"><i class=\"glyphicon glyphicon-transfer\"></i>More Info </div>";
+            cvjsPopUpBody += "Status: <a href=\"javascript:my_own_clickmenu1('" + rmid + "');\">More Info <i class=\"glyphicon glyphicon-transfer\" onclick=\"my_own_clickmenu1(" + rmid + ");\"></i></a> ";
+
+            return cvjsPopUpBody;
+        }
+
+
+        function populateMyCustomPopUpBody() {
+
+            // void
+        }
+
 
         /// NOTE: ABOVE REDLINE SAVE LOAD CONTROLLERS
 

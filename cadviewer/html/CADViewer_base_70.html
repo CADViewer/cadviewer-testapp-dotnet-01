@@ -66,6 +66,7 @@
 	// PATH and FILE to be loaded, can be in formats DWG, DXF, DWF, SVG , JS, DGN, PCF, JPG, GIF, PNG
 	var FileName = ServerUrl + "/content/drawings/dwg/Asbestos_drawing_01.dwg";		
 	var FileName = ServerUrl + "/content/drawings/dwg/measure_template.dwg";		
+        var FileName = ServerUrl + "/content/drawings/dwg/hq17_.dwg";
 
     var folderPath = "/content/drawings/dwg/";
 
@@ -81,13 +82,17 @@
 //		cvjs_setAllServerPaths_and_Handlers(ServerBackEndUrl, ServerUrl, ServerLocation, "PHP", "VueJS", "floorPlan");
 		cvjs_setAllServerPaths_and_Handlers(ServerBackEndUrl, ServerUrl, ServerLocation, "dotNet", "JavaScript", "floorPlan");
 
-        cvjs_loadCADViewerLanguage("French");  // "English", "French", "Spanish", "Portuguese", "German", "Indonesian", "Chinese-Traditional", Chinese-Simplified", "Korean", 
+        cvjs_loadCADViewerLanguage("English");  // "English", "French", "Spanish", "Portuguese", "German", "Indonesian", "Chinese-Traditional", Chinese-Simplified", "Korean", 
 
 		cvjs_setTopMenuXML("floorPlan", "cadviewer_full_commands_01.xml", "/app/cv/cv-pro/menu_config/");
 					
 		cvjs_DisplayCoordinatesMenu("floorPlan",true);
-		
-        cvjs_InitCADViewer("floorPlan", ServerUrl+"app/images/", ServerUrl+"app/" )
+
+
+
+
+
+         cvjs_InitCADViewer("floorPlan", ServerUrl+"app/images/", ServerUrl+"app/" )
 
 
 		// set the location to license key, typically the js folder in main app application folder ../app/js/
@@ -109,7 +114,10 @@
 
 		// NOTE BELOW: THESE SETTINGS ARE FOR SERVER CONTROLS FOR CONVERTING DWG, DXF, DWF files
 		cvjs_conversion_clearAXconversionParameters();
-		cvjs_conversion_addAXconversionParameter("last", "");		 
+//		cvjs_conversion_addAXconversionParameter("last", "");		 
+		cvjs_conversion_addAXconversionParameter("model", "");		 
+		cvjs_conversion_addAXconversionParameter("rl", "RM_");		 
+        cvjs_conversion_addAXconversionParameter("tl", "RM_TXT");
 		cvjs_LoadDrawing("floorPlan", FileName );
 
 
@@ -130,6 +138,7 @@
 
 
 /// NOTE: THESE METHODS BELOW ARE JS SCRIPT CALLBACK METHODS FROM CADVIEWER JS, THEY NEED TO BE IMPLEMENTED BUT CAN BE EMPTY
+
 
 
 	function cvjs_OnLoadEnd(){
