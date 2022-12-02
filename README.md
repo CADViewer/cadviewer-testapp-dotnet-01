@@ -26,7 +26,7 @@ Read the sections on installing and handling [Fonts](https://tailormade.com/ax20
 
 ## How to Use
 
-Once installed, open cadviewer.sln the HTML samples under /cadviewer/html/ can be run from a web-browser. Use http://localhost:xxxxx/cadviewer/html/CADViewer_fileloader_670.html as a starting point (assuming that your have installed under http://localhost).
+Once installed, open cadviewer.sln the HTML samples under /cadviewer/html/ can be run from a web-browser. Use http://localhost:xxxxx/cadviewer/html/CADViewer_fileloader_70.html as a starting point (assuming that your have installed under http://localhost).
 
 
 
@@ -40,7 +40,7 @@ Once installed, open cadviewer.sln the HTML samples under /cadviewer/html/ can b
 
 This repository should contain the latest converters, but in case you need to update any of the back-end converters please follow: 
 
-* [Download **AutoXchange**](/download/) (and other converters), install (unzip) AX2020 in **cadviewer/converters/ax2020/windows** or **cadviewer/converters/ax2020/linux** or in the designated folder structure.
+* [Download **AutoXchange**](/download/) (and other converters), install (unzip) AX2022 in **cadviewer/converters/ax2022/windows** or **cadviewer/converters/ax2022/linux** or in the designated folder structure.
 
 * Read the sections on installing and handling [Fonts](https://tailormade.com/ax2020techdocs/installation/fonts/) in [AutoXchange 2022 TechDocs](https://tailormade.com/ax2020techdocs/) and [TroubleShooting](https://tailormade.com/ax2020techdocs/troubleshooting/).
 
@@ -75,17 +75,17 @@ c:\cadviewer-testapp-dotnet-01
                │    ├── css
                │    └── user_resources	
                ├── converters
-               │    ├── ax2020
+               │    ├── ax2022
                │    │     ├── windows 
                │    │     │      └── fonts
                │    │     └── linux
                │    │            └── fonts
-               │    ├── dwgmerge2020
+               │    ├── dwgmerge2022
                │    │         ├── windows 
                │    │         │      └── fonts
                │    │         └── linux
                │    │            └── fonts
-               │    ├── linklist2020
+               │    ├── linklist2022
                │    │         ├── windows 
                │    │         │     └── fonts
                │    │         └── linux
