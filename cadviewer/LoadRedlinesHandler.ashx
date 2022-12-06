@@ -1,5 +1,6 @@
 ﻿<%@ WebHandler Language="C#" Class="Handler" %>
 
+
 using System;
 using System.Web;
 using System.IO;
@@ -46,7 +47,9 @@ public class Handler : IHttpHandler {
 
             string loadtype = context.Request["loadtype"].Trim('/');
 
-            if (loadtype.IndexOf("serverfilelist") == 0)
+//            context.Response.Write("hello loadtype"+loadtype);
+
+            if ( (loadtype.IndexOf("serverfilelist") == 0) || (loadtype.IndexOf("serverfolder") == 0) ||  (loadtype.IndexOf("redline") == 0) )
             {
                  if (filePath.IndexOf(ServerUrl) == 0)
                     {
@@ -68,8 +71,6 @@ public class Handler : IHttpHandler {
         {
             filePath = ServerLocation + filePath.Substring(ServerUrl.Length);
         }
-        string localPath = new Uri(filePath).LocalPath;
-
 
 
         //        string localPath = new Uri(filePath).LocalPath;
@@ -77,6 +78,12 @@ public class Handler : IHttpHandler {
 
         try
         {
+
+            // context.Response.Write("hello"+filePath);
+
+            string localPath = new Uri(filePath).LocalPath;
+
+            //if (true) return;
 
             using (FileStream fsSource = new FileStream(localPath, FileMode.Open, FileAccess.Read))
             {

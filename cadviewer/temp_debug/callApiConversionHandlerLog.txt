@@ -1834,3 +1834,241 @@ The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows
 Conversion done 
 Content location: C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/1st floor lighting.dwg output format: svgzXX
 SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/1st floor lighting.dwg","contentResponse":"stream","contentStreamData":"http://localhost:44371/getFileHandler.ashx?remainOnServer=0&fileTag=F494805&Type=svgz"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"model","paramValue":""},{"paramName":"trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 1 XXX model","paramValue":""},{"paramName":"trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 2 XXX trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 3 XXX tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 4 XXX rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 5 XXX fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+ contentLocation: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg XXX writeFile=C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+"-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F679447.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/" "-f="svgz"" -model -trace "-tl="RM$TXT"" "-rl="RM$"" "-fpath="/converters/ax2023/windows/fonts/""
+New Arguments:  "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F679447.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/" "-f="svgz"" -model -trace "-tl="RM$TXT"" "-rl="RM$"" "-fpath="/converters/ax2023/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/\run_ax2020.bat
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg output format: svgzXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg","contentResponse":"stream","contentStreamData":"http://localhost:44371/getFileHandler.ashx?remainOnServer=0&fileTag=F679447&Type=svgz"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"model","paramValue":""},{"paramName":"trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 1 XXX model","paramValue":""},{"paramName":"trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 2 XXX trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 3 XXX tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 4 XXX rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 5 XXX fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+ contentLocation: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg XXX writeFile=C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+"-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F959417.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/" "-f="svgz"" -model -trace "-tl="RM$TXT"" "-rl="RM$"" "-fpath="/converters/ax2023/windows/fonts/""
+New Arguments:  "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F959417.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/" "-f="svgz"" -model -trace "-tl="RM$TXT"" "-rl="RM$"" "-fpath="/converters/ax2023/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/\run_ax2020.bat
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg output format: svgzXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg","contentResponse":"stream","contentStreamData":"http://localhost:44371/getFileHandler.ashx?remainOnServer=0&fileTag=F959417&Type=svgz"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"model","paramValue":""},{"paramName":"trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 1 XXX model","paramValue":""},{"paramName":"trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 2 XXX trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 3 XXX tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 4 XXX rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 5 XXX fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+ contentLocation: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg XXX writeFile=C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+"-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F226457.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/" "-f="svgz"" -model -trace "-tl="RM$TXT"" "-rl="RM$"" "-fpath="/converters/ax2023/windows/fonts/""
+New Arguments:  "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F226457.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/" "-f="svgz"" -model -trace "-tl="RM$TXT"" "-rl="RM$"" "-fpath="/converters/ax2023/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/\run_ax2020.bat
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg output format: svgzXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg","contentResponse":"stream","contentStreamData":"http://localhost:44371/getFileHandler.ashx?remainOnServer=0&fileTag=F226457&Type=svgz"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"model","paramValue":""},{"paramName":"trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 1 XXX model","paramValue":""},{"paramName":"trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 2 XXX trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 3 XXX tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 4 XXX rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 5 XXX fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+ contentLocation: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg XXX writeFile=C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+"-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F535088.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/" "-f="svgz"" -model -trace "-tl="RM$TXT"" "-rl="RM$"" "-fpath="/converters/ax2023/windows/fonts/""
+New Arguments:  "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F535088.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/" "-f="svgz"" -model -trace "-tl="RM$TXT"" "-rl="RM$"" "-fpath="/converters/ax2023/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/\run_ax2020.bat
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg output format: svgzXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg","contentResponse":"stream","contentStreamData":"http://localhost:44371/getFileHandler.ashx?remainOnServer=0&fileTag=F535088&Type=svgz"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"model","paramValue":""},{"paramName":"trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 1 XXX model","paramValue":""},{"paramName":"trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 2 XXX trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 3 XXX tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 4 XXX rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 5 XXX fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+ contentLocation: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg XXX writeFile=C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+"-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F224287.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/" "-f="svgz"" -model -trace "-tl="RM$TXT"" "-rl="RM$"" "-fpath="/converters/ax2023/windows/fonts/""
+New Arguments:  "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F224287.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/" "-f="svgz"" -model -trace "-tl="RM$TXT"" "-rl="RM$"" "-fpath="/converters/ax2023/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/\run_ax2020.bat
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg output format: svgzXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg","contentResponse":"stream","contentStreamData":"http://localhost:44371/getFileHandler.ashx?remainOnServer=0&fileTag=F224287&Type=svgz"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"model","paramValue":""},{"paramName":"trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 1 XXX model","paramValue":""},{"paramName":"trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 2 XXX trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 3 XXX tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 4 XXX rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 5 XXX fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+ contentLocation: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg XXX writeFile=C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+"-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F876719.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/" "-f="svgz"" -model -trace "-tl="RM$TXT"" "-rl="RM$"" "-fpath="/converters/ax2023/windows/fonts/""
+New Arguments:  "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F876719.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/" "-f="svgz"" -model -trace "-tl="RM$TXT"" "-rl="RM$"" "-fpath="/converters/ax2023/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/\run_ax2020.bat
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg output format: svgzXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg","contentResponse":"stream","contentStreamData":"http://localhost:44371/getFileHandler.ashx?remainOnServer=0&fileTag=F876719&Type=svgz"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"model","paramValue":""},{"paramName":"trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 1 XXX model","paramValue":""},{"paramName":"trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 2 XXX trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 3 XXX tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 4 XXX rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 5 XXX fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+ contentLocation: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg XXX writeFile=C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+"-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F59590.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/" "-f="svgz"" -model -trace "-tl="RM$TXT"" "-rl="RM$"" "-fpath="/converters/ax2023/windows/fonts/""
+New Arguments:  "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F59590.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/" "-f="svgz"" -model -trace "-tl="RM$TXT"" "-rl="RM$"" "-fpath="/converters/ax2023/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/\run_ax2020.bat
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg output format: svgzXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg","contentResponse":"stream","contentStreamData":"http://localhost:44371/getFileHandler.ashx?remainOnServer=0&fileTag=F59590&Type=svgz"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"model","paramValue":""},{"paramName":"trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 1 XXX model","paramValue":""},{"paramName":"trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 2 XXX trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 3 XXX tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 4 XXX rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 5 XXX fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/1st floor architectural.dwg
+ contentLocation: C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/1st floor architectural.dwg XXX writeFile=C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/1st floor architectural.dwg
+"-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/1st%20floor%20architectural.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F102469.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/" "-f="svgz"" -model -trace "-tl="RM$TXT"" "-rl="RM$"" "-fpath="/converters/ax2023/windows/fonts/""
+New Arguments:  "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/1st%20floor%20architectural.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F102469.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/" "-f="svgz"" -model -trace "-tl="RM$TXT"" "-rl="RM$"" "-fpath="/converters/ax2023/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/\run_ax2020.bat
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/1st floor architectural.dwg output format: svgzXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/1st floor architectural.dwg","contentResponse":"stream","contentStreamData":"http://localhost:44371/getFileHandler.ashx?remainOnServer=0&fileTag=F102469&Type=svgz"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"model","paramValue":""},{"paramName":"trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 1 XXX model","paramValue":""},{"paramName":"trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 2 XXX trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 3 XXX tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 4 XXX rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 5 XXX fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+ contentLocation: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg XXX writeFile=C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+"-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F991726.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/" "-f="svgz"" -model -trace "-tl="RM$TXT"" "-rl="RM$"" "-fpath="/converters/ax2023/windows/fonts/""
+New Arguments:  "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F991726.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/" "-f="svgz"" -model -trace "-tl="RM$TXT"" "-rl="RM$"" "-fpath="/converters/ax2023/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/\run_ax2020.bat
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg output format: svgzXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg","contentResponse":"stream","contentStreamData":"http://localhost:44371/getFileHandler.ashx?remainOnServer=0&fileTag=F991726&Type=svgz"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"model","paramValue":""},{"paramName":"trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 1 XXX model","paramValue":""},{"paramName":"trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 2 XXX trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 3 XXX tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 4 XXX rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 5 XXX fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+ contentLocation: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg XXX writeFile=C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+"-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F614112.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/" "-f="svgz"" -model -trace "-tl="RM$TXT"" "-rl="RM$"" "-fpath="/converters/ax2023/windows/fonts/""
+New Arguments:  "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F614112.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/" "-f="svgz"" -model -trace "-tl="RM$TXT"" "-rl="RM$"" "-fpath="/converters/ax2023/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/\run_ax2020.bat
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg output format: svgzXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg","contentResponse":"stream","contentStreamData":"http://localhost:44371/getFileHandler.ashx?remainOnServer=0&fileTag=F614112&Type=svgz"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"model","paramValue":""},{"paramName":"trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 1 XXX model","paramValue":""},{"paramName":"trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 2 XXX trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 3 XXX tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 4 XXX rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 5 XXX fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/1st floor architectural.dwg
+ contentLocation: C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/1st floor architectural.dwg XXX writeFile=C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/1st floor architectural.dwg
+"-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/1st%20floor%20architectural.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F552447.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/" "-f="svgz"" -model -trace "-tl="RM$TXT"" "-rl="RM$"" "-fpath="/converters/ax2023/windows/fonts/""
+New Arguments:  "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/1st%20floor%20architectural.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F552447.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/" "-f="svgz"" -model -trace "-tl="RM$TXT"" "-rl="RM$"" "-fpath="/converters/ax2023/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/\run_ax2020.bat
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/1st floor architectural.dwg output format: svgzXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/1st floor architectural.dwg","contentResponse":"stream","contentStreamData":"http://localhost:44371/getFileHandler.ashx?remainOnServer=0&fileTag=F552447&Type=svgz"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"model","paramValue":""},{"paramName":"trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 1 XXX model","paramValue":""},{"paramName":"trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 2 XXX trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 3 XXX tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 4 XXX rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 5 XXX fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+ contentLocation: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg XXX writeFile=C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+"-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F408706.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/" "-f="svgz"" -model -trace "-tl="RM$TXT"" "-rl="RM$"" "-fpath="/converters/ax2023/windows/fonts/""
+New Arguments:  "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F408706.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/" "-f="svgz"" -model -trace "-tl="RM$TXT"" "-rl="RM$"" "-fpath="/converters/ax2023/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/\run_ax2020.bat
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg output format: svgzXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg","contentResponse":"stream","contentStreamData":"http://localhost:44371/getFileHandler.ashx?remainOnServer=0&fileTag=F408706&Type=svgz"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"model","paramValue":""},{"paramName":"trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 1 XXX model","paramValue":""},{"paramName":"trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 2 XXX trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 3 XXX tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 4 XXX rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 5 XXX fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+ contentLocation: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg XXX writeFile=C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+"-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F771054.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/" "-f="svgz"" -model -trace "-tl="RM$TXT"" "-rl="RM$"" "-fpath="/converters/ax2023/windows/fonts/""
+New Arguments:  "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F771054.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/" "-f="svgz"" -model -trace "-tl="RM$TXT"" "-rl="RM$"" "-fpath="/converters/ax2023/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/\run_ax2020.bat
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg output format: svgzXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg","contentResponse":"stream","contentStreamData":"http://localhost:44371/getFileHandler.ashx?remainOnServer=0&fileTag=F771054&Type=svgz"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"model","paramValue":""},{"paramName":"trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 1 XXX model","paramValue":""},{"paramName":"trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 2 XXX trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 3 XXX tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 4 XXX rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 5 XXX fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+ contentLocation: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg XXX writeFile=C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+"-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F682380.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/" "-f="svgz"" -model -trace "-tl="RM$TXT"" "-rl="RM$"" "-fpath="/converters/ax2023/windows/fonts/""
+New Arguments:  "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F682380.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/" "-f="svgz"" -model -trace "-tl="RM$TXT"" "-rl="RM$"" "-fpath="/converters/ax2023/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/\run_ax2020.bat
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg output format: svgzXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg","contentResponse":"stream","contentStreamData":"http://localhost:44371/getFileHandler.ashx?remainOnServer=0&fileTag=F682380&Type=svgz"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"model","paramValue":""},{"paramName":"trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 1 XXX model","paramValue":""},{"paramName":"trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 2 XXX trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 3 XXX tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 4 XXX rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 5 XXX fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+ contentLocation: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg XXX writeFile=C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+"-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F369484.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/" "-f="svgz"" -model -trace "-tl="RM$TXT"" "-rl="RM$"" "-fpath="/converters/ax2023/windows/fonts/""
+New Arguments:  "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F369484.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/" "-f="svgz"" -model -trace "-tl="RM$TXT"" "-rl="RM$"" "-fpath="/converters/ax2023/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/\run_ax2020.bat
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg output format: svgzXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg","contentResponse":"stream","contentStreamData":"http://localhost:44371/getFileHandler.ashx?remainOnServer=0&fileTag=F369484&Type=svgz"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"model","paramValue":""},{"paramName":"trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 1 XXX model","paramValue":""},{"paramName":"trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 2 XXX trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 3 XXX tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 4 XXX rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 5 XXX fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+ contentLocation: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg XXX writeFile=C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+"-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F841549.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/" "-f="svgz"" -model -trace "-tl="RM$TXT"" "-rl="RM$"" "-fpath="/converters/ax2023/windows/fonts/""
+New Arguments:  "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F841549.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/" "-f="svgz"" -model -trace "-tl="RM$TXT"" "-rl="RM$"" "-fpath="/converters/ax2023/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/\run_ax2020.bat
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg output format: svgzXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg","contentResponse":"stream","contentStreamData":"http://localhost:44371/getFileHandler.ashx?remainOnServer=0&fileTag=F841549&Type=svgz"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"model","paramValue":""},{"paramName":"trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 1 XXX model","paramValue":""},{"paramName":"trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 2 XXX trace","paramValue":""},{"paramName":"tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 3 XXX tl","paramValue":"RM$TXT"},{"paramName":"rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 4 XXX rl","paramValue":"RM$"},{"paramName":"fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+ paramcount: 5 XXX fpath","paramValue":"/converters/ax2023/windows/fonts/"}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+ contentLocation: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg XXX writeFile=C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg
+"-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F904659.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/" "-f="svgz"" -model -trace "-tl="RM$TXT"" "-rl="RM$"" "-fpath="/converters/ax2023/windows/fonts/""
+New Arguments:  "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F904659.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/" "-f="svgz"" -model -trace "-tl="RM$TXT"" "-rl="RM$"" "-fpath="/converters/ax2023/windows/fonts/""
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2023/windows/\run_ax2020.bat
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg output format: svgzXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17.dwg","contentResponse":"stream","contentStreamData":"http://localhost:44371/getFileHandler.ashx?remainOnServer=0&fileTag=F904659&Type=svgz"}

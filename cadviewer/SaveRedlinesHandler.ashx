@@ -50,7 +50,8 @@ public class Handler : IHttpHandler {
 
             string listtype = context.Request["listtype"].Trim('/');
 
-            if (listtype.IndexOf("serverfolder") == 0)
+            if ( (listtype.IndexOf("serverfolder") == 0) ||   (listtype.IndexOf("redline") == 0) )
+//            if ( (listtype.IndexOf("serverfolder") == 0) )
             {
                 if (filePath.IndexOf(ServerUrl) == 0)
                 {
