@@ -23,6 +23,7 @@
 		<page>
 			<command>cvjs_mergeDXFDWG</command>
 			<command>cvjs_publishPDF</command>
+			<command>cvjs_saveAsSVGOnServer</command>
 			<command>cvjs_loadStickyNotesRedlinesUser</command>
 			<command>cvjs_saveStickyNotesRedlinesUser</command>
 			<command>cvjs_setRedlineColor</command>

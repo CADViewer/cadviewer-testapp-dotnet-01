@@ -15,15 +15,10 @@ public class Handler : IHttpHandler {
         if (context.Request.HttpMethod.Equals("GET"))
         {
             DoGet(context);
-
-            //    context.Response.Write("Hello World GET");
-
         }
         if (context.Request.HttpMethod.Equals("POST"))
         {
             DoPost(context);
-
-            //    context.Response.Write("Hello World POST");
         }
 
     }
@@ -34,20 +29,39 @@ public class Handler : IHttpHandler {
 
         context.Response.ContentType = "text/plain";
 
-        string filePath = context.Request["file"].Trim('/');
-
         string ServerLocation = ConfigurationManager.AppSettings["ServerLocation"];
         string ServerUrl = ConfigurationManager.AppSettings["ServerUrl"];
         string AppLocation = ConfigurationManager.AppSettings["AppLocation"];
 
+        string filePath = "";
+        string loadtype = "";
+
         try{
 
-            string loadtype = context.Request["loadtype"].Trim('/');
+            loadtype = context.Request["loadtype"];
+
+            if ( loadtype!=null)
+                loadtype = loadtype.Trim('/');
+            
+
+            filePath = context.Request["file"];
+            
+            if ( filePath!=null)
+                filePath = filePath.Trim('/');
+            
+
+            if (loadtype == null || filePath == null){
+                string myresponse = "";
+                context.Response.Write(myresponse);
+                return;
+            }
+
 
             if (loadtype.IndexOf("languagefile") == 0)
             {
                 filePath = AppLocation + filePath;
             }
+          
 
             if (loadtype.IndexOf("menufile") == 0)
             {
@@ -90,10 +104,6 @@ public class Handler : IHttpHandler {
 
             //if (true) return;
 
-
-
-
-
             using (FileStream fsSource = new FileStream(localPath, FileMode.Open, FileAccess.Read))
             {
 
@@ -118,13 +128,19 @@ public class Handler : IHttpHandler {
                 UTF8Encoding temp = new UTF8Encoding(true);
 
                 context.Response.Write(temp.GetString(bytes));
+                return;
 
             }
         }
         catch (FileNotFoundException ioEx)
         {
+            context.Response.Write("FileNotFound"+ioEx);
             Console.WriteLine(ioEx.Message);
+            return;
         }
+
+
+       context.Response.Write("LoadHander - unspecified error");
 
     }
 
@@ -132,8 +148,10 @@ public class Handler : IHttpHandler {
     private void DoGet(HttpContext context)
     {
 
-        DoPost(context);
+        //context.Response.Write("Hello World GET");
+       //        context.Response.Write("Hello World Get:"+context+"XXX");
 
+        DoPost(context);
 
     }
 

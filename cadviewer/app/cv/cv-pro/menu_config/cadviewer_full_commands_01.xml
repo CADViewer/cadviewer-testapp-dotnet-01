@@ -42,6 +42,7 @@
 			<command>cvjs_undoDeleteLastRedline</command>
 			<command>cvjs_clearCurrentRedline</command>
 			<command>cvjs_mergeDXFDWG</command>
+			<command>cvjs_mergeQR</command>			
 		</page>
 		<page>
 			<command>cvjs_insertImageLink</command>
@@ -93,7 +94,7 @@
 </iconmenu>
 <zoommenu>
 	<location_left_x>0</location_left_x>
-	<location_left_y>0</location_left_y>
+	<location_left_y>30</location_left_y>
 </zoommenu>
 </cvjs>
 						

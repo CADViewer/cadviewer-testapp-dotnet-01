@@ -57,6 +57,14 @@ public class Handler : IHttpHandler {
         string svgz_compress = ConfigurationManager.AppSettings["svgz_compress"];
 
 
+        // 8.56.4
+        string useoriginatinglocation = ConfigurationManager.AppSettings["useoriginatinglocation"];
+        string callbackMethod_originatinglocation = ConfigurationManager.AppSettings["callbackMethod_originatinglocation"];
+        if (useoriginatinglocation == null) useoriginatinglocation = "false";
+        // 8.56.4
+
+
+
         string[] myoutput = new String[1];
         string absFilePath = "";
         if (cvjs_debug == "true") {
@@ -78,6 +86,19 @@ public class Handler : IHttpHandler {
         }
 
         myRequest = DecodeUrlString(myRequest);
+
+
+        // 8.56.4
+        if (useoriginatinglocation == "true"){
+
+            string originatinglocation = myRequest.Substring(myRequest.IndexOf("originatinglocation") + 22);
+            originatinglocation = originatinglocation.Substring(0, originatinglocation.IndexOf('\"'));
+            callbackMethod  =   originatinglocation  + "/"+ callbackMethod_originatinglocation;
+
+        }
+        // 8.56.4
+
+
 
         string contentLocation = myRequest.Substring(myRequest.IndexOf("contentLocation") + 18);
 

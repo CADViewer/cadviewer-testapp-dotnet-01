@@ -7,7 +7,7 @@
 			<command>cvjs_Measurement</command>
 			<command>cvjs_calibrateMeasurement</command>
 <!--			<command>cvjs_setBackgroundColor</command> -->
-<!--			<command>cvjs_openFileLoadToServer</command> -->
+			<command>cvjs_openFileLoadToServer</command>
 <!--			<command>cvjs_About</command> -->
 			<command>cvjs_ZoomExtents</command>
 			<command>cvjs_ZoomIn</command>
