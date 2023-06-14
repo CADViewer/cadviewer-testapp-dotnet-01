@@ -402,6 +402,13 @@ public class Handler : IHttpHandler {
                 pdfpath = fileLocation + "pdf\\" + randomInt;
                 Directory.CreateDirectory(pdfpath);
 
+
+                fileName = fileName.Replace(@" ", @"%20");
+                myoutput[0] = "PDF output filename: "+fileName+"XXX";
+                if (cvjs_debug == "true") File.AppendAllLines(absFilePath, myoutput);
+
+
+
                 str_arr[2] =  "\"-o=\""+ pdfpath +"\\"+ fileName + "." + outputFormat+"\"\"";
                 //                str_arr[2] =  "-o=\""+ pdfpath +"\\"+ fileName + "." + outputFormat+"\"";
             }
