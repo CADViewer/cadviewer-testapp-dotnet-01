@@ -71,7 +71,7 @@ public class Handler : IHttpHandler {
 
             string tmpPrintFolder = HttpContext.Current.Server.MapPath("~\\temp_debug");
             Directory.CreateDirectory(tmpPrintFolder);
-            absFilePath = Path.Combine(tmpPrintFolder, "callApiConversionHandlerLog.txt");
+            absFilePath = Path.Combine(tmpPrintFolder, "callApiConversionHandlerLog_"+Get8CharacterRandomString()+".txt");
             //context.Response.Write(absFilePath);
         }
 
@@ -654,5 +654,11 @@ public class Handler : IHttpHandler {
         return newUrl;
     }
 
+    private static string Get8CharacterRandomString()
+    {
+        string path = Path.GetRandomFileName();
+        path = path.Replace(".", ""); // Remove period.
+        return path.Substring(0, 10);  // Return 8 character string
+    }
 
 }

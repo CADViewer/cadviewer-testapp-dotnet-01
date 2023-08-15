@@ -187,3 +187,13 @@ The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2024/windows
 Conversion done 
 Content location: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/Asbestos_drawing_01.dwg output format: pdfXX
 PDF response: {"completedAction":"pdf_creation","errorCode":"E0","converter":"AutoXchange AX2019","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/Asbestos_drawing_01.dwg","contentResponse":"file","contentStreamData":"http://localhost:44371/converters/files/pdf/533999/Asbestos_drawing_01.pdf"}
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"last","paramValue":""}
+ paramcount: 1 XXX last","paramValue":""}
+YYY C:\cadviewer-testapp-dotnet-01\cadviewer\content\drawings\dwg\City_base_map.dwg
+ contentLocation: C:\cadviewer-testapp-dotnet-01\cadviewer\content\drawings\dwg\City_base_map.dwg XXX writeFile=C:\cadviewer-testapp-dotnet-01\cadviewer\content\drawings\dwg\City_base_map.dwg
+"-i="C:\cadviewer-testapp-dotnet-01\cadviewer\content\drawings\dwg\City_base_map.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F634835.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2024/windows/" "-f="svgz"" -last
+New Arguments:  "-i="C:\cadviewer-testapp-dotnet-01\cadviewer\content\drawings\dwg\City_base_map.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F634835.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2024/windows/" "-f="svgz"" -last
+The command:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2024/windows/\run_ax2020.bat
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/City_base_map.dwg output format: svgzXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E-10","converter":"AutoXchange AX2017","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/City_base_map.dwg","contentResponse":"stream","contentStreamData":"http://localhost:44371/getFileHandler.ashx?remainOnServer=0&fileTag=F634835&Type=svgz"}
