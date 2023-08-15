@@ -7,7 +7,7 @@ The repository contains a full setup of CADViewer with CAD Converters and script
 
 1: CADViewer script library  - in its preferred folder structure
 
-2: AutoXchange AX2022 Converter and DWG Merge 2022 Converter - in their preferred folder structure
+2: AutoXchange AX2024 Converter and DWG Merge 2024 Converter - in their preferred folder structure
 
 3: All structures for file-conversion, sample drawings, redlines, etc. 
 
@@ -20,13 +20,13 @@ The repository contains a full setup of CADViewer with CAD Converters and script
 
 6: The converter folder structure contains a larger set of fonts, installed in /cadviewer/converters/ax2022/windows/fonts/, but a fuller set of fonts can be installed. 
 
-Read the sections on installing and handling [Fonts](https://tailormade.com/ax2020techdocs/installation/fonts/) in [AutoXchange 2020 TechDocs](https://tailormade.com/ax2020techdocs/) and [TroubleShooting](https://tailormade.com/ax2020techdocs/troubleshooting/).
+Read the sections on installing and handling [Fonts](https://tailormade.com/ax2020techdocs/installation/fonts/) in [AutoXchange 2024 TechDocs](https://tailormade.com/ax2020techdocs/) and [TroubleShooting](https://tailormade.com/ax2020techdocs/troubleshooting/).
 
 
 
 ## How to Use
 
-Once installed, open cadviewer.sln the HTML samples under /cadviewer/html/ can be run from a web-browser. Use http://localhost:xxxxx/cadviewer/html/CADViewer_fileloader_70.html as a starting point (assuming that your have installed under http://localhost).
+Once installed, open cadviewer.sln the HTML samples under /cadviewer/html/ can be run from a web-browser. Use http://localhost:xxxxx/cadviewer/html/CADViewer_fileloader_80.html as a starting point (assuming that your have installed under http://localhost).
 
 
 
@@ -40,9 +40,9 @@ Once installed, open cadviewer.sln the HTML samples under /cadviewer/html/ can b
 
 This repository should contain the latest converters, but in case you need to update any of the back-end converters please follow: 
 
-* [Download **AutoXchange**](/download/) (and other converters), install (unzip) AX2022 in **cadviewer/converters/ax2022/windows** or **cadviewer/converters/ax2022/linux** or in the designated folder structure.
+* [Download **AutoXchange**](/download/) (and other converters), install (unzip) AX2022 in **cadviewer/converters/ax2023/windows** or **cadviewer/converters/ax2023/linux** or in the designated folder structure.
 
-* Read the sections on installing and handling [Fonts](https://tailormade.com/ax2020techdocs/installation/fonts/) in [AutoXchange 2022 TechDocs](https://tailormade.com/ax2020techdocs/) and [TroubleShooting](https://tailormade.com/ax2020techdocs/troubleshooting/).
+* Read the sections on installing and handling [Fonts](https://tailormade.com/ax2020techdocs/installation/fonts/) in [AutoXchange 2024 TechDocs](https://tailormade.com/ax2020techdocs/) and [TroubleShooting](https://tailormade.com/ax2020techdocs/troubleshooting/).
 
 * Try out the samples and build your own application!
  
@@ -75,17 +75,17 @@ c:\cadviewer-testapp-dotnet-01
                │    ├── css
                │    └── user_resources	
                ├── converters
-               │    ├── ax2022
+               │    ├── ax2023
                │    │     ├── windows 
                │    │     │      └── fonts
                │    │     └── linux
                │    │            └── fonts
-               │    ├── dwgmerge2022
+               │    ├── dwgmerge2023
                │    │         ├── windows 
                │    │         │      └── fonts
                │    │         └── linux
                │    │            └── fonts
-               │    ├── linklist2022
+               │    ├── linklist2023
                │    │         ├── windows 
                │    │         │     └── fonts
                │    │         └── linux
