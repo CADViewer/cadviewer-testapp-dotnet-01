@@ -1,0 +1,3 @@
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"last","paramValue":""}
+ paramcount: 1 XXX last","paramValue":""}
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2024","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/M0-generic-06.svg","contentResponse":"stream","contentStreamData":"http://localhost:44371/getFileHandler.ashx?remainOnServer=0&fileTag=F640408&Type=svg"}

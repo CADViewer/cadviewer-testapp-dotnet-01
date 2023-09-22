@@ -217,6 +217,69 @@ public class Handler : IHttpHandler {
         int localFlag = 0;
 
 
+
+        if (contentLocation.IndexOf(".svg")>-1){
+            // 2023-09-21
+            // IF content location is .svg or .svgz then
+            // copy over to /files/xxx.svg
+            // the callback method should have the format of the input file
+            // do the callback and return  
+
+            string outputFormatSVG = contentLocation.Substring(contentLocation.LastIndexOf(".")+1);
+
+
+
+            if (contentLocation.IndexOf("http") == 0) {  // URL
+
+                if (contentLocation.IndexOf(ServerUrl) == 0)    // we are on same server, so OK
+                {
+                    contentLocation = ServerLocation + contentLocation.Substring(ServerUrl.Length);
+                    localFlag = 1;
+                    File.Copy(contentLocation, writeFile, true);
+
+                }
+                else
+                {
+                    using (WebClient wc = new WebClient())
+                    {
+                        wc.DownloadFile(contentLocation, writeFile);
+                    }
+
+                }
+
+            }else{
+                        // flat file
+
+                if (contentLocation.IndexOf(ServerLocation) == 0)    // we are on same server, so OK
+                {
+                    localFlag = 1;
+                    File.Copy(contentLocation, writeFile, true);
+                }
+         
+
+            }
+
+            // svg / svgz files
+
+
+
+            string CVresponseSVG = "{\"completedAction\":\"svg_creation\",\"errorCode\":\"E0\",\"converter\":\"AutoXchange AX2024\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\""+contentLocation+"\",\"contentResponse\":\"stream\",\"contentStreamData\":\""+callbackMethod+"?remainOnServer=0&fileTag="+tempFileName+"&Type="+outputFormatSVG+"\"}";
+
+            myoutput[0] = "SVG response: "+CVresponseSVG;
+            if (cvjs_debug == "true") File.AppendAllLines(absFilePath, myoutput);
+
+            // send callback message and terminate
+            context.Response.Write(CVresponseSVG);
+
+
+            // do the callback and exit
+            return;
+
+
+        }
+
+
+
         if (contentLocation.IndexOf("http") == 0) {  // URL
 
 
@@ -348,11 +411,12 @@ public class Handler : IHttpHandler {
             }
         }
 
-        //	if (cvjs_debug){		
-        //		stringContent = outputFormat;
-        //		contentInBytes	= stringContent.getBytes();
-        //		fileOut.write(contentInBytes);
-        //	}
+//        	if (cvjs_debug){		
+//        		stringContent = "Output format:" + outputFormat;
+//        		contentInBytes	= stringContent.getBytes();
+//        		fileOut.write(contentInBytes);
+//        	}
+
 
 
 
@@ -590,7 +654,7 @@ public class Handler : IHttpHandler {
 
         if (outputFormat.ToLower().IndexOf("svg")>-1){  // BOTH svg + svgz   -> return outputFormat !!! note!
 
-            string CVJSresponse = "{\"completedAction\":\"svg_creation\",\"errorCode\":\"E"+exitCode+"\",\"converter\":\"AutoXchange AX2017\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\""+contentLocation+"\",\"contentResponse\":\"stream\",\"contentStreamData\":\""+callbackMethod+"?remainOnServer=0&fileTag="+tempFileName+"&Type="+outputFormat+"\"}";
+            string CVJSresponse = "{\"completedAction\":\"svg_creation\",\"errorCode\":\"E"+exitCode+"\",\"converter\":\"AutoXchange AX2024\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\""+contentLocation+"\",\"contentResponse\":\"stream\",\"contentStreamData\":\""+callbackMethod+"?remainOnServer=0&fileTag="+tempFileName+"&Type="+outputFormat+"\"}";
 
             myoutput[0] = "SVG response: "+CVJSresponse;
             if (cvjs_debug == "true") File.AppendAllLines(absFilePath, myoutput);
@@ -604,10 +668,10 @@ public class Handler : IHttpHandler {
 
                 var  pdfpathurl = "pdf/" + randomInt +"/";
 
-                string CVJSresponse = "{\"completedAction\":\"pdf_creation\",\"errorCode\":\"E"+exitCode+"\",\"converter\":\"AutoXchange AX2019\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\""+contentLocation+"\",\"contentResponse\":\"file\",\"contentStreamData\":\""+fileLocationUrl+ pdfpathurl + fileName + "." + outputFormat+"\"}";
+                string CVJSresponse = "{\"completedAction\":\"pdf_creation\",\"errorCode\":\"E"+exitCode+"\",\"converter\":\"AutoXchange AX2024\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\""+contentLocation+"\",\"contentResponse\":\"file\",\"contentStreamData\":\""+fileLocationUrl+ pdfpathurl + fileName + "." + outputFormat+"\"}";
 
-                //                string CVJSresponse = "{\"completedAction\":\"pdf_creation\",\"errorCode\":\"E"+exitCode+"\",\"converter\":\"AutoXchange AX2019\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\""+contentLocation+"\",\"contentResponse\":\"file\",\"contentStreamData\":\""+fileLocationUrl+tempFileName+"."+outputFormat+"\"}";
-                //				String CVJSresponse = "{\"completedAction\":\"svg_creation\",\"errorCode\":\"E"+exitCode+"\",\"converter\":\"AutoXchange AX2017\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\""+contentLocation+"\",\"contentResponse\":\"stream\",\"contentStreamData\":\""+callbackMethod+"?remainOnServer=0&fileTag="+tempFileName+"&Type=svg\"}";
+                //                string CVJSresponse = "{\"completedAction\":\"pdf_creation\",\"errorCode\":\"E"+exitCode+"\",\"converter\":\"AutoXchange AX2024\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\""+contentLocation+"\",\"contentResponse\":\"file\",\"contentStreamData\":\""+fileLocationUrl+tempFileName+"."+outputFormat+"\"}";
+                //				String CVJSresponse = "{\"completedAction\":\"svg_creation\",\"errorCode\":\"E"+exitCode+"\",\"converter\":\"AutoXchange AX2024\",\"version\":\"V1.00\",\"userLabel\":\"fromCADViewerJS\",\"contentLocation\":\""+contentLocation+"\",\"contentResponse\":\"stream\",\"contentStreamData\":\""+callbackMethod+"?remainOnServer=0&fileTag="+tempFileName+"&Type=svg\"}";
 
 
 
