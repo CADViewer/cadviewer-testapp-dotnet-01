@@ -158,3 +158,98 @@ Elapsed Time: 1.045 seconds
 
 error>>(none)
 ExitCode: 0
+ header: data:image/png;base64 XXX C:/cadviewer-testapp-dotnet-01/cadviewer/Asbestos_drawing_01_Jan_22_h12_m39_s29
+ arguments: -i=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/Asbestos_drawing_01_Jan_22_h12_m39_s29.png -o=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/Asbestos_drawing_01_Jan_22_h12_m39_s29.pdf -f=pdf -model -landscape -A4
+ arguments: -i=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/Asbestos_drawing_01_Jan_22_h12_m39_s29.png -o=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/Asbestos_drawing_01_Jan_22_h12_m39_s29.pdf -f=pdf -model -landscape -A4 XXX 
+output>>Unrecognized Default Unicode Language
+===========================================================================
+                  AutoXchange 2024 V24.07.128  64-bit
+           Copyright (c) 2017-2023 Tailor Made Software, Ltd.
+                          All Rights Reserved
+
+       Portions Copyright (c) 1997-2016, Tailor Made Software, Ltd.
+===========================================================================
+License Version 5. Capabilities will be severely restricted. Please contact sales@tailormade.com for an upgrade.
+License Validated
+Input file: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\Asbestos_drawing_01_Jan_22_h12_m39_s29.png
+
+Elapsed Time: 0.684 seconds
+
+error>>(none)
+ExitCode: 0
+ header: data:image/png;base64 XXX C:/cadviewer-testapp-dotnet-01/cadviewer/Asbestos_drawing_01_Jan_22_h12_m40_s58
+ arguments: -i=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/Asbestos_drawing_01_Jan_22_h12_m40_s58.png -o=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/Asbestos_drawing_01_Jan_22_h12_m40_s58.pdf -f=pdf -model -landscape -A4
+ arguments: -i=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/Asbestos_drawing_01_Jan_22_h12_m40_s58.png -o=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/Asbestos_drawing_01_Jan_22_h12_m40_s58.pdf -f=pdf -model -landscape -A4 XXX 
+output>>Unrecognized Default Unicode Language
+===========================================================================
+                  AutoXchange 2024 V24.07.128  64-bit
+           Copyright (c) 2017-2023 Tailor Made Software, Ltd.
+                          All Rights Reserved
+
+       Portions Copyright (c) 1997-2016, Tailor Made Software, Ltd.
+===========================================================================
+License Version 5. Capabilities will be severely restricted. Please contact sales@tailormade.com for an upgrade.
+License Validated
+Input file: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\Asbestos_drawing_01_Jan_22_h12_m40_s58.png
+
+Elapsed Time: 0.795 seconds
+
+error>>(none)
+ExitCode: 0
+ header: data:image/png;base64 XXX C:/cadviewer-testapp-dotnet-01/cadviewer/Asbestos_drawing_01_Jan_22_h12_m46_s13
+ arguments: -i=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/Asbestos_drawing_01_Jan_22_h12_m46_s13.png -o=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/Asbestos_drawing_01_Jan_22_h12_m46_s13.pdf -f=pdf -model -landscape -A4
+ arguments: -i=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/Asbestos_drawing_01_Jan_22_h12_m46_s13.png -o=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/Asbestos_drawing_01_Jan_22_h12_m46_s13.pdf -f=pdf -model -landscape -A4 XXX 
+output>>Unrecognized Default Unicode Language
+===========================================================================
+                  AutoXchange 2024 V24.07.128  64-bit
+           Copyright (c) 2017-2023 Tailor Made Software, Ltd.
+                          All Rights Reserved
+
+       Portions Copyright (c) 1997-2016, Tailor Made Software, Ltd.
+===========================================================================
+License Version 5. Capabilities will be severely restricted. Please contact sales@tailormade.com for an upgrade.
+License Validated
+Input file: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\Asbestos_drawing_01_Jan_22_h12_m46_s13.png
+
+Elapsed Time: 0.729 seconds
+
+error>>(none)
+ExitCode: 0
+ header: data:image/png;base64 XXX C:/cadviewer-testapp-dotnet-01/cadviewer/Asbestos_drawing_01_Jan_22_h12_m56_s10
+ arguments: -i=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/Asbestos_drawing_01_Jan_22_h12_m56_s10.png -o=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/Asbestos_drawing_01_Jan_22_h12_m56_s10.pdf -f=pdf -model -landscape -A4
+ arguments: -i=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/Asbestos_drawing_01_Jan_22_h12_m56_s10.png -o=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/Asbestos_drawing_01_Jan_22_h12_m56_s10.pdf -f=pdf -model -landscape -A4 XXX 
+output>>Unrecognized Default Unicode Language
+===========================================================================
+                  AutoXchange 2024 V24.07.128  64-bit
+           Copyright (c) 2017-2023 Tailor Made Software, Ltd.
+                          All Rights Reserved
+
+       Portions Copyright (c) 1997-2016, Tailor Made Software, Ltd.
+===========================================================================
+License Version 5. Capabilities will be severely restricted. Please contact sales@tailormade.com for an upgrade.
+License Validated
+Input file: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\Asbestos_drawing_01_Jan_22_h12_m56_s10.png
+
+Elapsed Time: 0.773 seconds
+
+error>>(none)
+ExitCode: 0
+ header: data:image/png;base64 XXX C:/cadviewer-testapp-dotnet-01/cadviewer/Asbestos_drawing_01_Jan_22_h12_m57_s10
+ arguments: -i=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/Asbestos_drawing_01_Jan_22_h12_m57_s10.png -o=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/Asbestos_drawing_01_Jan_22_h12_m57_s10.pdf -f=pdf -model -landscape -A4
+ arguments: -i=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/Asbestos_drawing_01_Jan_22_h12_m57_s10.png -o=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/Asbestos_drawing_01_Jan_22_h12_m57_s10.pdf -f=pdf -model -landscape -A4 XXX 
+output>>Unrecognized Default Unicode Language
+===========================================================================
+                  AutoXchange 2024 V24.07.128  64-bit
+           Copyright (c) 2017-2023 Tailor Made Software, Ltd.
+                          All Rights Reserved
+
+       Portions Copyright (c) 1997-2016, Tailor Made Software, Ltd.
+===========================================================================
+License Version 5. Capabilities will be severely restricted. Please contact sales@tailormade.com for an upgrade.
+License Validated
+Input file: C:\cadviewer-testapp-dotnet-01\cadviewer\converters\files\Asbestos_drawing_01_Jan_22_h12_m57_s10.png
+
+Elapsed Time: 0.869 seconds
+
+error>>(none)
+ExitCode: 0

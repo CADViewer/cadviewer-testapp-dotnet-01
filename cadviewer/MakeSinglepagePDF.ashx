@@ -156,9 +156,16 @@ public class Handler : IHttpHandler {
 
             myProcess.Close();
 
-            context.Response.Write(fileName + ".pdf"); 
 
+            // 9.38.6
+
+
+            //context.Response.Write(fileName + ".pdf"); 
+
+            context.Response.Write(fileLocationUrl+"/"+fileName + ".pdf"); 
                 
+
+
 
         }
         catch (Exception e)
