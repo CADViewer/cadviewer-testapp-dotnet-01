@@ -140,7 +140,7 @@
     border: 4px dotted red;
 }
 
-
+foreignObject{ white-space:pre-wrap !important; }
 
 .cvjs_coordinateX_menu{
 	color: #000;
@@ -1696,7 +1696,7 @@ table.cvjs_floorPlanMagnifyingGlassTable td {
 
 
 .cvjs_floorPlanMagnifyingGlassEncapsulate { 
-	z-index: 9000100;
+	z-index: 5000;
 	border: 4px solid gray; 
 	width: 660px;   /*7.3.26 */ 
 	height: 494px;
@@ -1707,7 +1707,8 @@ table.cvjs_floorPlanMagnifyingGlassTable td {
 }
 
 .cvjs_floorPlanMagnifyingGlassTop { 
-	z-index: 9000000;
+	position: absolute;
+	z-index: 5000;
 	border: 1px solid gray; 
 	width: 650px;   /*7.3.26 */ 
 	height: 25px;
@@ -1719,7 +1720,7 @@ table.cvjs_floorPlanMagnifyingGlassTable td {
 
 
 #cvjs_floorPlanInsertImageEncapsulate { 
-	z-index: 9000000;
+	z-index: 5000;
 	border: 4px solid gray; 
 	width: 656px; 
 	height: 480px;
@@ -1729,7 +1730,7 @@ table.cvjs_floorPlanMagnifyingGlassTable td {
 
 
 #cvjs_floorPlanInsertImage { 
-	z-index: 9000000;
+	z-index: 5000;
 	border: 1px solid gray; 
 	width: 648px; 
 	height: 454px; 
@@ -1738,7 +1739,7 @@ table.cvjs_floorPlanMagnifyingGlassTable td {
 }
 
 #cvjs_floorPlanInsertImageTop { 
-	z-index: 9000000;
+	z-index: 5000;
 	border: 1px solid gray; 
 	width: 648px; 
 	height: 22px;
@@ -3799,7 +3800,7 @@ table.measurementModalTable td {
 
 
 
-.printModal{
+.cvjs_printModal{
 	/* 7.3.14*/
 
    	z-index:1000;
@@ -8424,13 +8425,15 @@ button.multiselect {
 	top:  7px;  
 	left: 18px;
 	z-index: 3;
+	color:#000;
 }
 
 .compareDrawingbox1Text2 {
 	position: absolute; 
 	top:  29px;  
 	left: 18px;
-	z-index: 3;	
+	z-index: 3;
+	color:#000;	
 }
 /* 4.1.01b */
 
@@ -8462,20 +8465,23 @@ button.multiselect {
 	top:  8px;  
 	left: 20px;
 	z-index: 3;
+	color:#000;
 }
 
 .compareDrawingbox2Text2 {
 	position: absolute; 
 	top:  29px;  
 	left: 20px;
-	z-index: 3;	
+	z-index: 3;
+	color:#000;	
 }
 
 .compareDrawingbox2Text3 {
 	position: absolute; 
 	top:  51px;  
 	left: 20px;
-	z-index: 3;	
+	z-index: 3;
+	color:#000;	
 }
 
 
@@ -8561,7 +8567,7 @@ button.multiselect {
 }	
 
 
-
+/*9.66.4*/
 .floatpagemenuText1_topBar { 
 	position: absolute; 
 	top: 7px; 
@@ -8571,9 +8577,11 @@ button.multiselect {
 	background-color: transparent; 
 	border: 0px solid blue; 
 	line-height: 16px;
+	color:black;
 }	
 
 
+/*9.66.4*/
 
 .floatpagemenuText2_topBar { 
 	position: absolute; 
@@ -8584,8 +8592,10 @@ button.multiselect {
 	background-color: transparent; 
 	border: 0px solid blue; 
 	line-height: 16px;
+	color:black;
 }	
 
+/* 9.66.4*/
 
 .cvjs_enterpagenumber_topBar { 
 	position: absolute; 
@@ -8597,6 +8607,7 @@ button.multiselect {
 	opacity: 0.0; 
 	border: 0px solid yellow; 
 	z-index: 5;	
+	color:black;
 }	
 
 
@@ -9994,6 +10005,7 @@ h3_list {
   margin:0 0 0.3rem;
   font-weight: normal;
   font-weight:bold;
+  color:#000;
 }
 
 h3_selected {

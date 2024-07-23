@@ -439,11 +439,9 @@ public class Handler : IHttpHandler {
 
 
 
-            myoutput[0] = " contentLocation: "+contentLocation+" XXX writeFile="+writeFile;
+            myoutput[0] = "1: contentLocation: "+contentLocation+" XXX writeFile="+writeFile;
             if (cvjs_debug == "true")
                 File.AppendAllLines(absFilePath, myoutput);
-
-
 
 
             // we change for batch call
@@ -530,10 +528,17 @@ public class Handler : IHttpHandler {
                 }
 
 
-                bool nobat = true;       // 2022-01-12 we make nobat true!!!!
+                int nobat = 1;       // 2022-01-12 we make nobat true!!!!
+
+
+                // 2024-03-16
+
+                
+
+
                 // move all this processing
 
-                if (nobat)
+                if (nobat == 1)
                 {
                     // we keep arguments without the exe name
                 }
@@ -552,12 +557,21 @@ public class Handler : IHttpHandler {
                 if (cvjs_debug == "true")
                 {
                     //                    myoutput[0] = str_arr[0]+"  "+arguments;
-                    myoutput[0] = "New Arguments:  "+arguments;
+                    myoutput[0] = "All Arguments:  "+arguments;
                     File.AppendAllLines(absFilePath, myoutput);
+
+                    myoutput[0] = "Executable:  "+converterLocation+ax2020_executable+" "+arguments;
+                    File.AppendAllLines(absFilePath, myoutput);
+
+
+                    myoutput[0] = "Nobat :  "+nobat;
+                    File.AppendAllLines(absFilePath, myoutput);
+
+
 
                     myoutput[0] = "The command:  "+converterLocation+"\\run_ax2020.bat";
                     //                    myoutput[0] = "New The command:  "+str_arr[0]+" "+arguments;
-                    File.AppendAllLines(absFilePath, myoutput);
+                    //File.AppendAllLines(absFilePath, myoutput);
 
                 }
 
@@ -565,9 +579,10 @@ public class Handler : IHttpHandler {
                 ProcessStartInfo ProcessInfo;
 
 
-                if (nobat)    // do not call through a bat file
+                if (nobat == 1)    // do not call through a bat file
                 {
-                    ProcessInfo = new ProcessStartInfo(str_arr[0], arguments);
+//                    ProcessInfo = new ProcessStartInfo(str_arr[0], arguments);
+                    ProcessInfo = new ProcessStartInfo(converterLocation+ax2020_executable, arguments);
                 }
                 else      // call through a bat file
                 {
@@ -601,28 +616,25 @@ public class Handler : IHttpHandler {
                 myProcess = Process.Start(ProcessInfo);
 
                 // *** Read the streams *** - this creates deadlock on some platforms, so being suppressed
-                //                string output = myProcess.StandardOutput.ReadToEnd();
-                //                string error = myProcess.StandardError.ReadToEnd();
+                // string output = myProcess.StandardOutput.ReadToEnd();
+                // string error = myProcess.StandardError.ReadToEnd();
 
 
                 myProcess.WaitForExit();
                 exitCode = myProcess.ExitCode;
 
 
+                
+               //                 myoutput[0] ="output>>" + (String.IsNullOrEmpty(output) ? "(none)" : output);
+               //                 if (cvjs_debug == "true") File.AppendAllLines(absFilePath, myoutput);
 
+               //                 myoutput[0] ="error>>" + (String.IsNullOrEmpty(error) ? "(none)" : error);
+               //                 if (cvjs_debug == "true") File.AppendAllLines(absFilePath, myoutput);
 
+               //                 myoutput[0] = "ExitCode: " + exitCode.ToString();
+               //                 if (cvjs_debug == "true") File.AppendAllLines(absFilePath, myoutput);
 
-
-                /*
-                                myoutput[0] ="output>>" + (String.IsNullOrEmpty(output) ? "(none)" : output);
-                                if (cvjs_debug == "true") File.AppendAllLines(absFilePath, myoutput);
-
-                                myoutput[0] ="error>>" + (String.IsNullOrEmpty(error) ? "(none)" : error);
-                                if (cvjs_debug == "true") File.AppendAllLines(absFilePath, myoutput);
-
-                                myoutput[0] = "ExitCode: " + exitCode.ToString();
-                                if (cvjs_debug == "true") File.AppendAllLines(absFilePath, myoutput);
-                */
+                
                 myProcess.Close();
 
 
