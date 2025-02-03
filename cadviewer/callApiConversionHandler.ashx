@@ -560,6 +560,11 @@ public class Handler : IHttpHandler {
                     myoutput[0] = "All Arguments:  "+arguments;
                     File.AppendAllLines(absFilePath, myoutput);
 
+
+//   C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2024/windows/AX2025_W64_25_11_146.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/1st%20floor%20architectural.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F979162.svgz"" "-lapat=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2024/windows/" "-f="svgz"" -model -extents "-normalize="c:/cadviewer-testapp-dotnet/converters/ax2024/windows/dx4_params.json"" -trace
+//                    arguments = "\"-i=\"C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/1st%20floor%20architectural.dwg\"\" \"-o=\"C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F979162.dwg\"\"  \"-normalize=\"c:/cadviewer-testapp-dotnet/converters/ax2024/windows/dx4_params.json\"\" -trace";
+
+
                     myoutput[0] = "Executable:  "+converterLocation+ax2020_executable+" "+arguments;
                     File.AppendAllLines(absFilePath, myoutput);
 
@@ -608,8 +613,8 @@ public class Handler : IHttpHandler {
                 //                ProcessInfo.RedirectStandardOutput = true;
 
                 //  **** alternatively, do not redirect any output for async issues ****
-                ProcessInfo.RedirectStandardError = false;
-                ProcessInfo.RedirectStandardOutput = false;
+                //ProcessInfo.RedirectStandardError = false;
+                //ProcessInfo.RedirectStandardOutput = false;
 
 
                 Process myProcess;
@@ -625,14 +630,14 @@ public class Handler : IHttpHandler {
 
 
                 
-               //                 myoutput[0] ="output>>" + (String.IsNullOrEmpty(output) ? "(none)" : output);
-               //                 if (cvjs_debug == "true") File.AppendAllLines(absFilePath, myoutput);
+                //                myoutput[0] ="output>>" + (String.IsNullOrEmpty(output) ? "(none)" : output);
+                //                if (cvjs_debug == "true") File.AppendAllLines(absFilePath, myoutput);
 
-               //                 myoutput[0] ="error>>" + (String.IsNullOrEmpty(error) ? "(none)" : error);
-               //                 if (cvjs_debug == "true") File.AppendAllLines(absFilePath, myoutput);
+                //                myoutput[0] ="error>>" + (String.IsNullOrEmpty(error) ? "(none)" : error);
+                //                if (cvjs_debug == "true") File.AppendAllLines(absFilePath, myoutput);
 
-               //                 myoutput[0] = "ExitCode: " + exitCode.ToString();
-               //                 if (cvjs_debug == "true") File.AppendAllLines(absFilePath, myoutput);
+                //                myoutput[0] = "ExitCode: " + exitCode.ToString();
+                //                if (cvjs_debug == "true") File.AppendAllLines(absFilePath, myoutput);
 
                 
                 myProcess.Close();

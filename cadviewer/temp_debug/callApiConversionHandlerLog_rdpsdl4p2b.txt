@@ -1,0 +1,11 @@
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"last","paramValue":""}
+ paramcount: 1 XXX last","paramValue":""}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/1st floor architectural.dwg
+1: contentLocation: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/1st floor architectural.dwg XXX writeFile=C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/1st floor architectural.dwg
+"-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/1st%20floor%20architectural.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F614764.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2024/windows/" "-f="svgz"" -last
+All Arguments:  "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/1st%20floor%20architectural.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F614764.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2024/windows/" "-f="svgz"" -last
+Executable:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2024/windows/AX2025_W64_25_07_141.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/1st%20floor%20architectural.dwg"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F614764.svgz"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2024/windows/" "-f="svgz"" -last
+Nobat :  1
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/1st floor architectural.dwg output format: svgzXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2024","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/1st floor architectural.dwg","contentResponse":"stream","contentStreamData":"http://localhost:44371/getFileHandler.ashx?remainOnServer=0&fileTag=F614764&Type=svgz"}
