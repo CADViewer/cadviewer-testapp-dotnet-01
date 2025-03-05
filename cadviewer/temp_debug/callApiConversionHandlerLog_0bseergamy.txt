@@ -1,0 +1,11 @@
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"last","paramValue":""}
+ paramcount: 1 XXX last","paramValue":""}
+XXX C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/1st floor architectural.dwg
+1: contentLocation: C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/1st floor architectural.dwg XXX writeFile=C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/1st floor architectural.dwg
+"-i="C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/1st%20floor%20architectural.dwg"" "-o="C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F925722.svg"" "-lpath=C:/dotNet//cadviewer-testapp-dotnet-01/cadviewer/converters/ax2024/windows/" "-f="svg"" -last
+All Arguments:  "-i="C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/1st%20floor%20architectural.dwg"" "-o="C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F925722.svg"" "-lpath=C:/dotNet//cadviewer-testapp-dotnet-01/cadviewer/converters/ax2024/windows/" "-f="svg"" -last
+Executable:  C:/dotNet//cadviewer-testapp-dotnet-01/cadviewer/converters/ax2024/windows/AX2025_W64_25_11_147.exe "-i="C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/1st%20floor%20architectural.dwg"" "-o="C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F925722.svg"" "-lpath=C:/dotNet//cadviewer-testapp-dotnet-01/cadviewer/converters/ax2024/windows/" "-f="svg"" -last
+Nobat :  1
+Conversion done 
+Content location: C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/1st floor architectural.dwg output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2024","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/1st floor architectural.dwg","contentResponse":"stream","contentStreamData":"http://localhost:44371/getFileHandler.ashx?remainOnServer=0&fileTag=F925722&Type=svg"}
