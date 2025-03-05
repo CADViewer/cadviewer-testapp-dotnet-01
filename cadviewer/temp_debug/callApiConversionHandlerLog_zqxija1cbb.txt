@@ -1,0 +1,11 @@
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"last","paramValue":""}
+ paramcount: 1 XXX last","paramValue":""}
+XXX C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/F-107359-038.tif
+1: contentLocation: C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/F-107359-038.tif XXX writeFile=C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/F-107359-038.tif
+"-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/F-107359-038.tif"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F154272.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2024/windows/" "-f="svg"" -last
+All Arguments:  "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/F-107359-038.tif"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F154272.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2024/windows/" "-f="svg"" -last
+Executable:  C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2024/windows/AX2025_W64_25_11_147.exe "-i="C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/F-107359-038.tif"" "-o="C:/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F154272.svg"" "-lpath=C:/cadviewer-testapp-dotnet-01/cadviewer/converters/ax2024/windows/" "-f="svg"" -last
+Nobat :  1
+Conversion done 
+Content location: C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/F-107359-038.tif output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2024","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/F-107359-038.tif","contentResponse":"stream","contentStreamData":"http://localhost:44371/getFileHandler.ashx?remainOnServer=0&fileTag=F154272&Type=svg"}
