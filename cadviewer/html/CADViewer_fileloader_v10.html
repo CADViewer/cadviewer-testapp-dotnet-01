@@ -96,8 +96,8 @@
 			cvjs_PrintToPDFWindowRelativeSize(0.8);
 			cvjs_setFileModalEditMode(false);
 
-
-
+		
+			cvjs_setCADViewerSkin("light-skin"); // dark-skin, light-skin lightgray, black, deepblue  // method can be omitted, alternative is "deepblue" , "nextcloud"
 
 			// 10.54.1
 			cvjs_setPrintPDFLineWeightFactor(3.0);
@@ -155,6 +155,13 @@
 
 			// Display Coordinates
 					cvjs_DisplayCoordinatesMenu("floorPlan",true);
+
+
+
+
+			// 10.61.4
+
+			cvjs_styleQTip("#000", "16pt");
 
 
 

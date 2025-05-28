@@ -117,6 +117,11 @@
 			cvjs_allowFileLoadToServer(true);
 
 
+
+			cvjs_setCADViewerSkin("light-skin"); // dark-skin, light-skin lightgray, black, deepblue  // method can be omitted, alternative is "deepblue" , "nextcloud"
+
+
+
 			// NOTE BELOW: THESE SETTINGS ARE FOR SERVER CONTROLS FOR UPLOAD OF REDLINES, FILES, SPACE OBJECTS
 			cvjs_setServerFileLocation_AbsolutePaths(ServerLocation + folderPath, ServerUrl + folderPath, "", "");
 			cvjs_setRedlinesAbsolutePath(ServerUrl + '/content/redlines/v7/', ServerLocation + '/content/redlines/v7/');
