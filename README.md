@@ -18,7 +18,7 @@ The repository contains a full setup of CADViewer with CAD Converters and script
 
 ## This package does not contain
 
-6: The converter folder structure contains a larger set of fonts, installed in /cadviewer/converters/ax2022/windows/fonts/, but a fuller set of fonts can be installed. 
+6: The converter folder structure contains a larger set of fonts, installed in /cadviewer/converters/ax2024/windows/fonts/, but a fuller set of fonts can be installed. 
 
 Read the sections on installing and handling [Fonts](https://tailormade.com/ax2020techdocs/installation/fonts/) in [AutoXchange 2025 TechDocs](https://tailormade.com/ax2020techdocs/) and [TroubleShooting](https://tailormade.com/ax2020techdocs/troubleshooting/).
 
