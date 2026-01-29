@@ -1,0 +1,11 @@
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"last","paramValue":""}
+ paramcount: 1 XXX last","paramValue":""}
+XXX C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/testovaci.dwg
+1: contentLocation: C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/testovaci.dwg XXX writeFile=C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/testovaci.dwg
+"-i="C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/testovaci.dwg"" "-o="C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F489788.svg"" "-lpath=C:/dotNet//cadviewer-testapp-dotnet-01/cadviewer/converters/ax2024/windows/" "-f="svg"" -last
+All Arguments:  "-i="C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/testovaci.dwg"" "-o="C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F489788.svg"" "-lpath=C:/dotNet//cadviewer-testapp-dotnet-01/cadviewer/converters/ax2024/windows/" "-f="svg"" -last
+Executable:  C:/dotNet//cadviewer-testapp-dotnet-01/cadviewer/converters/ax2024/windows/AX2025_W64_25_11_150.exe "-i="C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/testovaci.dwg"" "-o="C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F489788.svg"" "-lpath=C:/dotNet//cadviewer-testapp-dotnet-01/cadviewer/converters/ax2024/windows/" "-f="svg"" -last
+Nobat :  1
+Conversion done 
+Content location: C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/testovaci.dwg output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E-1073740791","converter":"AutoXchange AX2024","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer/content/drawings/dwg/testovaci.dwg","contentResponse":"stream","contentStreamData":"http://localhost:44371/getFileHandler.ashx?remainOnServer=0&fileTag=F489788&Type=svg"}
