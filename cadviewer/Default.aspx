@@ -108,7 +108,7 @@
                 <p>See file: <strong><a href="./html/CADViewer_fileloader_12.html">CADViewer_fileloader_12.html</a></strong><br>
                 Drawing via Url: <strong><a href="./html/CADViewer_fileloader_12.html?drawing_name=../content/drawings/dwg/City_base_map.dwg">CADViewer_fileloader_12.html?drawing_name=../my.dwg</a></strong></p>
                 <a href="./html/CADViewer_fileloader_12.html">
-                    <img src="./html/index_images/cvjs_file_loader_09.png" style="width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="CADViewer File Loader" />
+                    <img src="./html/index_images/cvjs_file_loader_new.png" style="width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="CADViewer File Loader" />
                 </a>
             </div>
             <div class="col-md-6" style="margin-bottom: 30px;">
@@ -414,5 +414,6 @@ var ServerBackEndUrl = "http://localhost:44371/";
 </body>
 
 </html>
+
 
 
