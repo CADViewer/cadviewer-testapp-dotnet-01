@@ -83,8 +83,8 @@
                             <div style="display: flex; align-items: center; gap: 20px;">
                                 <img src="./app/images/cadviewer_primary_logo.svg" height="40" alt="CADViewer Logo" />
                                 <h2 style="margin: 0; display: flex; align-items: center; gap: 10px;">
-                                    <span style="background-color: #512bd4; color: white; padding: 4px 8px; border-radius: 4px; font-weight: bold; font-family: sans-serif; font-size: 24px;">.NET</span>
-                                    Implementation Samples
+                                    <span style="background-color: #512bd4; color: white; padding: 2px 6px; border-radius: 4px; font-weight: bold; font-family: sans-serif; font-size: 16px; vertical-align: middle;">.NET</span>
+                                    CADViewer Implementation Samples
                                 </h2>
                             </div>
                             <a href="https://github.com/CADViewer/cadviewer-testapp-dotnet-01" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 6px; font-size: 16px; font-weight: bold; text-decoration: none; padding: 6px 12px; border-radius: 6px; border: 1px solid #d1d5db; background-color: #f9fafb; color: #0366d6; white-space: nowrap; margin-top: 10px;">
@@ -99,71 +99,29 @@
 
 				<div class="row">
 					<div id="item_2C" class="col-lg-12">
-
-
-			<table width="100%" height="100%" border="0" cellspacing="0" border-spacing="1" id="mainTable">
-
-			<tr style="background-color:rgb(255,255,255)" height="10px" >
-				<td>
-					<img  src="./html/index_images/5x5.png"  width="5" height="5" />
-				</td>
-				<td>
-				<h4>File Load, Redlines and Image Space Objects</h4>
-				</td>
-			</tr>
-
-
-			<tr style="background-color:rgb(255,255,255)" height="100px" >
-				<td>
-					<img  src="./html/index_images/5x5.png"  width="5" height="5" />
-				</td>
-				<td width="30%" style="vertical-align:top">
-				<p><span><strong>1) File-Load: </strong> CADViewer is set up with interactive modals for file-loading and redlines. Links with AutoXchange for own server on-the-fly conversion control of CAD drawings. 
-				<br>See file: <strong><a href="./html/CVJS_fileloader_12.html">CVJS_fileloader_12.html.</strong></a>
-				<br>Drawing via Url: <strong><a href="./html/CVJS_fileloader_12.html?drawing_name=../content/drawings/dwg/City_base_map.dwg">CVJS_fileloader_12.html?drawing_name=../my.dwg</strong></a>
-				
-				</span> </p>
-
-					<a href="./html/CVJS_fileloader_12.html"><img src="./html/index_images/cvjs_file_loader_09.png" width="383" height="275" alt="CADViewer logo" /></a>
-				</td>
-				<td>
-					<img  src="./html/index_images/5x5.png" width="5" height="5" />
-				</td>
-				<td width="30%" style="vertical-align:top">
-				<p><span><strong>2) Add Custom Space Objects: </strong> CADViewer is set up with interface to add and modify Image Objects .<br>
-				<br>See file: <strong><a href="./html/CADViewer_space_objects_canvas_API_12.html">CADViewer_space_objects_canvas_API_12.html.</strong></a>
-				<br>
-				<br>
-				</span> </p>
-
-					<a href="./html/CADViewer_space_objects_canvas_API_12.html"><img src="./html/index_images/cvjs_space_objects_10.png" width="416" height="232" alt="CADViewer logo" /></a>
-				</td>
-				<td>
-						<img  src="./html/index_images/5x5.png"  width="5" height="5" />
-				</td>
-				<td width="10%">
-					  <p><span></span> </p>
-					<a href="https://cadviewer.com"><img src="./html/index_images/cvjs_blank_08.png" width="200" height="190" alt="CADViewer logo" /></a>
-
-				</td>
-
-				<td>
-					<img  src="./html/index_images/5x5.png" width="5" height="5" />
-				</td>
-
-			</tr>
-
-			<tr style="background-color:rgb(255,255,255)" height="10px" >
-				<td>
-					<img  src="./html/index_images/5x5.png"  width="10" height="10" />
-				</td>
-			</tr>
-			</table>
-
-					</div>
-				</div>
-
-				<hr />
+        <div class="row" style="margin-top: 10px;">
+            <div class="col-lg-12">
+                <h4 style="border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 20px;">File Load, Redlines and Image Space Objects</h4>
+            </div>
+            <div class="col-md-6" style="margin-bottom: 30px;">
+                <p style="font-size: 15px;"><strong>1) File-Load: </strong> CADViewer is set up with interactive modals for file-loading and redlines. Links with AutoXchange for own server on-the-fly conversion control of CAD drawings.</p>
+                <p>See file: <strong><a href="./html/CVJS_fileloader_12.html">CVJS_fileloader_12.html</a></strong><br>
+                Drawing via Url: <strong><a href="./html/CVJS_fileloader_12.html?drawing_name=../content/drawings/dwg/City_base_map.dwg">CVJS_fileloader_12.html?drawing_name=../my.dwg</a></strong></p>
+                <a href="./html/CVJS_fileloader_12.html">
+                    <img src="./html/index_images/cvjs_file_loader_09.png" style="width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="CADViewer File Loader" />
+                </a>
+            </div>
+            <div class="col-md-6" style="margin-bottom: 30px;">
+                <p style="font-size: 15px;"><strong>2) Add Custom Space Objects: </strong> CADViewer is set up with interface to add and modify Image Objects.</p>
+                <p>See file: <strong><a href="./html/CADViewer_space_objects_canvas_API_12.html">CADViewer_space_objects_canvas_API_12.html</a></strong><br>&nbsp;</p>
+                <a href="./html/CADViewer_space_objects_canvas_API_12.html">
+                    <img src="./html/index_images/cvjs_space_objects_10.png" style="width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="CADViewer Space Objects" />
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<hr />
 				<div class="row">
                     <div id="item_7" class="col-lg-12">
                         <h3>Install Notes:</h3>
@@ -456,3 +414,4 @@ var ServerBackEndUrl = "http://localhost:44371/";
 </body>
 
 </html>
+
