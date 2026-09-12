@@ -7,7 +7,7 @@ The repository contains a full setup of CADViewer with CAD Converters and script
 
 1: CADViewer script library  - in its preferred folder structure
 
-2: AutoXchange AX2025 Converter and DWG Merge 2025 Converter - in their preferred folder structure
+2: AutoXchange AX2026 Converter and DWG Merge 2026 Converter - in their preferred folder structure
 
 3: All structures for file-conversion, sample drawings, redlines, etc. 
 
@@ -18,15 +18,15 @@ The repository contains a full setup of CADViewer with CAD Converters and script
 
 ## This package does not contain
 
-6: The converter folder structure contains a larger set of fonts, installed in /cadviewer/converters/ax2024/windows/fonts/, but a fuller set of fonts can be installed. 
+6: The converter folder structure contains a larger set of fonts, installed in /cadviewer/converters/autoxchange/fonts/, but a fuller set of fonts can be installed. 
 
-Read the sections on installing and handling [Fonts](https://tailormade.com/ax2020techdocs/installation/fonts/) in [AutoXchange 2025 TechDocs](https://tailormade.com/ax2020techdocs/) and [TroubleShooting](https://tailormade.com/ax2020techdocs/troubleshooting/).
+Read the sections on installing and handling [Fonts](https://cadviewer.com/autoxchangetechdocs/installation/fonts/) in [AutoXchange TechDocs](https://cadviewer.com/autoxchangetechdocs/) and [TroubleShooting](https://cadviewer.com/autoxchangetechdocs/troubleshooting/).
 
 
 
 ## How to Use
 
-Once installed, open cadviewer.sln the HTML samples under /cadviewer/html/ can be run from a web-browser. Use http://localhost:xxxxx/cadviewer/html/CADViewer_fileloader_80.html as a starting point (assuming that your have installed under http://localhost).
+Once installed, open cadviewer.sln the HTML samples under /cadviewer/html/ can be run from a web-browser. Use http://localhost:xxxxx/cadviewer/html/CADViewer_fileloader_12.html as a starting point (assuming that your have installed under http://localhost).
 
 
 
@@ -40,9 +40,9 @@ Once installed, open cadviewer.sln the HTML samples under /cadviewer/html/ can b
 
 This repository should contain the latest converters, but in case you need to update any of the back-end converters please follow: 
 
-* [Download **AutoXchange**](/download/) (and other converters), install (unzip) AX2022 in **cadviewer/converters/ax2024/windows** or **cadviewer/converters/ax2024/linux** or in the designated folder structure.
+* [Download **AutoXchange**](/download/) (and other converters), install (unzip) AX2026 in **cadviewer/converters/autoxchange/windows** or **cadviewer/converters/autoxchange/linux** or in the designated folder structure.
 
-* Read the sections on installing and handling [Fonts](https://tailormade.com/ax2020techdocs/installation/fonts/) in [AutoXchange 2025 TechDocs](https://tailormade.com/ax2020techdocs/) and [TroubleShooting](https://tailormade.com/ax2020techdocs/troubleshooting/).
+*Read the sections on installing and handling [Fonts](https://cadviewer.com/autoxchangetechdocs/installation/fonts/) in [AutoXchange TechDocs](https://cadviewer.com/autoxchangetechdocs/) and [TroubleShooting](https://cadviewer.com/autoxchangetechdocs/troubleshooting/).
 
 * Try out the samples and build your own application!
  
@@ -75,21 +75,19 @@ c:\cadviewer-testapp-dotnet-01
                │    ├── css
                │    └── user_resources	
                ├── converters
-               │    ├── ax2024
+               │    ├── autoxchange
                │    │     ├── windows 
-               │    │     │      └── fonts
+               │    │     ├── fonts 
                │    │     └── linux
-               │    │            └── fonts
-               │    ├── dwgmerge2024
+               │    ├── dwgmerge2026
                │    │         ├── windows 
-               │    │         │      └── fonts
+               │    │         ├── fonts 
                │    │         └── linux
                │    │            └── fonts
-               │    ├── linklist2024
+               │    ├── linklist2026
                │    │         ├── windows 
-               │    │         │     └── fonts
+               │    │         ├── fonts 
                │    │         └── linux
-               │    │               └── fonts
                │    └── files
                ├── content
                ├── html
@@ -112,9 +110,6 @@ c:\cadviewer-testapp-dotnet-01
 locate the configuration file: **Web.config** , edit the key settings **appSettings** that controls Converter and CADViewer pathss to reflect your installation.
 
 
-{{< gist CADViewer 3cca1e610cedd0c4e25918bbbed5535f "cadviewer_aspdotnet_52.config" >}}
-
-
 ### HTML 
 
 
@@ -133,34 +128,7 @@ identify your sample mysample.html file, and ensure that it loads the CADViewer_
 {{< gist CADViewer 4cb454d5f3e9209cf4bd69fc56f6dd5b "cadviewer_aspdotnet_53.html" >}}
 
 
-### Handler Settings JS File 
-
-
-In folder:
-
-<pre style="line-height: 110%">
-c:/VisualStudio
-    └─── cadviewer
-            └── app
-                 └── cv
-</pre>
-
-Open the CADViewer_AshxHandlerSettings.js file, and ensure that the top variable settings correspond to your server settings: 
-
-{{< gist CADViewer 96af82b6fa64c55a4a40b2e66ab3b1c8 "cadviewer_aspdotnet_54.js" >}}
-
-
-Open a web-browser pointing to your sample html file:    **http:/localhost:44371/html/mysample.html**
-
-Use the server traces and browser development console for debugging, alternatively contact our [Support](/cadviewertechdocs/support/)  
-
-For debugging, the folder:
-<pre style="line-height: 110%">
-c:\cadviewer-testapp-dotnet-01
-       └─── cadviewer
-               └── temp_debug
-</pre>
-contains a debug file **callApiConversionHandlerLog.txt** that lists the command line and traces in the communication with the back-end converter AutoXchange 2020. If drawing files does not display, this file will contain useful information to pinpoint the issue.
+information to pinpoint the issue.
 
 
 
