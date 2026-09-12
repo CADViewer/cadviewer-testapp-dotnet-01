@@ -92,8 +92,7 @@
                               <span>Pull or clone from GitHub</span>
                             </a>
                         </div>
-						<br>
-						<h4>Samples which require server (localhost, 127.0.0.1 or Url) with ASP.NET and AutoXchange:</h4>
+						
 					</div>
 				</div>
 
@@ -414,6 +413,7 @@ var ServerBackEndUrl = "http://localhost:44371/";
 </body>
 
 </html>
+
 
 
 
