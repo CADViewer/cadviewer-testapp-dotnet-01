@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
 <head>
@@ -58,6 +58,7 @@
 
 	<script src="../app/js/html2canvas.min.js"></script>
 	<script src="../app/js/jspdf.umd.min.js"></script>
+	<script src="../app/js/svg2pdf.umd.min.js"></script>
 
 
 
@@ -195,6 +196,11 @@
 		function cvjs_change_space() {
 
 		}
+
+	function cvjs_processCompleted(process) {
+		console.log("cvjs_processCompleted: " + process);
+
+	}
 
 
 
@@ -516,3 +522,4 @@
 </body>
 
 </html>
+

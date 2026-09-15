@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html >
 <head>
 
@@ -59,6 +59,7 @@
 
     <script src="../app/js/html2canvas.min.js"></script>
     <script src="../app/js/jspdf.umd.min.js"></script>
+	<script src="../app/js/svg2pdf.umd.min.js"></script>
 
 	
 	<script type="text/javascript">
@@ -367,6 +368,11 @@
 
 		//window.alert("cvjs_change_space ");
 	
+
+	}
+
+	function cvjs_processCompleted(process) {
+		console.log("cvjs_processCompleted: " + process);
 
 	}
 
@@ -729,4 +735,5 @@ function cvjs_mouseenter(id, handle, entity){
 
 </body>
 </html>
+
 
