@@ -1,0 +1,12 @@
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"last","paramValue":""},{"paramName":"extents","paramValue":""}
+ paramcount: 1 XXX last","paramValue":""},{"paramName":"extents","paramValue":""}
+ paramcount: 2 XXX extents","paramValue":""}
+XXX C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/Asbestos_drawing_01.dwg
+1: contentLocation: C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/Asbestos_drawing_01.dwg XXX writeFile=C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/Asbestos_drawing_01.dwg
+"-i="C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/Asbestos_drawing_01.dwg"" "-o="C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F748787.svg"" "-lpath=C:/dotNet//cadviewer-testapp-dotnet-01/cadviewer/converters/autoxchange/windows/" "-f="svg"" -last -extents
+All Arguments:  "-i="C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/Asbestos_drawing_01.dwg"" "-o="C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F748787.svg"" "-lpath=C:/dotNet//cadviewer-testapp-dotnet-01/cadviewer/converters/autoxchange/windows/" "-f="svg"" -last -extents
+Executable:  C:/dotNet//cadviewer-testapp-dotnet-01/cadviewer/converters/autoxchange/windows/AX2026_W64_27_07_163b.exe "-i="C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/Asbestos_drawing_01.dwg"" "-o="C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F748787.svg"" "-lpath=C:/dotNet//cadviewer-testapp-dotnet-01/cadviewer/converters/autoxchange/windows/" "-f="svg"" -last -extents
+Nobat :  1
+Conversion done 
+Content location: C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/Asbestos_drawing_01.dwg output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2024","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/Asbestos_drawing_01.dwg","contentResponse":"stream","contentStreamData":"http://localhost:44371/getFileHandler.ashx?remainOnServer=0&fileTag=F748787&Type=svg"}
