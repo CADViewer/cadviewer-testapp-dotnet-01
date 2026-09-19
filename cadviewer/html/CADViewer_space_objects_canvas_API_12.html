@@ -2159,12 +2159,12 @@ function cvjs_mouseenter(id, handle, entity){
             <span>Pull or clone from GitHub</span>
         </a>
     </div>
-    <div style="position: relative; width: 100%; height: 100vh;">
+    <div style="position: relative; width: 100%;">
 
 
      
 
-	<table width="100%" height="100%" border="0" cellspacing="0" border-spacing="0" id="mainTable">
+	<table width="100%" border="0" cellspacing="0" border-spacing="0" id="mainTable">
     <tbody>
 	<tr style="background-color:rgb(255,255,255)" height="100px" >
 			<td height="10">
@@ -2175,7 +2175,7 @@ function cvjs_mouseenter(id, handle, entity){
 		<td>
 		<canvas id="dummy" width="10" height="10"></canvas>
 		</td>
-		<td>
+		<td valign="top">
         <b>Highlight based on Color:&nbsp; </b> <input id="setcolor" value="AAAA00" class="cvjs_inputBackgroundColorModal jscolor {width:101, padding:10, shadow:false, borderWidth:0, backgroundColor:'transparent', insetColor:'#AAAA00',closable:true, closeText:'Close Color Picker!', onFineChange:'custom_ColorHex(this)'}">        
         <button class="w3-button demo" onClick="highlight_all_spaces();">Spaces</button>
         <button class="w3-button demo" onClick="highlight_all_borders();">Borders</button>
@@ -2779,5 +2779,8 @@ var no_colorgrade_C_reading = {
 </div>
 </body>
 </html>
+
+
+
 
 
