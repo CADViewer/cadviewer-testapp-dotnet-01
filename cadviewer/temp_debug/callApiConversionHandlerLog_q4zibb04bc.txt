@@ -1,0 +1,14 @@
+ paramcount: 0 XXX f","paramValue":"svg"},{"paramName":"last","paramValue":""},{"paramName":"extents","paramValue":""},{"paramName":"rl","paramValue":"RM_"},{"paramName":"tl","paramValue":"RM_TXT"}
+ paramcount: 1 XXX last","paramValue":""},{"paramName":"extents","paramValue":""},{"paramName":"rl","paramValue":"RM_"},{"paramName":"tl","paramValue":"RM_TXT"}
+ paramcount: 2 XXX extents","paramValue":""},{"paramName":"rl","paramValue":"RM_"},{"paramName":"tl","paramValue":"RM_TXT"}
+ paramcount: 3 XXX rl","paramValue":"RM_"},{"paramName":"tl","paramValue":"RM_TXT"}
+ paramcount: 4 XXX tl","paramValue":"RM_TXT"}
+XXX C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17_.dwg
+1: contentLocation: C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17_.dwg XXX writeFile=C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17_.dwg
+"-i="C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17_.dwg"" "-o="C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F912634.svg"" "-lpath=C:/dotNet//cadviewer-testapp-dotnet-01/cadviewer/converters/autoxchange/windows/" "-f="svg"" -last -extents "-rl="RM_"" "-tl="RM_TXT""
+All Arguments:  "-i="C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17_.dwg"" "-o="C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F912634.svg"" "-lpath=C:/dotNet//cadviewer-testapp-dotnet-01/cadviewer/converters/autoxchange/windows/" "-f="svg"" -last -extents "-rl="RM_"" "-tl="RM_TXT""
+Executable:  C:/dotNet//cadviewer-testapp-dotnet-01/cadviewer/converters/autoxchange/windows/AX2026_W64_27_07_163d.exe "-i="C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17_.dwg"" "-o="C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer/converters/files/F912634.svg"" "-lpath=C:/dotNet//cadviewer-testapp-dotnet-01/cadviewer/converters/autoxchange/windows/" "-f="svg"" -last -extents "-rl="RM_"" "-tl="RM_TXT""
+Nobat :  1
+Conversion done 
+Content location: C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17_.dwg output format: svgXX
+SVG response: {"completedAction":"svg_creation","errorCode":"E0","converter":"AutoXchange AX2024","version":"V1.00","userLabel":"fromCADViewerJS","contentLocation":"C:/dotNet/cadviewer-testapp-dotnet-01/cadviewer//content/drawings/dwg/hq17_.dwg","contentResponse":"stream","contentStreamData":"http://localhost:44371/getFileHandler.ashx?remainOnServer=0&fileTag=F912634&Type=svg"}
